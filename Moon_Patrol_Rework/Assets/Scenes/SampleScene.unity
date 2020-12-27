@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -147,6 +148,21 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65df44003927c3f4496d7a6fff599748, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  car: {fileID: 0}
+  smooth: 0
+  currVelocity: {x: 0, y: 0, z: 0}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -203,6 +219,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &668444154
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 668444155}
+  m_Layer: 0
+  m_Name: Ground tester
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &668444155
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668444154}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.17, y: -1.11, z: -4.042057}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1850388587}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &893320859
 GameObject:
@@ -310,9 +356,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 358657757
+  m_SortingLayer: 3
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 055e5b963cd87e840a29cb77717364fa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -430,9 +476,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 358657757
+  m_SortingLayer: 3
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 9f0a6c7380bdbee4ab64421214447a00, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -707,8 +753,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 358657757
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 6f2775a7aa6559943bddb36a836113c9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -733,6 +779,8 @@ GameObject:
   - component: {fileID: 1850388590}
   - component: {fileID: 1850388589}
   - component: {fileID: 1850388588}
+  - component: {fileID: 1850388592}
+  - component: {fileID: 1850388591}
   m_Layer: 0
   m_Name: Car
   m_TagString: Untagged
@@ -754,6 +802,7 @@ Transform:
   - {fileID: 1265968635}
   - {fileID: 913035814}
   - {fileID: 893320860}
+  - {fileID: 668444155}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -826,6 +875,48 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1850388591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850388586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce0107bab736b82438efe1ba2130d19e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 2629569025183387824, guid: 90452db71e4d5b448b896ec0a8771f85,
+    type: 3}
+  horizontalBulletSpeed: 0
+  VerticalBulletPrefab: {fileID: 4641121050130304204, guid: 5dcebde193bbb4c45b94486d3a30d5fd,
+    type: 3}
+  VerticalBulletSpeed: 0
+  HorizontalTime: 0
+  VerticalTime: 0
+--- !u!114 &1850388592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850388586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abfbb18151e52324a98fd124853ea1cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carRigidbody: {fileID: 1850388590}
+  backTire: {fileID: 913035816}
+  frontTire: {fileID: 893320862}
+  speed: 0
+  basicSpeed: 0
+  jumpPower: 0
+  groundTester: {fileID: 668444155}
+  layersToTest:
+    serializedVersion: 2
+    m_Bits: 55
 --- !u!1 &2074384473
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,6 +928,7 @@ GameObject:
   - component: {fileID: 2074384476}
   - component: {fileID: 2074384475}
   - component: {fileID: 2074384474}
+  - component: {fileID: 2074384477}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -877,7 +969,7 @@ MonoBehaviour:
       bevelSize: 0
       spriteIndex: 0
       corner: 1
-    - position: {x: 100, y: 2, z: 0}
+    - position: {x: 200, y: 2, z: 0}
       leftTangent: {x: 0, y: 0, z: 0}
       rightTangent: {x: 0, y: 0, z: 0}
       mode: 0
@@ -886,7 +978,7 @@ MonoBehaviour:
       bevelSize: 0
       spriteIndex: 0
       corner: 1
-    - position: {x: 100, y: -2, z: 0}
+    - position: {x: 200, y: -2, z: 0}
       leftTangent: {x: 0, y: 0, z: 0}
       rightTangent: {x: 0, y: 0, z: 0}
       mode: 0
@@ -956,8 +1048,8 @@ SpriteShapeRenderer:
   m_Sprites:
   - {fileID: 21300000, guid: cfd9b93575a197d4d9bbc0fc88158a72, type: 3}
   m_LocalAABB:
-    m_Center: {x: 49.00001, y: 0.07998824, z: -0.00014999999}
-    m_Extent: {x: 51.16001, y: 2.080012, z: 0.00014999999}
+    m_Center: {x: 99.000015, y: 0.07997632, z: -0.00014999999}
+    m_Extent: {x: 101.16002, y: 2.0800242, z: 0.00014999999}
 --- !u!4 &2074384476
 Transform:
   m_ObjectHideFlags: 0
@@ -972,3 +1064,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &2074384477
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074384473}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -2.00032, y: -2}
+      - {x: -2, y: 2.00032}
+      - {x: 200, y: 2.00032}
+      - {x: 200, y: -2}
+      - {x: 7.815703, y: -2}
+      - {x: 0.5736294, y: -2}
+      - {x: -2.0003197, y: -2}
