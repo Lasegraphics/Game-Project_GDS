@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Surface
   m_EditorClassIdentifier: 
   m_Angles:
-  - m_Start: -90
-    m_End: 90
+  - m_Start: -6
+    m_End: 2
     m_Order: 0
     m_Sprites:
     - {fileID: 21300000, guid: cfd9b93575a197d4d9bbc0fc88158a72, type: 3}

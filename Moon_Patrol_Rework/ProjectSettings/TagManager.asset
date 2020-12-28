@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -15,7 +16,7 @@ TagManager:
   - 
   - Player
   - Players bullet
-  - 
+  - Ground
   - 
   - 
   - 
@@ -49,4 +50,13 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 358657757
+    locked: 0
+  - name: Car
+    uniqueID: 31478967
+    locked: 0
+  - name: 'Enemies '
+    uniqueID: 148568123
+    locked: 0
+  - name: Ground
+    uniqueID: 536809239
     locked: 0
