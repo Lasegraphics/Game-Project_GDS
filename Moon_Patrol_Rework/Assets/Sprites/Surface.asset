@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Surface
   m_EditorClassIdentifier: 
   m_Angles:
-  - m_Start: -90
+  - m_Start: -72
     m_End: 90
     m_Order: 0
     m_Sprites:
