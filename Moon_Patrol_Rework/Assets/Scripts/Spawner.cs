@@ -7,31 +7,22 @@ public class Spawner : MonoBehaviour
     // Start is called before the first frame update
     
     public GameObject objectToSpawn; 
-    SpriteRenderer spriteR; 
+
+
+   public void OnSpawn()
+   {
     
-    void Start()
-    {
-        
-        spriteR = GetComponent<SpriteRenderer>();
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-
-    public void OnTriggerEnter2D (Collider2D other)
-    {
-
-        
+    
         Instantiate(objectToSpawn, transform.position, transform.rotation);
 
-    
 
-    }
+        
+
+   }
+
+       
+
+    
 
 
 }
