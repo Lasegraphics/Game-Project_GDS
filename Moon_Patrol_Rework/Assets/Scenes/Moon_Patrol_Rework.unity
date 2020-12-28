@@ -121,6 +121,36 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &26649111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 26649112}
+  m_Layer: 8
+  m_Name: GroundTest
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &26649112
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26649111}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.03, y: -0.43, z: -8.198545}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2044846654}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &421182955
 GameObject:
   m_ObjectHideFlags: 0
@@ -304,7 +334,7 @@ GameObject:
   - component: {fileID: 1496760727}
   - component: {fileID: 1496760726}
   - component: {fileID: 1496760725}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tire back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -532,7 +562,7 @@ GameObject:
   - component: {fileID: 1582797856}
   - component: {fileID: 1582797855}
   - component: {fileID: 1582797854}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tire front
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -675,7 +705,7 @@ GameObject:
   - component: {fileID: 1911258820}
   - component: {fileID: 1911258819}
   - component: {fileID: 1911258821}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -951,9 +981,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2044846654}
   - component: {fileID: 2044846653}
-  m_Layer: 0
+  - component: {fileID: 2044846655}
+  m_Layer: 8
   m_Name: Car
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -978,7 +1009,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!4 &2044846654
 Transform:
   m_ObjectHideFlags: 0
@@ -993,6 +1024,29 @@ Transform:
   - {fileID: 1911258820}
   - {fileID: 1582797853}
   - {fileID: 1496760724}
+  - {fileID: 26649112}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2044846655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044846652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abfbb18151e52324a98fd124853ea1cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carRigidbody: {fileID: 2044846653}
+  backTire: {fileID: 1496760726}
+  frontTire: {fileID: 1582797856}
+  speed: 20
+  basicSpeed: 10
+  jumpPower: 500
+  groundTester: {fileID: 26649112}
+  layersToTest:
+    serializedVersion: 2
+    m_Bits: 55
