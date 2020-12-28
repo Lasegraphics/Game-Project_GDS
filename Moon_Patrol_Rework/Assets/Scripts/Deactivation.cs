@@ -4,12 +4,9 @@ using UnityEngine;
 
 public class Deactivation : MonoBehaviour
 {
-    private bool onTheGround;
 
-    public LayerMask layersToTest;
-    public Transform groundTester;
-
-    private float radius = 0.000001f;
+    public GameObject toDes;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -21,14 +18,19 @@ public class Deactivation : MonoBehaviour
     {
         
 
-    onTheGround = Physics2D.OverlapCircle(groundTester.position, radius, layersToTest);
+    }  
 
-    if (onTheGround)
+   private void OnTriggerEnter2D(Collider2D collision)
     {
+       
+        if(collision.gameObject.name == "ice")
+        {        
 
-        Destroy(this.gameObject);
+            Debug.Log("Hit detected");
+            Destroy(toDes);
+        }
 
-    }
+
 
     }
 }
