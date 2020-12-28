@@ -29,7 +29,7 @@ public class Spawner : MonoBehaviour
         
         Instantiate(objectToSpawn, transform.position, transform.rotation);
 
-        spriteR.isVisible();
+    
 
     }
 
