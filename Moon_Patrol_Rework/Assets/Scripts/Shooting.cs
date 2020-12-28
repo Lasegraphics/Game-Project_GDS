@@ -13,7 +13,7 @@ public class Shooting : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetMouseButtonDown(0))
         {
             ShootHorizontalBullet();
             ShootVerticalBullet();    
