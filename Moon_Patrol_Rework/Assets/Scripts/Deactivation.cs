@@ -6,11 +6,14 @@ public class Deactivation : MonoBehaviour
 {
 
     public GameObject toDes;
+
+    public GameObject surf; 
    
     // Start is called before the first frame update
     void Start()
     {
         
+
     }
 
     // Update is called once per frame
@@ -25,7 +28,8 @@ public class Deactivation : MonoBehaviour
        
         if(collision.gameObject.name == "ice")
         {        
-
+            
+            surf.SetActive(false);
             Debug.Log("Hit detected");
             Destroy(toDes);
         }
