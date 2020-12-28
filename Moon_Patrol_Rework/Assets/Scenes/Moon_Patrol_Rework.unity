@@ -2431,14 +2431,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce0107bab736b82438efe1ba2130d19e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 2629569025183387824, guid: 90452db71e4d5b448b896ec0a8771f85,
+  bulletPrefab: {fileID: 8516279136238033860, guid: d17b82f4fd9f14527a2a41e4f8c6cf50,
     type: 3}
-  horizontalBulletSpeed: 1000
-  VerticalBulletPrefab: {fileID: 4641121050130304204, guid: 5dcebde193bbb4c45b94486d3a30d5fd,
+  horizontalBulletSpeed: 500
+  VerticalBulletPrefab: {fileID: 8775765337061449662, guid: 25480903b615f4d9fb47c163ed6659e6,
     type: 3}
-  VerticalBulletSpeed: 800
-  HorizontalTime: 0.5
-  VerticalTime: 1
+  VerticalBulletSpeed: 500
+  HorizontalTime: 2
+  VerticalTime: 2
 --- !u!1 &2075872133
 GameObject:
   m_ObjectHideFlags: 0
