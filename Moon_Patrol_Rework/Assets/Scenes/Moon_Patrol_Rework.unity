@@ -331,6 +331,7 @@ GameObject:
   m_Component:
   - component: {fileID: 745575387}
   - component: {fileID: 745575386}
+  - component: {fileID: 745575388}
   m_Layer: 0
   m_Name: Path
   m_TagString: Untagged
@@ -376,7 +377,7 @@ MonoBehaviour:
       - 0
       globalNormalsAngle: 0
       flipNormals: 0
-    vertexPathUpToDate: 0
+    vertexPathUpToDate: 1
     vertexPathMaxAngleError: 0.3
     vertexPathMinVertexSpacing: 0.01
     showTransformTool: 1
@@ -405,12 +406,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 745575385}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.1, y: 4.03, z: -27.049038}
+  m_LocalPosition: {x: 0.23, y: 4.03, z: -27.049038}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &745575388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745575385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f62517e4715524ee6a9da969c4aa2930, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 2044846654}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!1 &1496760722
 GameObject:
   m_ObjectHideFlags: 0
@@ -1186,7 +1201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4440c30d32b4484b93d7b346784757e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pathCreator: {fileID: 0}
+  pathCreator: {fileID: 745575386}
   speed: 5
 --- !u!212 &2089052451
 SpriteRenderer:
@@ -1246,7 +1261,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2089052449}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.384, y: 4.485, z: 0}
+  m_LocalPosition: {x: -2.5, y: 4.33, z: 0}
   m_LocalScale: {x: 1.8837203, y: 1.8837203, z: 1.8837203}
   m_Children: []
   m_Father: {fileID: 0}
