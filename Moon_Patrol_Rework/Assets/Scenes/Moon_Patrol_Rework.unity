@@ -1360,13 +1360,14 @@ GameObject:
   - component: {fileID: 1746500721}
   - component: {fileID: 1746500720}
   - component: {fileID: 1746500722}
+  - component: {fileID: 1746500723}
   m_Layer: 0
-  m_Name: iceshard (1)
+  m_Name: ice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1746500720
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1445,6 +1446,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pathCreator: {fileID: 395119886}
   speed: 5
+--- !u!114 &1746500723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746500719}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87861ea431ddf4b70856f05a28d03809, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprRen: {fileID: 1746500720}
 --- !u!1 &1911258818
 GameObject:
   m_ObjectHideFlags: 0
@@ -2019,6 +2033,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToDestroy: {fileID: 1746500719}
+  toActive: {fileID: 1746500719}
 --- !u!1 &2089052449
 GameObject:
   m_ObjectHideFlags: 0

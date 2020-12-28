@@ -6,19 +6,20 @@ public class Enabling : MonoBehaviour
 {
     // Start is called before the first frame update
     
-    private SpriteRenderer sprRen;
-
+    
+    public SpriteRenderer sprRen;
+    
     void Start()
     {
-        sprRen = GetComponent<SpriteRenderer>();
+    
 
 
     }
     
     public void En()
     {
-
-            sprRen.enabled = true;
+        sprRen = GetComponent<SpriteRenderer>();
+        sprRen.enabled = true;
 
 
     }

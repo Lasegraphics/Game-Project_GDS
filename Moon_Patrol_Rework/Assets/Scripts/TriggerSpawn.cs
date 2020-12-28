@@ -8,7 +8,9 @@ public class TriggerSpawn : MonoBehaviour
     Spawner spawn;
    public GameObject objectToDestroy;
 
-    Enabling enabling;
+   public GameObject toActive;
+
+    //public Enabling enabling;
     
 
    
@@ -17,7 +19,7 @@ public class TriggerSpawn : MonoBehaviour
     {
         spawn = GameObject.Find("SpawnPoint").GetComponent<Spawner>();
 
-        enabling = GameObject.Find("Ice").GetComponent<Enabling>();
+        //enabling = GetComponent<Enabling>();
 
     }
 
@@ -26,13 +28,10 @@ public class TriggerSpawn : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Destroy(this.gameObject);
-        spawn.OnSpawn();
-
-        Destroy(objectToDestroy);
         
-        enabling.En();
-
-
+        spawn.OnSpawn();
+        toActive.SetActive(true);
+        Destroy(this.gameObject);
+//         Destroy(objectToDestroy);
     }
 }
