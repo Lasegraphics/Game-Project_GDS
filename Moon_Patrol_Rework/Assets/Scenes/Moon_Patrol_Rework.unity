@@ -473,6 +473,11 @@ PrefabInstance:
       propertyPath: jumpPower
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: 4686620859214573795, guid: 4ab707db26347e14c947c1139661dd12,
+        type: 3}
+      propertyPath: basicSpeed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8192747330108895772, guid: 4ab707db26347e14c947c1139661dd12,
         type: 3}
       propertyPath: m_Enabled
