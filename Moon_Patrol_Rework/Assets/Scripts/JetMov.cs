@@ -9,12 +9,15 @@ public class JetMov : MonoBehaviour
 
     public float speed; 
 
+    private int whilecount  = 0; 
+
     void Start()
     {
         
         
         transform.localScale = new Vector2(1,1);
 
+        FinalMov();
 
 
     }
@@ -23,8 +26,29 @@ public class JetMov : MonoBehaviour
     void Update()
     {
         
-        transform.Translate(2* Time.deltaTime * speed, 0,0);
+        
 
 
     }
+
+    void FinalMov()
+
+    {
+        while(whilecount < 5)
+        {
+
+
+            transform.Translate(2* Time.deltaTime * speed, 0,0);
+
+            whilecount++;
+
+
+        }
+
+
+    }
+
+
+
+
 }
