@@ -9,7 +9,7 @@ public class JetMov : MonoBehaviour
 
     public float speed; 
 
-    private int whilecount  = 0; 
+    public Rigidbody2D rb;
 
     void Start()
     {
@@ -17,34 +17,33 @@ public class JetMov : MonoBehaviour
         
         transform.localScale = new Vector2(1,1);
 
-        FinalMov();
+        Invoke("StartMov",2f);
+
+        Invoke("EndStartMov",3f);
 
 
     }
 
-    // Update is called once per frame
-    void Update()
+    void StartMov()
+
     {
-        
-        
 
 
+
+
+                rb.AddForce(new Vector2(speed,0),ForceMode2D.Impulse);
+
+                 //transform.Translate(2* Time.deltaTime * speed, 0,0);
+
+          
+    
     }
 
-    void FinalMov()
 
+    void EndStartMov()
     {
-        while(whilecount < 5)
-        {
 
-
-            transform.Translate(2* Time.deltaTime * speed, 0,0);
-
-            whilecount++;
-
-
-        }
-
+         rb.velocity = Vector2.zero;
 
     }
 

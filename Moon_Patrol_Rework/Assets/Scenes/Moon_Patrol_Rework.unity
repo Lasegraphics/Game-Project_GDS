@@ -2026,6 +2026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  rb: {fileID: 1578464041}
 --- !u!4 &1614625887 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3487595326036516805, guid: 4ab707db26347e14c947c1139661dd12,
