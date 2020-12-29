@@ -21,7 +21,7 @@ public class VerticalShooting : MonoBehaviour
         GameObject VerticalBullet = Instantiate(VerticalBulletPrefab, gameObject.transform);
         VerticalBullet.transform.position = new Vector3 (transform.position.x, transform.position.y, transform.position.z);
         VerticalBullet.transform.SetParent(null);
-        VerticalBullet.GetComponent<Rigidbody2D>().AddForce(new Vector2(170f, VerticalBulletSpeed), ForceMode2D.Force);
+        VerticalBullet.GetComponent<Rigidbody2D>().AddForce(new Vector2(150f, VerticalBulletSpeed), ForceMode2D.Force);
         Destroy(VerticalBullet, VerticalTime);
     }
 }
