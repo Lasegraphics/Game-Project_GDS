@@ -121,6 +121,53 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &203657307
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 203657308}
+  - component: {fileID: 203657309}
+  m_Layer: 0
+  m_Name: HorizontalShooting
+  m_TagString: Untagged
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &203657308
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203657307}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.83, y: 0.49, z: 0.71823657}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1614625887}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &203657309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203657307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3865df110089524fa38a252aede14c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 5773832757903706139, guid: 50338bacaad5a3e40bcd0c00f8205191,
+    type: 3}
+  horizontalBulletSpeed: 1000
+  HorizontalTime: 0.3
 --- !u!1 &230636722
 GameObject:
   m_ObjectHideFlags: 0
@@ -350,8 +397,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -1.36
       objectReference: {fileID: 0}
+    - target: {fileID: 8192747330108895772, guid: 4ab707db26347e14c947c1139661dd12,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3487595327102428834, guid: 4ab707db26347e14c947c1139661dd12, type: 3}
+    - {fileID: 8192747330108895772, guid: 4ab707db26347e14c947c1139661dd12, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4ab707db26347e14c947c1139661dd12, type: 3}
 --- !u!1 &319566263 stripped
 GameObject:
@@ -1296,7 +1349,7 @@ GameObject:
   m_Layer: 0
   m_Name: VerticalShooting
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1308,7 +1361,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 655870462}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.41, y: 1.34, z: 0.86384076}
+  m_LocalPosition: {x: -2.49, y: 1.1, z: 0.86384076}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1614625887}
