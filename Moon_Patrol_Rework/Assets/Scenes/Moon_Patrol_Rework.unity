@@ -319,7 +319,7 @@ GameObject:
   - component: {fileID: 169895384}
   m_Layer: 0
   m_Name: 6_3
-  m_TagString: Untagged
+  m_TagString: Points100
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -411,7 +411,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 169895379}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 29.66, y: -2.21, z: 0}
+  m_LocalPosition: {x: 30.41, y: -2.21, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -429,6 +429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40b3a01890df2448ea9eb863a49757ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectType: {fileID: 169895379}
 --- !u!1 &197169222
 GameObject:
   m_ObjectHideFlags: 0
@@ -2664,6 +2665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40b3a01890df2448ea9eb863a49757ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectType: {fileID: 0}
 --- !u!1 &1214796739
 GameObject:
   m_ObjectHideFlags: 0
@@ -3467,7 +3469,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2043880645}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.415349, y: 0.12, z: 0}
+  m_LocalPosition: {x: 6.415349, y: -2.63, z: 0}
   m_LocalScale: {x: 1.7217, y: 1.7217, z: 1.7217}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3515,7 +3517,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2075872133}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.15, y: -0.82, z: -7.119488}
+  m_LocalPosition: {x: 5.15, y: -2.88, z: -7.119488}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3550,7 +3552,7 @@ GameObject:
   - component: {fileID: 2089052454}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Points200
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3672,3 +3674,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40b3a01890df2448ea9eb863a49757ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectType: {fileID: 2089052449}
