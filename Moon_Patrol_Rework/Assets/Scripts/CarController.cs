@@ -15,6 +15,7 @@ public class CarController : MonoBehaviour
     private float radius = 0.1f;
     public Transform groundTester;
     public LayerMask layersToTest;
+    public Transform startPoint; 
 
     void Start()
     {
@@ -33,4 +34,18 @@ public class CarController : MonoBehaviour
             carRigidbody.AddForce (new Vector2(0f, jumpPower));
         }
     }
+
+
+
+     public void RestartPoint()
+    {
+
+        
+        gameObject.transform.position = startPoint.position;  
+
+
+    }
+
+
+
 }
