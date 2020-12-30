@@ -22,6 +22,7 @@ public class VerticalShooting : MonoBehaviour
         VerticalBullet.transform.position = new Vector3 (transform.position.x, transform.position.y, transform.position.z);
         VerticalBullet.transform.SetParent(null);
         VerticalBullet.GetComponent<Rigidbody2D>().AddForce(new Vector2(190f, VerticalBulletSpeed), ForceMode2D.Force);
+        VerticalBullet.GetComponent<BoxCollider2D>();
         Destroy(VerticalBullet, VerticalTime);
     }
 }
