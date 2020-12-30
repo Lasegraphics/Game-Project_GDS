@@ -17,11 +17,12 @@ public class DestroyObject : MonoBehaviour
     {
 
         
-        
+        if(other.gameObject.tag == "Bullet")
+        {
             Destroy(this.gameObject);
 
 
-
+        }
         
 
 
