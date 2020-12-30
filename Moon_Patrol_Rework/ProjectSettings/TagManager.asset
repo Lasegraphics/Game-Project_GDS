@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Body
+  - Bullet
+  - Points100
+  - Points200
+  - Points500
   layers:
   - Default
   - TransparentFX

@@ -6,17 +6,17 @@ public class Shooting : MonoBehaviour
 {
     [SerializeField] GameObject bulletPrefab;
     public float horizontalBulletSpeed;
-    [SerializeField] GameObject VerticalBulletPrefab;
-    public float VerticalBulletSpeed;
+    //[SerializeField] GameObject VerticalBulletPrefab;
+    //public float VerticalBulletSpeed;
     public float HorizontalTime;
-    public float VerticalTime;
+    //public float VerticalTime;
     
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
             ShootHorizontalBullet();
-            ShootVerticalBullet();    
+            //ShootVerticalBullet();    
         }
 
     }
@@ -30,11 +30,12 @@ public class Shooting : MonoBehaviour
         Destroy(bullet, HorizontalTime);
     }
 
+    /*
     void ShootVerticalBullet()
     {
         GameObject VerticalBullet = Instantiate(VerticalBulletPrefab, gameObject.transform);
         VerticalBullet.transform.SetParent(null);
         VerticalBullet.GetComponent<Rigidbody2D>().AddForce(new Vector2(170f, VerticalBulletSpeed), ForceMode2D.Force);
         Destroy(VerticalBullet, VerticalTime);
-    }
+    }*/
 }

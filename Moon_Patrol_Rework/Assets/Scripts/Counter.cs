@@ -12,6 +12,8 @@ public class Counter : MonoBehaviour
     void Start()
     {
         
+
+        
     }
 
     // Update is called once per frame
@@ -20,7 +22,7 @@ public class Counter : MonoBehaviour
         
     }
 
-    public void IncrementCounter()
+    public void IncrementCounter500()
     {
 
         pointsNumber += 500;
@@ -29,4 +31,27 @@ public class Counter : MonoBehaviour
 
 
     }
+
+     public void IncrementCounter100()
+    {
+
+        pointsNumber += 100;
+
+        counterViewPoints.text = pointsNumber.ToString();
+
+
+    }
+
+      public void IncrementCounter200()
+    {
+
+        pointsNumber += 200;
+
+        counterViewPoints.text = pointsNumber.ToString();
+
+
+    }
+
+  
+    
 }
