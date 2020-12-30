@@ -36,7 +36,7 @@ public class Pick_Up : MonoBehaviour
         
             Destroy (this.gameObject);
 
-            counter.IncrementCounter();
+            counter.IncrementCounter500();
 
 
         
