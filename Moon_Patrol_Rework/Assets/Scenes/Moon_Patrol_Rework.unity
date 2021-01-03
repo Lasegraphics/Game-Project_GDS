@@ -3000,7 +3000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 1565261307}
-  parallaxEffect: 0.5
+  parallaxEffect: 0.6
 --- !u!1 &832335973
 GameObject:
   m_ObjectHideFlags: 0
@@ -4102,7 +4102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 1565261307}
-  parallaxEffect: 0.5
+  parallaxEffect: 0.6
 --- !u!50 &1505054594 stripped
 Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 3150250674130929012, guid: 2caab9331ab31bb47964936402afc055,
