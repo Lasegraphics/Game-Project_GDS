@@ -23,10 +23,7 @@ public class EnemyInvoke : MonoBehaviour
         Enemy3.SetActive(false);
         Enemy4.SetActive(false);
         
-       Invoke("EnablingEnemy1", 1f);
-        Invoke("EnablingEnemy2", 2f);
-        Invoke("EnablingEnemy3", 10f);
-        Invoke("EnablingEnemy4", 10f);
+       
         
         
     }

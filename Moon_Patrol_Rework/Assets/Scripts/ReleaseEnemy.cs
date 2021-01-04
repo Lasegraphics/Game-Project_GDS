@@ -23,11 +23,15 @@ public class ReleaseEnemy : MonoBehaviour
   {
       
       if (other.gameObject.tag == "Body")
+
+
       {
-      trigger.EnablingEnemy1();
-      trigger.EnablingEnemy2();
-      trigger.EnablingEnemy3();
-      trigger.EnablingEnemy4();
+
+         
+      trigger.Invoke("EnablingEnemy1",1f);
+      trigger.Invoke("EnablingEnemy2", 2f);
+      trigger.Invoke("EnablingEnemy3", 10f);
+      trigger.Invoke("EnablingEnemy4", 10f);
       }
 
       
