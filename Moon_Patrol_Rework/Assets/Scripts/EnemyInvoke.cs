@@ -6,8 +6,8 @@ public class EnemyInvoke : MonoBehaviour
 {
     // Start is called before the first frame update
 
-     public GameObject Enemy1;
-     public GameObject Enemy2;
+    public GameObject Enemy1;
+    public GameObject Enemy2;
     public GameObject Enemy3;
 
 
@@ -22,19 +22,51 @@ public class EnemyInvoke : MonoBehaviour
         Enemy2.SetActive(false);
         Enemy3.SetActive(false);
         Enemy4.SetActive(false);
+        
        Invoke("EnablingEnemy1", 1f);
         Invoke("EnablingEnemy2", 2f);
         Invoke("EnablingEnemy3", 10f);
         Invoke("EnablingEnemy4", 10f);
+        
+        
     }
 
     // Update is called once per frame
    
 
-    public void EnablingEnemy1() => Enemy1.SetActive(true);
-    public void EnablingEnemy2() => Enemy2.SetActive(true);
-    public void EnablingEnemy3() => Enemy3.SetActive(true);
-    public void EnablingEnemy4() => Enemy4.SetActive(true);
+    public void EnablingEnemy1()
+    {
+
+        
+         Enemy1.SetActive(true);
+         
+
+
+    } 
+
+
+
+    public void EnablingEnemy2()
+    {
+        Enemy2.SetActive(true);
+
+        
+    } 
+    public void EnablingEnemy3()
+    
+     {
+        Enemy3.SetActive(true);
+        
+      }
+    
+    
+    public void EnablingEnemy4() 
+    {
+
+
+        Enemy4.SetActive(true);
+        
+    }
    
 
 

@@ -11,7 +11,7 @@ public class ReleaseEnemy : MonoBehaviour
     void Start()
     {
 
-
+          trigger = GameObject.Find("Manager").GetComponent<EnemyInvoke>();
 
         
     }
@@ -19,18 +19,18 @@ public class ReleaseEnemy : MonoBehaviour
     // Update is called once per frame
    
 
-  void OnTriggerEnter2D(Collider2D other)
+   public void OnTriggerEnter2D(Collider2D other)
   {
-      if(other.gameObject.tag == "Body")
+      
+      if (other.gameObject.tag == "Body")
       {
-
       trigger.EnablingEnemy1();
       trigger.EnablingEnemy2();
       trigger.EnablingEnemy3();
       trigger.EnablingEnemy4();
-
-
       }
+
+      
 
   }
 
