@@ -1092,6 +1092,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3487595325986414022, guid: 4ab707db26347e14c947c1139661dd12,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3487595326036516800, guid: 4ab707db26347e14c947c1139661dd12,
         type: 3}
       propertyPath: m_Anchor.x
@@ -1145,12 +1150,12 @@ PrefabInstance:
     - target: {fileID: 3487595326036516805, guid: 4ab707db26347e14c947c1139661dd12,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.98
+      value: -2.23
       objectReference: {fileID: 0}
     - target: {fileID: 3487595326036516805, guid: 4ab707db26347e14c947c1139661dd12,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.97
+      value: -1.88
       objectReference: {fileID: 0}
     - target: {fileID: 3487595326036516805, guid: 4ab707db26347e14c947c1139661dd12,
         type: 3}
@@ -1293,6 +1298,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487595327102428835, guid: 4ab707db26347e14c947c1139661dd12,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3487595327218640608, guid: 4ab707db26347e14c947c1139661dd12,
         type: 3}
@@ -7853,7 +7863,7 @@ SpriteRenderer:
   m_Size: {x: 1.28, y: 0.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1578464039
@@ -8774,7 +8784,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1933339318}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.902, y: 0.369, z: -14.981985}
+  m_LocalPosition: {x: -1.45, y: 0.13, z: -14.981985}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 186542673}
@@ -8809,33 +8819,20 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.11798857, y: 0.64151543}
-      - {x: -0.3625588, y: 0.3395349}
-      - {x: -0.36442134, y: 0.80529714}
-      - {x: -0.43532798, y: 0.8072893}
-      - {x: -0.44274852, y: 1.0420089}
-      - {x: -0.52716964, y: 1.042207}
-      - {x: -0.52496094, y: 0.80627924}
-      - {x: -0.6095452, y: 0.8044779}
-      - {x: -0.60415787, y: 0.3742611}
-      - {x: -0.7647878, y: 0.31948152}
-      - {x: -0.92347944, y: 0.25037318}
-      - {x: -1.2492422, y: -0.0012995675}
-      - {x: -1.2493786, y: -0.39612436}
-      - {x: -1.1660732, y: -0.3982492}
-      - {x: -1.1642649, y: -0.47034472}
-      - {x: 1.0760969, y: -0.46676004}
-      - {x: 1.0741466, y: -0.30926213}
-      - {x: 1.1636757, y: -0.30903277}
-      - {x: 1.1616186, y: 0.005435519}
-      - {x: 1.3117832, y: 0.007878714}
-      - {x: 1.3131956, y: 0.24549444}
-      - {x: 0.9998764, y: 0.24095926}
-      - {x: 0.99730146, y: 0.32798132}
-      - {x: 0.8904699, y: 0.3320963}
-      - {x: 0.6755012, y: 0.5639107}
-      - {x: 0.5979189, y: 0.5654594}
-      - {x: 0.59713274, y: 0.6425432}
+    - - {x: 0.57373023, y: 0.5531469}
+      - {x: 0.11001393, y: 1.0019221}
+      - {x: -0.32279155, y: 1}
+      - {x: -0.805204, y: 0.62133795}
+      - {x: -0.8202989, y: 1.3487177}
+      - {x: -1.0990021, y: 1.3724986}
+      - {x: -1.1115535, y: 0.6864869}
+      - {x: -1.7444541, y: 0.28040385}
+      - {x: -1.7255529, y: -0.10867536}
+      - {x: 0.5974337, y: -0.11973567}
+      - {x: 0.6765558, y: -0.073185466}
+      - {x: 0.7092761, y: 0.23354068}
+      - {x: 0.8585705, y: 0.272157}
+      - {x: 0.8434598, y: 0.51652575}
 --- !u!1 &1978484492
 GameObject:
   m_ObjectHideFlags: 0
@@ -9644,7 +9641,7 @@ SpriteRenderer:
   m_Size: {x: 1.28, y: 0.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2117079275
@@ -9726,6 +9723,6 @@ SpriteRenderer:
   m_Size: {x: 1.28, y: 0.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
