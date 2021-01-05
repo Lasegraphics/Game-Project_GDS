@@ -10,6 +10,7 @@ TagManager:
   - Points100
   - Points200
   - Points500
+  - BombType01
   layers:
   - Default
   - TransparentFX
