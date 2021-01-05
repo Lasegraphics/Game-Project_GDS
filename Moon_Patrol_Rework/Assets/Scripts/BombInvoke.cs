@@ -11,6 +11,10 @@ public class BombInvoke : MonoBehaviour
     public GameObject bomb03;
     public GameObject bomb04;
     public GameObject bomb05;
+    public GameObject bomb06;
+    public GameObject bomb07;
+    public GameObject bomb08;
+
     void Start()
     {
         
@@ -19,6 +23,9 @@ public class BombInvoke : MonoBehaviour
         bomb03.SetActive(false);
         bomb04.SetActive(false);
         bomb05.SetActive(false);
+        bomb06.SetActive(false);
+        bomb07.SetActive(false);
+        bomb08.SetActive(false);
 
     }
 
@@ -30,4 +37,7 @@ public class BombInvoke : MonoBehaviour
     public void EnablingBomb3() => bomb03.SetActive(true);
     public void EnablingBomb4() => bomb04.SetActive(true);
     public void EnablingBomb5() => bomb05.SetActive(true);
+    public void EnablingBomb6() => bomb06.SetActive(true);
+    public void EnablingBomb7() => bomb07.SetActive(true);
+    public void EnablingBomb8() => bomb08.SetActive(true);
 }

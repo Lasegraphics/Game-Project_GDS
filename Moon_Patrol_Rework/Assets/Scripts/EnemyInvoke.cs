@@ -12,6 +12,13 @@ public class EnemyInvoke : MonoBehaviour
     public GameObject Enemy4;
     public GameObject Enemy5;
     public GameObject Enemy6;
+    public GameObject Enemy7;
+    public GameObject Enemy8;
+    public GameObject Enemy9;
+    public GameObject Enemy10;
+    public GameObject Enemy11;
+    public GameObject Enemy12;
+    public GameObject Enemy13;
     void Start()
 
     {
@@ -23,7 +30,13 @@ public class EnemyInvoke : MonoBehaviour
         Enemy4.SetActive(false);
         Enemy5.SetActive(false);
         Enemy6.SetActive(false);
-       
+        Enemy7.SetActive(false);
+        Enemy8.SetActive(false);
+        Enemy9.SetActive(false);
+        Enemy10.SetActive(false);
+        Enemy11.SetActive(false);
+        Enemy12.SetActive(false);
+        Enemy13.SetActive(false);
         
         
     }
@@ -40,7 +53,13 @@ public class EnemyInvoke : MonoBehaviour
     public void EnablingEnemy4() =>  Enemy4.SetActive(true);
     public void EnablingEnemy5() =>  Enemy5.SetActive(true);
     public void EnablingEnemy6() =>  Enemy6.SetActive(true);
- 
+    public void EnablingEnemy7() =>  Enemy7.SetActive(true);
+    public void EnablingEnemy8() =>  Enemy8.SetActive(true);
+    public void EnablingEnemy9() =>  Enemy9.SetActive(true);
+    public void EnablingEnemy10() =>  Enemy10.SetActive(true);
+    public void EnablingEnemy11() =>  Enemy11.SetActive(true);
+    public void EnablingEnemy12() =>  Enemy12.SetActive(true);
+    public void EnablingEnemy13() =>  Enemy13.SetActive(true);
 
 
 
