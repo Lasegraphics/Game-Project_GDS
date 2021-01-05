@@ -9,10 +9,9 @@ public class EnemyInvoke : MonoBehaviour
     public GameObject Enemy1;
     public GameObject Enemy2;
     public GameObject Enemy3;
-
-
     public GameObject Enemy4;
-
+    public GameObject Enemy5;
+    public GameObject Enemy6;
     void Start()
 
     {
@@ -22,7 +21,8 @@ public class EnemyInvoke : MonoBehaviour
         Enemy2.SetActive(false);
         Enemy3.SetActive(false);
         Enemy4.SetActive(false);
-        
+        Enemy5.SetActive(false);
+        Enemy6.SetActive(false);
        
         
         
@@ -38,6 +38,8 @@ public class EnemyInvoke : MonoBehaviour
     public void EnablingEnemy3() => Enemy3.SetActive(true);
     
     public void EnablingEnemy4() =>  Enemy4.SetActive(true);
+    public void EnablingEnemy5() =>  Enemy5.SetActive(true);
+    public void EnablingEnemy6() =>  Enemy6.SetActive(true);
  
 
 
