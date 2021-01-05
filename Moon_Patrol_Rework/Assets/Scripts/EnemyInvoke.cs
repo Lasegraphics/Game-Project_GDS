@@ -31,40 +31,14 @@ public class EnemyInvoke : MonoBehaviour
     // Update is called once per frame
    
 
-    public void EnablingEnemy1()
-    {
-
-        
-         Enemy1.SetActive(true);
-         
-
-
-    } 
-
-
-
-    public void EnablingEnemy2()
-    {
-        Enemy2.SetActive(true);
-
-        
-    } 
-    public void EnablingEnemy3()
-    
-     {
-        Enemy3.SetActive(true);
-        
-      }
-    
-    
-    public void EnablingEnemy4() 
-    {
-
-
-        Enemy4.SetActive(true);
-        
-    }
+    public void EnablingEnemy1() => Enemy1.SetActive(true);
    
+    public void EnablingEnemy2() => Enemy2.SetActive(true);
+
+    public void EnablingEnemy3() => Enemy3.SetActive(true);
+    
+    public void EnablingEnemy4() =>  Enemy4.SetActive(true);
+ 
 
 
 

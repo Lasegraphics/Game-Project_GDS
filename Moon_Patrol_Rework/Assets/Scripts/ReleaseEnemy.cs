@@ -8,11 +8,13 @@ public class ReleaseEnemy : MonoBehaviour
     
     EnemyInvoke trigger;
 
+    BombInvoke bombTrigger;
+
     void Start()
     {
 
           trigger = GameObject.Find("Manager").GetComponent<EnemyInvoke>();
-
+          bombTrigger = GameObject.Find("Manager").GetComponent<BombInvoke>();
         
     }
 
@@ -32,6 +34,12 @@ public class ReleaseEnemy : MonoBehaviour
       trigger.Invoke("EnablingEnemy2", 2f);
       trigger.Invoke("EnablingEnemy3", 10f);
       trigger.Invoke("EnablingEnemy4", 10f);
+      bombTrigger.Invoke("EnablingBomb1", 3f);
+
+
+
+
+
       }
 
       
