@@ -7,12 +7,13 @@ public class Deparent : MonoBehaviour
     // Start is called before the first frame update
 
 
+    public GameObject Enemies; 
     public GameObject itsActive;
     void Start()
     {
         
        
-
+        Enemies = GameObject.Find("Enemy Paths");
 
     }
 
@@ -23,14 +24,14 @@ public class Deparent : MonoBehaviour
         if(itsActive.activeSelf == true)
         {
 
-            gameObject.transform.parent = null;
+            gameObject.transform.parent = Enemies.transform;
 
            
 
 
         }
 
-        if (gameObject.transform.parent == null)
+        if (gameObject.transform.parent == Enemies.transform)
         
         {
             Destroy(this.gameObject, 5);
