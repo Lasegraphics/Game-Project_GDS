@@ -21,6 +21,12 @@ public class BombInvoke : MonoBehaviour
     public GameObject bomb11;
     public GameObject bomb12;
     public GameObject bomb13;
+    public GameObject bomb14;
+    public GameObject bomb15;
+    public GameObject bomb16;
+    public GameObject bomb17;
+    public GameObject bomb18;
+    public GameObject bomb19;
     void Start()
     {
 
@@ -39,6 +45,12 @@ public class BombInvoke : MonoBehaviour
         bomb11.SetActive(false);
         bomb12.SetActive(false);
         bomb13.SetActive(false);
+        bomb14.SetActive(false);
+        bomb15.SetActive(false);
+        bomb16.SetActive(false);
+        bomb17.SetActive(false);
+        bomb18.SetActive(false);
+        bomb19.SetActive(false);
 
     }
 
@@ -58,6 +70,12 @@ public class BombInvoke : MonoBehaviour
     public void EnablingBomb11() => bomb11.SetActive(true);
     public void EnablingBomb12() => bomb12.SetActive(true);
     public void EnablingBomb13() => bomb13.SetActive(true);
+    public void EnablingBomb14() => bomb14.SetActive(true);
+    public void EnablingBomb15() => bomb15.SetActive(true);
+    public void EnablingBomb16() => bomb16.SetActive(true);
+    public void EnablingBomb17() => bomb17.SetActive(true);
+    public void EnablingBomb18() => bomb18.SetActive(true);
+    public void EnablingBomb19() => bomb19.SetActive(true);
 
 
     public void Update()
@@ -109,23 +127,41 @@ public class BombInvoke : MonoBehaviour
         {
 
             bomb05.SetActive(false);
-            
-        
+            bomb19.SetActive(false);
 
         }
          if(checker.Enemy7 == null)
         {
 
             bomb06.SetActive(false);
+            bomb14.SetActive(false);
+            
+        
+
+        }
+          if(checker.Enemy8 == null)
+        {
+
+            bomb18.SetActive(false);
+            
             
         
 
         }
 
+         if(checker.Enemy9 == null)
+        {
+
+            bomb15.SetActive(false);
+            bomb16.SetActive(false);
+        
+
+        }
          if(checker.Enemy10 == null)
         {
 
             bomb07.SetActive(false);
+            bomb17.SetActive(false);
             
         
 
