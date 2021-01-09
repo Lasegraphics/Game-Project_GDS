@@ -28,6 +28,7 @@ public class BombInvoke : MonoBehaviour
     public GameObject bomb18;
     public GameObject bomb19;
     public GameObject bomb20;
+    public GameObject bomb21;
     void Start()
     {
 
@@ -53,6 +54,7 @@ public class BombInvoke : MonoBehaviour
         bomb18.SetActive(false);
         bomb19.SetActive(false);
         bomb20.SetActive(false);
+        bomb21.SetActive(false);
 
     }
 
@@ -79,6 +81,7 @@ public class BombInvoke : MonoBehaviour
     public void EnablingBomb18() => bomb18.SetActive(true);
     public void EnablingBomb19() => bomb19.SetActive(true);
     public void EnablingBomb20() => bomb20.SetActive(true);
+    public void EnablingBomb21() => bomb21.SetActive(true);
 
 
     public void Update()
@@ -114,8 +117,7 @@ public class BombInvoke : MonoBehaviour
         {
 
             bomb13.SetActive(false);
-            
-        
+            bomb21.SetActive(false);
 
         }
          if(checker.Enemy5 == null)

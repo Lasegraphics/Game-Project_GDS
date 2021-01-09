@@ -52,6 +52,16 @@ public class Counter : MonoBehaviour
 
     }
 
+    public void BonusPoints500()
+    {
+       
+        pointsNumber += 500;
+
+        counterViewPoints.text = pointsNumber.ToString();
+
+    }
+
+
   
     
 }
