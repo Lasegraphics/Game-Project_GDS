@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Resp : MonoBehaviour
 {
-    public string scenesName = "Testowa";
+    public string scenesName = "A-E";
 
     void OnCollisionEnter2D()
     {
