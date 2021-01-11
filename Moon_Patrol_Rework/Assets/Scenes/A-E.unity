@@ -806,6 +806,8 @@ GameObject:
   - component: {fileID: 169895382}
   - component: {fileID: 169895385}
   - component: {fileID: 169895380}
+  - component: {fileID: 169895384}
+  - component: {fileID: 169895381}
   m_Layer: 0
   m_Name: kamien1
   m_TagString: Points100
@@ -847,6 +849,19 @@ PolygonCollider2D:
       - {x: 0.56, y: -0.48}
       - {x: 0.56, y: -0.17999999}
       - {x: 0.45, y: 0.03}
+--- !u!114 &169895381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169895379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenesName: A-E
 --- !u!212 &169895382
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -912,6 +927,18 @@ Transform:
   m_Father: {fileID: 832335974}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &169895384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169895379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14dd42fa213d8204facc772040359fc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!60 &169895385
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2061,7 +2088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenesName: Testowa
+  scenesName: A-E
 --- !u!60 &256607211
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4654,7 +4681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenesName: Testowa
+  scenesName: A-E
 --- !u!1 &518332577 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4894654190123710849, guid: 20e84f46b33994b268fa39cacac704f3,
@@ -5318,7 +5345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenesName: Testowa
+  scenesName: A-E
 --- !u!212 &606269322
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7948,7 +7975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenesName: Testowa
+  scenesName: A-E
 --- !u!212 &862258604
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8113,7 +8140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenesName: Testowa
+  scenesName: A-E
 --- !u!60 &875540742
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -8891,7 +8918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenesName: Testowa
+  scenesName: A-E
 --- !u!212 &953037498
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10680,7 +10707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenesName: Testowa
+  scenesName: A-E
 --- !u!60 &1180838104
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -13277,7 +13304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenesName: Testowa
+  scenesName: A-E
 --- !u!212 &1458738073
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13990,7 +14017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenesName: Testowa
+  scenesName: A-E
 --- !u!212 &1532013057
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14551,7 +14578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenesName: Testowa
+  scenesName: A-E
 --- !u!1 &1565261307
 GameObject:
   m_ObjectHideFlags: 0
@@ -15209,7 +15236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenesName: Testowa
+  scenesName: A-E
 --- !u!212 &1591842066
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16849,7 +16876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenesName: Testowa
+  scenesName: A-E
 --- !u!60 &1800201789
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -17695,7 +17722,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenesName: Testowa
+  scenesName: A-E
 --- !u!212 &1905074831
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18434,7 +18461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenesName: Testowa
+  scenesName: A-E
 --- !u!60 &2059285494
 PolygonCollider2D:
   m_ObjectHideFlags: 0
