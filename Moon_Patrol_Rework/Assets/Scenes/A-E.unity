@@ -804,8 +804,6 @@ GameObject:
   m_Component:
   - component: {fileID: 169895383}
   - component: {fileID: 169895382}
-  - component: {fileID: 169895384}
-  - component: {fileID: 169895381}
   - component: {fileID: 169895385}
   - component: {fileID: 169895380}
   m_Layer: 0
@@ -849,18 +847,6 @@ PolygonCollider2D:
       - {x: 0.56, y: -0.48}
       - {x: 0.56, y: -0.17999999}
       - {x: 0.45, y: 0.03}
---- !u!114 &169895381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 169895379}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86947a7b65c97e0499015ea009dadbf0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &169895382
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -926,18 +912,6 @@ Transform:
   m_Father: {fileID: 832335974}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &169895384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 169895379}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55324de37d86dd640905d0095b33efbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &169895385
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1989,8 +1963,8 @@ GameObject:
   - component: {fileID: 256607208}
   - component: {fileID: 256607212}
   - component: {fileID: 256607211}
-  - component: {fileID: 256607210}
   - component: {fileID: 256607209}
+  - component: {fileID: 256607210}
   m_Layer: 0
   m_Name: dziura2_mala (2)
   m_TagString: Respawn
@@ -2084,9 +2058,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 256607207}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55324de37d86dd640905d0095b33efbf, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scenesName: Testowa
 --- !u!60 &256607211
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4486,6 +4461,7 @@ GameObject:
   - component: {fileID: 511407966}
   - component: {fileID: 511407968}
   - component: {fileID: 511407969}
+  - component: {fileID: 511407970}
   m_Layer: 0
   m_Name: dziura1_duza
   m_TagString: Respawn
@@ -4666,6 +4642,19 @@ PolygonCollider2D:
       - {x: 1.88, y: -1.62}
       - {x: 1.88, y: 0.87}
       - {x: 1.67, y: 0.88}
+--- !u!114 &511407970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511407965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenesName: Testowa
 --- !u!1 &518332577 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4894654190123710849, guid: 20e84f46b33994b268fa39cacac704f3,
@@ -5224,10 +5213,10 @@ GameObject:
   m_Component:
   - component: {fileID: 606269318}
   - component: {fileID: 606269322}
-  - component: {fileID: 606269323}
-  - component: {fileID: 606269321}
   - component: {fileID: 606269320}
   - component: {fileID: 606269319}
+  - component: {fileID: 606269323}
+  - component: {fileID: 606269321}
   m_Layer: 0
   m_Name: kamien2 (5)
   m_TagString: Points100
@@ -5326,9 +5315,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 606269317}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86947a7b65c97e0499015ea009dadbf0, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scenesName: Testowa
 --- !u!212 &606269322
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5389,7 +5379,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 606269317}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55324de37d86dd640905d0095b33efbf, type: 3}
+  m_Script: {fileID: 11500000, guid: 14dd42fa213d8204facc772040359fc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &624063757
@@ -7853,10 +7843,10 @@ GameObject:
   m_Component:
   - component: {fileID: 862258600}
   - component: {fileID: 862258604}
-  - component: {fileID: 862258605}
-  - component: {fileID: 862258603}
   - component: {fileID: 862258602}
   - component: {fileID: 862258601}
+  - component: {fileID: 862258605}
+  - component: {fileID: 862258603}
   m_Layer: 0
   m_Name: kamien2 (4)
   m_TagString: Points100
@@ -7955,9 +7945,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 862258599}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86947a7b65c97e0499015ea009dadbf0, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scenesName: Testowa
 --- !u!212 &862258604
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8018,7 +8009,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 862258599}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55324de37d86dd640905d0095b33efbf, type: 3}
+  m_Script: {fileID: 11500000, guid: 14dd42fa213d8204facc772040359fc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &875540738
@@ -8032,8 +8023,8 @@ GameObject:
   - component: {fileID: 875540739}
   - component: {fileID: 875540743}
   - component: {fileID: 875540742}
-  - component: {fileID: 875540741}
   - component: {fileID: 875540740}
+  - component: {fileID: 875540741}
   m_Layer: 0
   m_Name: dziura1_duza (2)
   m_TagString: Respawn
@@ -8119,9 +8110,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 875540738}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55324de37d86dd640905d0095b33efbf, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scenesName: Testowa
 --- !u!60 &875540742
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -8794,10 +8786,10 @@ GameObject:
   m_Component:
   - component: {fileID: 953037494}
   - component: {fileID: 953037498}
-  - component: {fileID: 953037499}
-  - component: {fileID: 953037497}
   - component: {fileID: 953037496}
   - component: {fileID: 953037495}
+  - component: {fileID: 953037499}
+  - component: {fileID: 953037497}
   m_Layer: 0
   m_Name: kamien2 (1)
   m_TagString: Points100
@@ -8896,9 +8888,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 953037493}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86947a7b65c97e0499015ea009dadbf0, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scenesName: Testowa
 --- !u!212 &953037498
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8959,7 +8952,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 953037493}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55324de37d86dd640905d0095b33efbf, type: 3}
+  m_Script: {fileID: 11500000, guid: 14dd42fa213d8204facc772040359fc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &967764515 stripped
@@ -10589,8 +10582,8 @@ GameObject:
   - component: {fileID: 1180838101}
   - component: {fileID: 1180838105}
   - component: {fileID: 1180838104}
-  - component: {fileID: 1180838103}
   - component: {fileID: 1180838102}
+  - component: {fileID: 1180838103}
   m_Layer: 0
   m_Name: dziura2_mala (3)
   m_TagString: Respawn
@@ -10684,9 +10677,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1180838100}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55324de37d86dd640905d0095b33efbf, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scenesName: Testowa
 --- !u!60 &1180838104
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -13178,10 +13172,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1458738069}
   - component: {fileID: 1458738073}
-  - component: {fileID: 1458738074}
-  - component: {fileID: 1458738072}
   - component: {fileID: 1458738071}
   - component: {fileID: 1458738070}
+  - component: {fileID: 1458738074}
+  - component: {fileID: 1458738072}
   m_Layer: 0
   m_Name: kamien2 (3)
   m_TagString: Points100
@@ -13280,9 +13274,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1458738068}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86947a7b65c97e0499015ea009dadbf0, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scenesName: Testowa
 --- !u!212 &1458738073
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13343,7 +13338,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1458738068}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55324de37d86dd640905d0095b33efbf, type: 3}
+  m_Script: {fileID: 11500000, guid: 14dd42fa213d8204facc772040359fc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1475373296
@@ -13890,10 +13885,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1532013053}
   - component: {fileID: 1532013057}
-  - component: {fileID: 1532013058}
-  - component: {fileID: 1532013056}
   - component: {fileID: 1532013055}
   - component: {fileID: 1532013054}
+  - component: {fileID: 1532013058}
+  - component: {fileID: 1532013056}
   m_Layer: 0
   m_Name: kamien2 (6)
   m_TagString: Points100
@@ -13992,9 +13987,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1532013052}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86947a7b65c97e0499015ea009dadbf0, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scenesName: Testowa
 --- !u!212 &1532013057
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14055,7 +14051,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1532013052}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55324de37d86dd640905d0095b33efbf, type: 3}
+  m_Script: {fileID: 11500000, guid: 14dd42fa213d8204facc772040359fc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1541714390
@@ -14346,8 +14342,8 @@ GameObject:
   - component: {fileID: 1556506210}
   - component: {fileID: 1556506212}
   - component: {fileID: 1556506211}
-  - component: {fileID: 1556506214}
   - component: {fileID: 1556506213}
+  - component: {fileID: 1556506214}
   m_Layer: 0
   m_Name: dziura2_mala
   m_TagString: Respawn
@@ -14552,9 +14548,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1556506209}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55324de37d86dd640905d0095b33efbf, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scenesName: Testowa
 --- !u!1 &1565261307
 GameObject:
   m_ObjectHideFlags: 0
@@ -15107,10 +15104,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1591842062}
   - component: {fileID: 1591842066}
-  - component: {fileID: 1591842067}
-  - component: {fileID: 1591842065}
   - component: {fileID: 1591842064}
   - component: {fileID: 1591842063}
+  - component: {fileID: 1591842067}
+  - component: {fileID: 1591842065}
   m_Layer: 0
   m_Name: kamien2
   m_TagString: Points100
@@ -15209,9 +15206,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1591842061}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86947a7b65c97e0499015ea009dadbf0, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scenesName: Testowa
 --- !u!212 &1591842066
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15272,7 +15270,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1591842061}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55324de37d86dd640905d0095b33efbf, type: 3}
+  m_Script: {fileID: 11500000, guid: 14dd42fa213d8204facc772040359fc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1604210479
@@ -16753,8 +16751,8 @@ GameObject:
   - component: {fileID: 1800201786}
   - component: {fileID: 1800201790}
   - component: {fileID: 1800201789}
-  - component: {fileID: 1800201788}
   - component: {fileID: 1800201787}
+  - component: {fileID: 1800201788}
   m_Layer: 0
   m_Name: dziura2_mala (1)
   m_TagString: Respawn
@@ -16848,9 +16846,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1800201785}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55324de37d86dd640905d0095b33efbf, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scenesName: Testowa
 --- !u!60 &1800201789
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -17591,10 +17590,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1905074827}
   - component: {fileID: 1905074831}
-  - component: {fileID: 1905074832}
-  - component: {fileID: 1905074830}
   - component: {fileID: 1905074829}
   - component: {fileID: 1905074828}
+  - component: {fileID: 1905074832}
+  - component: {fileID: 1905074830}
   m_Layer: 0
   m_Name: kamien2 (2)
   m_TagString: Points100
@@ -17693,9 +17692,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1905074826}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86947a7b65c97e0499015ea009dadbf0, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scenesName: Testowa
 --- !u!212 &1905074831
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17756,7 +17756,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1905074826}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55324de37d86dd640905d0095b33efbf, type: 3}
+  m_Script: {fileID: 11500000, guid: 14dd42fa213d8204facc772040359fc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1963187785
@@ -18336,8 +18336,8 @@ GameObject:
   - component: {fileID: 2059285491}
   - component: {fileID: 2059285495}
   - component: {fileID: 2059285494}
-  - component: {fileID: 2059285493}
   - component: {fileID: 2059285492}
+  - component: {fileID: 2059285493}
   m_Layer: 0
   m_Name: dziura2_mala (4)
   m_TagString: Respawn
@@ -18431,9 +18431,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2059285490}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55324de37d86dd640905d0095b33efbf, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b7f9d5a58041ca4087578a109fdeac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scenesName: Testowa
 --- !u!60 &2059285494
 PolygonCollider2D:
   m_ObjectHideFlags: 0
