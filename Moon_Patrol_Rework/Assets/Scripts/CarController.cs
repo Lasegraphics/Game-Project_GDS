@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CarController : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class CarController : MonoBehaviour
     public Transform groundTester;
     public LayerMask layersToTest;
     public Transform startPoint; 
+    public float HP = 3.0f;
 
     void Start()
     {
@@ -34,18 +36,19 @@ public class CarController : MonoBehaviour
             carRigidbody.AddForce (new Vector2(0f, jumpPower));
         }
     }
-
-
-
      public void RestartPoint()
     {
-
-        
         gameObject.transform.position = startPoint.position;  
-
-
     }
 
-
+    public float PobierzWartoscHP()
+    {
+        return HP;
+    }
+    
+    public float StrataHP()
+    {
+        return HP = HP - 1.0f;
+    }
 
 }
