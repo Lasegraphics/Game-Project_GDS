@@ -10,6 +10,7 @@ public class Resp : MonoBehaviour
     {
         Application.LoadLevel (scenesName);
     }
+    
 
     public void Respawn()
     {
