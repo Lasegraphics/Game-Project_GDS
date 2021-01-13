@@ -7,6 +7,6 @@ public class JO_Resp : MonoBehaviour
 {
     void OnCollisionEnter2D()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 }
