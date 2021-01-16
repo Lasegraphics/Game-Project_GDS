@@ -7,6 +7,7 @@ public class DestroyObject : MonoBehaviour
 
    public GameObject objectType;
    Counter counter;
+  
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,15 @@ public class DestroyObject : MonoBehaviour
 
     }
 
+    void Update ()
+    {
+
+ 
+
+
+
+    }
+
     // Update is called once per frame
     
     void OnTriggerEnter2D(Collider2D other)
@@ -30,6 +40,8 @@ public class DestroyObject : MonoBehaviour
         if(other.gameObject.tag == "Bullet")
         {
             Destroy(this.gameObject);
+
+            counter.CheckingPoints();
 
            
 
@@ -55,6 +67,8 @@ public class DestroyObject : MonoBehaviour
 
         }
         
+        
+       
 
         
 

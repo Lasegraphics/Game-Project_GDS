@@ -1416,7 +1416,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -168, y: 405}
+  m_AnchoredPosition: {x: -168, y: 277}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &197169224
@@ -5491,7 +5491,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 390, y: 389}
+  m_AnchoredPosition: {x: 390, y: 251}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &586422935
@@ -7186,7 +7186,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -779, y: 399}
+  m_AnchoredPosition: {x: -779, y: 295}
   m_SizeDelta: {x: 221.96341, y: 145.53311}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &704041129
@@ -7687,7 +7687,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 745575385}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -176.61174, y: -0.18326712, z: 0}
+  m_LocalPosition: {x: -180.7, y: -0.18326712, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 889092331}
@@ -8282,7 +8282,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 851198983}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -177.42174, y: 0, z: 0}
+  m_LocalPosition: {x: -181.95, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 530553830}
@@ -13326,7 +13326,7 @@ GameObject:
   - component: {fileID: 1362745098}
   m_Layer: 0
   m_Name: Enemy (2)
-  m_TagString: Points200
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13936,7 +13936,7 @@ PrefabInstance:
     - target: {fileID: 4894654190123710849, guid: 20e84f46b33994b268fa39cacac704f3,
         type: 3}
       propertyPath: m_TagString
-      value: BombType01
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7141501607257007931, guid: 20e84f46b33994b268fa39cacac704f3,
         type: 3}
@@ -16897,7 +16897,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1658668497}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -172.24174, y: 0, z: 0}
+  m_LocalPosition: {x: -179.22, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1332356458}
@@ -16929,7 +16929,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1668141699}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -178.36174, y: 0, z: 0}
+  m_LocalPosition: {x: -181.53, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2028839822}
@@ -17557,7 +17557,7 @@ PrefabInstance:
     - target: {fileID: 4894654190123710849, guid: 20e84f46b33994b268fa39cacac704f3,
         type: 3}
       propertyPath: m_TagString
-      value: BombType01
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7141501607257007931, guid: 20e84f46b33994b268fa39cacac704f3,
         type: 3}
@@ -18188,7 +18188,7 @@ GameObject:
   - component: {fileID: 1838190788}
   m_Layer: 0
   m_Name: Enemy (3)
-  m_TagString: Points200
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18354,7 +18354,7 @@ GameObject:
   - component: {fileID: 1869180615}
   m_Layer: 0
   m_Name: Enemy (1)
-  m_TagString: Points200
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19061,7 +19061,7 @@ PrefabInstance:
     - target: {fileID: 4894654190123710849, guid: 20e84f46b33994b268fa39cacac704f3,
         type: 3}
       propertyPath: m_TagString
-      value: BombType01
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7141501607257007931, guid: 20e84f46b33994b268fa39cacac704f3,
         type: 3}
@@ -19234,7 +19234,7 @@ PrefabInstance:
     - target: {fileID: 4894654190123710849, guid: 20e84f46b33994b268fa39cacac704f3,
         type: 3}
       propertyPath: m_TagString
-      value: BombType01
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7141501607257007931, guid: 20e84f46b33994b268fa39cacac704f3,
         type: 3}
@@ -19431,7 +19431,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2043880646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19518,7 +19518,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2043880645}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.415349, y: -2.63, z: 0}
+  m_LocalPosition: {x: 236.8, y: -2.63, z: 0}
   m_LocalScale: {x: 1.7217, y: 1.7217, z: 1.7217}
   m_Children: []
   m_Father: {fileID: 0}
@@ -20175,7 +20175,7 @@ GameObject:
   - component: {fileID: 2089052454}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Points200
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20681,7 +20681,7 @@ PrefabInstance:
     - target: {fileID: 8314590122288036622, guid: 4ab707db26347e14c947c1139661dd12,
         type: 3}
       propertyPath: basicSpeed
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 8314590122705984235, guid: 4ab707db26347e14c947c1139661dd12,
         type: 3}

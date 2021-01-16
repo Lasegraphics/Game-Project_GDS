@@ -6,20 +6,41 @@ using UnityEngine.UI;
 public class Counter : MonoBehaviour
 {
     int pointsNumber;
+    int checkingPoints = 0;
+    bool itsActive = true;
+
+    
 
     public Text counterViewPoints;
     // Start is called before the first frame update
     void Start()
     {
         
+        checkingPoints = 0;
+        itsActive = true;
 
-        
     }
 
     // Update is called once per frame
     void Update()
     {
         
+        if(checkingPoints == 11 && itsActive == true)
+        {
+
+           BonusPoints500();
+
+           itsActive = false;
+
+           Debug.Log("Przyznano punkty");
+            
+
+
+        }
+
+
+
+
     }
 
     public void IncrementCounter500()
@@ -60,6 +81,15 @@ public class Counter : MonoBehaviour
         counterViewPoints.text = pointsNumber.ToString();
 
     }
+
+    public void CheckingPoints()
+    {
+
+        
+        checkingPoints += 1;
+
+    }
+
 
 
   
