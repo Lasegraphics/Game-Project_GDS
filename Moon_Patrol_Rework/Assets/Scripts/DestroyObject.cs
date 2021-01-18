@@ -47,25 +47,36 @@ public class DestroyObject : MonoBehaviour
 
         }
 
-        if (objectType.gameObject.tag =="Points100")
+        try
+        {
+                if (objectType.gameObject.tag =="Points100")
         
-        {
-          counter.IncrementCounter100();
+                {
+                 counter.IncrementCounter100();
 
+                
+                 }
+                else if (objectType.gameObject.tag =="Points200")
+                {
+
+                    counter.IncrementCounter200();
+
+                }
+
+                 else if (objectType.gameObject.tag =="Points500")
+                {
+
+                    counter.IncrementCounter500();
+
+                }
         }
-        else if (objectType.gameObject.tag =="Points200")
+        catch 
         {
-
-            counter.IncrementCounter200();
-
+            Debug.Log("Nie pobrano informacji o punktach");        
+    
         }
 
-         else if (objectType.gameObject.tag =="Points500")
-        {
-
-            counter.IncrementCounter500();
-
-        }
+        
         
         
        

@@ -20465,7 +20465,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!58 &2075872134
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21031,7 +21031,7 @@ PrefabInstance:
     - target: {fileID: 8314590122288036622, guid: 4ab707db26347e14c947c1139661dd12,
         type: 3}
       propertyPath: basicSpeed
-      value: 16
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8314590122705984235, guid: 4ab707db26347e14c947c1139661dd12,
         type: 3}

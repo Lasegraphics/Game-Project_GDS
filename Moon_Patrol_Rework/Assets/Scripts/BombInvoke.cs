@@ -61,45 +61,359 @@ public class BombInvoke : MonoBehaviour
     // Update is called once per frame
    
 
-    public void EnablingBomb1() => bomb01.SetActive(true);
-    public void EnablingBomb2() => bomb02.SetActive(true);
-    public void EnablingBomb3() => bomb03.SetActive(true);
-    public void EnablingBomb4() => bomb04.SetActive(true);
-    public void EnablingBomb5() => bomb05.SetActive(true);
-    public void EnablingBomb6() => bomb06.SetActive(true);
-    public void EnablingBomb7() => bomb07.SetActive(true);
-    public void EnablingBomb8() => bomb08.SetActive(true);
-    public void EnablingBomb9() => bomb09.SetActive(true);
-    public void EnablingBomb10() => bomb10.SetActive(true);
-    public void EnablingBomb11() => bomb11.SetActive(true);
-    public void EnablingBomb12() => bomb12.SetActive(true);
-    public void EnablingBomb13() => bomb13.SetActive(true);
-    public void EnablingBomb14() => bomb14.SetActive(true);
-    public void EnablingBomb15() => bomb15.SetActive(true);
-    public void EnablingBomb16() => bomb16.SetActive(true);
-    public void EnablingBomb17() => bomb17.SetActive(true);
-    public void EnablingBomb18() => bomb18.SetActive(true);
-    public void EnablingBomb19() => bomb19.SetActive(true);
-    public void EnablingBomb20() => bomb20.SetActive(true);
-    public void EnablingBomb21() => bomb21.SetActive(true);
+    public void EnablingBomb1() 
+    {
 
+        try 
+        {
+            bomb01.SetActive(true);
+        }
+        catch
+        {
+
+            Debug.Log("Proces zatrzymany");
+
+        }
+        
+
+    }
+
+    
+    public void EnablingBomb2()
+    {
+        try 
+        {
+
+            bomb02.SetActive(true);
+
+        }
+        catch 
+        {
+           
+            Debug.Log("Proces zatrzymany");
+
+
+        }
+        
+
+    } 
+
+
+    public void EnablingBomb3() 
+    {
+        try 
+        {
+            bomb03.SetActive(true);
+
+        }
+        catch
+        {
+            
+            Debug.Log("Proces zatrzymany");
+
+        }
+        
+
+    } 
+    public void EnablingBomb4() 
+    {
+        try 
+        {
+            bomb04.SetActive(true);
+
+        }
+        catch
+        {
+
+             Debug.Log("Proces zatrzymany");
+
+        }
+        
+
+    } 
+
+    public void EnablingBomb5() 
+     {
+         try 
+         {
+
+             bomb05.SetActive(true);
+
+         }
+         catch
+         {
+
+             Debug.Log("Proces zatrzymany");
+
+         }
+          
+     }
+
+
+    
+    public void EnablingBomb6() 
+    {
+        try 
+        {
+            bomb06.SetActive(true);  
+
+        }
+        catch 
+        {
+             Debug.Log("Proces zatrzymany");
+
+        }
+        
+
+    }
+        
+        
+    public void EnablingBomb7()
+    {
+        try
+        {
+             bomb07.SetActive(true);
+        }
+        catch 
+        {
+             Debug.Log("Proces zatrzymany");
+            
+        }
+       
+
+    } 
+    public void EnablingBomb8() 
+    {
+        try
+        {
+            bomb08.SetActive(true);
+        }
+        catch
+        {
+            
+            Debug.Log("Proces zatrzymany");
+           
+        }
+
+    } 
+    public void EnablingBomb9() 
+    {
+        try
+        {
+           bomb09.SetActive(true); 
+        }
+        catch 
+        {
+             Debug.Log("Proces zatrzymany");
+           
+        }
+
+
+    } 
+    public void EnablingBomb10()
+    {
+        try
+        {
+            bomb10.SetActive(true);
+        }
+        catch 
+        {
+           Debug.Log("Proces zatrzymany");
+
+        }
+         
+
+
+    } 
+
+    public void EnablingBomb11() 
+    {
+        try
+        {
+            bomb11.SetActive(true);
+        }
+        catch 
+        {
+            Debug.Log("Proces zatrzymany");     
+            
+        }
+    } 
+    public void EnablingBomb12()
+    {
+
+        try
+        {
+            bomb12.SetActive(true);
+        }
+        catch 
+        {
+            Debug.Log("Proces zatrzymany");     
+         
+        }
+
+    } 
+
+    public void EnablingBomb13()
+    {
+        try
+        {
+            bomb13.SetActive(true);
+        }
+        catch 
+        {
+             Debug.Log("Proces zatrzymany");
+            
+        }
+
+    }
+    public void EnablingBomb14() 
+    {
+        try
+        {
+            bomb14.SetActive(true);
+        }
+        catch 
+        {
+            Debug.Log("Proces zatrzymany");
+            
+        }
+
+
+    } 
+    public void EnablingBomb15() 
+    {
+        try
+        {
+            bomb15.SetActive(true);
+        }
+        catch 
+        {
+            Debug.Log("Proces zatrzymany");
+
+        }
+
+
+
+    } 
+    public void EnablingBomb16() 
+    {
+        try
+        {
+            bomb16.SetActive(true);
+        }
+        catch 
+        {
+            
+            Debug.Log("Proces zatrzymany");
+           
+        }
+    } 
+    public void EnablingBomb17() 
+    {
+
+        try
+        {
+            bomb17.SetActive(true);
+        }
+        catch 
+        {
+            Debug.Log("Proces zatrzymany");
+            
+        }
+
+    } 
+    public void EnablingBomb18() 
+    {
+        try
+        {
+            bomb18.SetActive(true);
+        }
+        catch 
+        {
+             Debug.Log("Proces zatrzymany");
+            
+        }
+
+    } 
+    public void EnablingBomb19() 
+    {
+        try
+        {
+            bomb19.SetActive(true);
+        }
+        catch 
+        {
+             
+             Debug.Log("Proces zatrzymany");
+            
+        }
+
+    } 
+    public void EnablingBomb20()  
+    {
+        try
+        {
+            bomb20.SetActive(true);
+        }
+        catch 
+        {
+             Debug.Log("Proces zatrzymany");
+            
+        }
+
+    } 
+    public void EnablingBomb21() 
+    {
+        try
+        {
+          bomb21.SetActive(true);
+
+        }
+        catch 
+        {
+          Debug.Log("Proces zatrzymany");
+            
+        }
+
+    } 
 
     public void Update()
     {
         if(checker.Enemy1 == null)
         {
+            try 
+            {
+                bomb01.SetActive(false);
+                bomb03.SetActive(false);
+                bomb09.SetActive(false);
+                bomb10.SetActive(false);
+            }
+            catch
+            {
 
-            bomb01.SetActive(false);
-            bomb03.SetActive(false);
-            bomb09.SetActive(false);
-            bomb10.SetActive(false);
+                Debug.Log("Obiekt został zniszczony");
+
+            }
+            
+            
         
 
         }
          if(checker.Enemy2 == null)
         {
+            try 
+            {
+                bomb02.SetActive(false);
 
-            bomb02.SetActive(false);
+            } 
+            catch
+            {
+
+                Debug.Log("Obiekt został zniszczony");
+
+            }
+
+            
             
         
 
@@ -107,40 +421,96 @@ public class BombInvoke : MonoBehaviour
         if(checker.Enemy3 == null)
         {
 
-            bomb11.SetActive(false);
-            bomb12.SetActive(false);
-            bomb20.SetActive(false);
+            try 
+            {
+                 bomb11.SetActive(false);
+                 bomb12.SetActive(false);
+                 bomb20.SetActive(false);
+
+            }
+            catch 
+            {
+                
+                Debug.Log("Obiekt został zniszczony");
+
+            }
+           
         
 
         }
         if(checker.Enemy4 == null)
         {
-
-            bomb13.SetActive(false);
-            bomb21.SetActive(false);
+            try 
+            {
+                bomb13.SetActive(false);
+                bomb21.SetActive(false);
+            }
+            catch 
+            {
+                
+                Debug.Log("Obiekt został zniszczony");
+                
+            }
+            
 
         }
          if(checker.Enemy5 == null)
         {
 
-            bomb04.SetActive(false);
+            try 
+            {
+            
+             bomb04.SetActive(false);
+
+
+            }
+            catch 
+            {
+
+                Debug.Log("Obiekt został zniszczony");
+
+            }
+           
             
         
 
         }
 
-           if(checker.Enemy6 == null)
+        if(checker.Enemy6 == null)
         {
+            try 
 
-            bomb05.SetActive(false);
-            bomb19.SetActive(false);
+            {
+                  bomb05.SetActive(false);
+                  bomb19.SetActive(false);
+
+            }
+            catch 
+            {
+               
+                Debug.Log("Obiekt został zniszczony");
+
+            }
+
+          
 
         }
          if(checker.Enemy7 == null)
         {
 
-            bomb06.SetActive(false);
-            bomb14.SetActive(false);
+            try 
+            {
+                bomb06.SetActive(false);
+                bomb14.SetActive(false);
+
+            }
+            catch 
+            {
+                Debug.Log("Obiekt został zniszczony");
+
+
+            }
+            
             
         
 
@@ -148,7 +518,18 @@ public class BombInvoke : MonoBehaviour
           if(checker.Enemy8 == null)
         {
 
-            bomb18.SetActive(false);
+            try 
+            {
+                bomb18.SetActive(false);
+
+            }
+            catch
+            {
+                Debug.Log("Obiekt został zniszczony");
+
+
+            }
+            
             
             
         
@@ -158,16 +539,37 @@ public class BombInvoke : MonoBehaviour
          if(checker.Enemy9 == null)
         {
 
-            bomb15.SetActive(false);
-            bomb16.SetActive(false);
+            try 
+            {
+                bomb15.SetActive(false);
+                bomb16.SetActive(false);
+
+            }
+            catch
+            {
+                Debug.Log("Obiekt został zniszczony");
+                
+            }
+
+
         
 
         }
          if(checker.Enemy10 == null)
         {
 
-            bomb07.SetActive(false);
-            bomb17.SetActive(false);
+            try 
+            {
+                bomb07.SetActive(false);
+                bomb17.SetActive(false);
+
+            }
+            catch
+            {
+                 Debug.Log("Obiekt został zniszczony");
+
+            }
+            
             
         
 
@@ -175,8 +577,19 @@ public class BombInvoke : MonoBehaviour
 
           if(checker.Enemy12 == null)
         {
+            try 
+            {
 
-            bomb08.SetActive(false);
+                bomb08.SetActive(false);
+            }
+
+            catch
+            {
+                 Debug.Log("Obiekt został zniszczony");
+
+
+            }
+            
             
         
 
