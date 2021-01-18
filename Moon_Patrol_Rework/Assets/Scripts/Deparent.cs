@@ -20,24 +20,33 @@ public class Deparent : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        if(itsActive.activeSelf == true)
+        try 
         {
+            if(itsActive.activeSelf == true)
+            {  
 
-            gameObject.transform.parent = Enemies.transform;
+                gameObject.transform.parent = Enemies.transform;
 
            
 
 
-        }
+            }
 
-        if (gameObject.transform.parent == Enemies.transform)
+                if (gameObject.transform.parent == Enemies.transform)
         
-        {
-            Destroy(this.gameObject, 2);
+                {
+                 Destroy(this.gameObject, 2);
 
+
+                }
 
         }
+        catch
+        {
+
+            Debug.Log("Błąd");
+        }
+        
         
     }
 }

@@ -54,6 +54,8 @@ public class DestroyObject : MonoBehaviour
                 {
                  counter.IncrementCounter100();
 
+                 Debug.Log("Przyznano punkty");
+
                 
                  }
                 else if (objectType.gameObject.tag =="Points200")
