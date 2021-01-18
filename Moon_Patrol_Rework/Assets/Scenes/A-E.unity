@@ -2114,6 +2114,8 @@ GameObject:
   - component: {fileID: 256607211}
   - component: {fileID: 256607209}
   - component: {fileID: 256607210}
+  - component: {fileID: 256607214}
+  - component: {fileID: 256607213}
   m_Layer: 0
   m_Name: dziura2_mala (2)
   m_TagString: Respawn
@@ -2322,6 +2324,44 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &256607213
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256607207}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 2.6334047, y: 2.3847091}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.89, y: 3.01}
+    newSize: {x: 5.89, y: 3.01}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.6231899, y: 7.7794175}
+  m_EdgeRadius: 0
+--- !u!114 &256607214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256607207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519892de34977064b867bfcc103cab12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &262795244
 GameObject:
   m_ObjectHideFlags: 0
@@ -4794,6 +4834,8 @@ GameObject:
   - component: {fileID: 511407968}
   - component: {fileID: 511407969}
   - component: {fileID: 511407970}
+  - component: {fileID: 511407972}
+  - component: {fileID: 511407971}
   m_Layer: 0
   m_Name: dziura1_duza
   m_TagString: Respawn
@@ -4987,6 +5029,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scenesName: A-E
+--- !u!61 &511407971
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511407965}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 2.187317, y: 1.4669418}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.76, y: 3.24}
+    newSize: {x: 3.76, y: 3.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.52137756, y: 6.1738834}
+  m_EdgeRadius: 0
+--- !u!114 &511407972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511407965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519892de34977064b867bfcc103cab12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &518332577 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4894654190123710849, guid: 20e84f46b33994b268fa39cacac704f3,
@@ -7401,7 +7481,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 722048747}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 40.62, y: -5.5, z: -2.2207031}
+  m_LocalPosition: {x: 40.62, y: -6.86, z: -2.2207031}
   m_LocalScale: {x: 1.63, y: 1, z: 1}
   m_Children:
   - {fileID: 1504041970}
@@ -7693,6 +7773,76 @@ Transform:
   - {fileID: 889092331}
   m_Father: {fileID: 2028839822}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &747391498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 747391501}
+  - component: {fileID: 747391500}
+  - component: {fileID: 747391499}
+  m_Layer: 0
+  m_Name: Next_Scene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &747391499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747391498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa7079d8b7f148d449f94590ee6ce372, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &747391500
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747391498}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 2.64499}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 7.8999767}
+  m_EdgeRadius: 0
+--- !u!4 &747391501
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747391498}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 524.11, y: -2.91, z: -13.796875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &758985912
 GameObject:
@@ -8662,6 +8812,8 @@ GameObject:
   - component: {fileID: 875540742}
   - component: {fileID: 875540740}
   - component: {fileID: 875540741}
+  - component: {fileID: 875540745}
+  - component: {fileID: 875540744}
   m_Layer: 0
   m_Name: dziura1_duza (2)
   m_TagString: Respawn
@@ -8855,6 +9007,44 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &875540744
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875540738}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1.712606, y: 1.4176979}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.76, y: 3.24}
+    newSize: {x: 3.76, y: 3.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.33478832, y: 6.0753956}
+  m_EdgeRadius: 0
+--- !u!114 &875540745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875540738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519892de34977064b867bfcc103cab12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &889092330
 GameObject:
   m_ObjectHideFlags: 0
@@ -11417,6 +11607,8 @@ GameObject:
   - component: {fileID: 1180838104}
   - component: {fileID: 1180838102}
   - component: {fileID: 1180838103}
+  - component: {fileID: 1180838107}
+  - component: {fileID: 1180838106}
   m_Layer: 0
   m_Name: dziura2_mala (3)
   m_TagString: Respawn
@@ -11625,6 +11817,44 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1180838106
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180838100}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1.9818606, y: 2.412512}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.89, y: 3.01}
+    newSize: {x: 5.89, y: 3.01}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.60502577, y: 7.8350244}
+  m_EdgeRadius: 0
+--- !u!114 &1180838107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180838100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519892de34977064b867bfcc103cab12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1183889329
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15360,6 +15590,8 @@ GameObject:
   - component: {fileID: 1556506211}
   - component: {fileID: 1556506213}
   - component: {fileID: 1556506214}
+  - component: {fileID: 1556506216}
+  - component: {fileID: 1556506215}
   m_Layer: 0
   m_Name: dziura2_mala
   m_TagString: Respawn
@@ -15568,6 +15800,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scenesName: A-E
+--- !u!61 &1556506215
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556506209}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 2.2070627, y: 2.0715885}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.89, y: 3.01}
+    newSize: {x: 5.89, y: 3.01}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.30365658, y: 7.1531763}
+  m_EdgeRadius: 0
+--- !u!114 &1556506216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556506209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519892de34977064b867bfcc103cab12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1565261307
 GameObject:
   m_ObjectHideFlags: 0
@@ -17891,6 +18161,8 @@ GameObject:
   - component: {fileID: 1800201789}
   - component: {fileID: 1800201787}
   - component: {fileID: 1800201788}
+  - component: {fileID: 1800201792}
+  - component: {fileID: 1800201791}
   m_Layer: 0
   m_Name: dziura2_mala (1)
   m_TagString: Respawn
@@ -18099,6 +18371,44 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1800201791
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800201785}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 2.6847994, y: 2.712116}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.89, y: 3.01}
+    newSize: {x: 5.89, y: 3.01}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5204005, y: 8.434231}
+  m_EdgeRadius: 0
+--- !u!114 &1800201792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800201785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519892de34977064b867bfcc103cab12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1804137598
 GameObject:
   m_ObjectHideFlags: 0
@@ -19537,6 +19847,8 @@ GameObject:
   - component: {fileID: 2059285494}
   - component: {fileID: 2059285492}
   - component: {fileID: 2059285493}
+  - component: {fileID: 2059285497}
+  - component: {fileID: 2059285496}
   m_Layer: 0
   m_Name: dziura2_mala (4)
   m_TagString: Respawn
@@ -19745,6 +20057,44 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2059285496
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059285490}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 2.344678, y: 2.8171172}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.89, y: 3.01}
+    newSize: {x: 5.89, y: 3.01}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.2006435, y: 8.644234}
+  m_EdgeRadius: 0
+--- !u!114 &2059285497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059285490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519892de34977064b867bfcc103cab12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2065221879
 GameObject:
   m_ObjectHideFlags: 0
@@ -20596,7 +20946,7 @@ PrefabInstance:
     - target: {fileID: 8314590120892315368, guid: 4ab707db26347e14c947c1139661dd12,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.71
+      value: -1.54
       objectReference: {fileID: 0}
     - target: {fileID: 8314590120892315368, guid: 4ab707db26347e14c947c1139661dd12,
         type: 3}

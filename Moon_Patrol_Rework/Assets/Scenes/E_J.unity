@@ -2636,6 +2636,8 @@ GameObject:
   - component: {fileID: 279054804}
   - component: {fileID: 279054801}
   - component: {fileID: 279054805}
+  - component: {fileID: 279054807}
+  - component: {fileID: 279054806}
   m_Layer: 0
   m_Name: dziura duza
   m_TagString: Untagged
@@ -2869,6 +2871,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7079d8b7f148d449f94590ee6ce372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &279054806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279054800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519892de34977064b867bfcc103cab12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &279054807
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279054800}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 2.339943, y: 2.586557}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.17, y: 3.13}
+    newSize: {x: 8.17, y: 3.13}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.50709534, y: 8.303115}
+  m_EdgeRadius: 0
 --- !u!1 &281092780
 GameObject:
   m_ObjectHideFlags: 0
@@ -5284,6 +5324,8 @@ GameObject:
   - component: {fileID: 501369075}
   - component: {fileID: 501369078}
   - component: {fileID: 501369079}
+  - component: {fileID: 501369081}
+  - component: {fileID: 501369080}
   m_Layer: 0
   m_Name: dziura duza (1)
   m_TagString: Untagged
@@ -5518,6 +5560,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7079d8b7f148d449f94590ee6ce372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &501369080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501369074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519892de34977064b867bfcc103cab12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &501369081
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501369074}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 2.9145508, y: 2.2945204}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.17, y: 3.13}
+    newSize: {x: 8.17, y: 3.13}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.45251465, y: 7.719041}
+  m_EdgeRadius: 0
 --- !u!1 &506081500
 GameObject:
   m_ObjectHideFlags: 0
@@ -7604,7 +7684,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 745014907}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 40.62, y: -5.5, z: -2.2207031}
+  m_LocalPosition: {x: 40.62, y: -6.35, z: -2.2207031}
   m_LocalScale: {x: 1.63, y: 1, z: 1}
   m_Children:
   - {fileID: 2079583846}
@@ -10430,6 +10510,8 @@ GameObject:
   - component: {fileID: 1139193518}
   - component: {fileID: 1139193521}
   - component: {fileID: 1139193522}
+  - component: {fileID: 1139193524}
+  - component: {fileID: 1139193523}
   m_Layer: 0
   m_Name: dziura duza (4)
   m_TagString: Untagged
@@ -10664,6 +10746,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7079d8b7f148d449f94590ee6ce372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1139193523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139193517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519892de34977064b867bfcc103cab12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1139193524
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139193517}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 2.9351807, y: 2.7868178}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.17, y: 3.13}
+    newSize: {x: 8.17, y: 3.13}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.21972656, y: 8.703636}
+  m_EdgeRadius: 0
 --- !u!1001 &1148996934
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14825,6 +14945,8 @@ GameObject:
   - component: {fileID: 1422825394}
   - component: {fileID: 1422825393}
   - component: {fileID: 1422825396}
+  - component: {fileID: 1422825398}
+  - component: {fileID: 1422825397}
   m_Layer: 0
   m_Name: dziura1_duza
   m_TagString: Untagged
@@ -14963,6 +15085,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7079d8b7f148d449f94590ee6ce372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1422825397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422825392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519892de34977064b867bfcc103cab12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1422825398
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422825392}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1.8447013, y: 2.5238824}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.76, y: 3.24}
+    newSize: {x: 3.76, y: 3.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.07059765, y: 8.287765}
+  m_EdgeRadius: 0
 --- !u!1 &1434132082
 GameObject:
   m_ObjectHideFlags: 0
@@ -15294,6 +15454,8 @@ GameObject:
   - component: {fileID: 1463851415}
   - component: {fileID: 1463851418}
   - component: {fileID: 1463851419}
+  - component: {fileID: 1463851421}
+  - component: {fileID: 1463851420}
   m_Layer: 0
   m_Name: dziura duza (3)
   m_TagString: Untagged
@@ -15528,6 +15690,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7079d8b7f148d449f94590ee6ce372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1463851420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463851414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519892de34977064b867bfcc103cab12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1463851421
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463851414}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 3.1030579, y: 2.6942437}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.17, y: 3.13}
+    newSize: {x: 8.17, y: 3.13}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.36236572, y: 8.518486}
+  m_EdgeRadius: 0
 --- !u!1001 &1464160438
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16259,6 +16459,8 @@ GameObject:
   - component: {fileID: 1515575932}
   - component: {fileID: 1515575931}
   - component: {fileID: 1515575934}
+  - component: {fileID: 1515575936}
+  - component: {fileID: 1515575935}
   m_Layer: 0
   m_Name: dziura1_duza (2)
   m_TagString: Untagged
@@ -16397,6 +16599,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7079d8b7f148d449f94590ee6ce372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1515575935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515575930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519892de34977064b867bfcc103cab12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1515575936
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515575930}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1.8234534, y: 1.7696118}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.76, y: 3.24}
+    newSize: {x: 3.76, y: 3.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.113093376, y: 6.7792234}
+  m_EdgeRadius: 0
 --- !u!1 &1542202397
 GameObject:
   m_ObjectHideFlags: 0
@@ -16555,6 +16795,8 @@ GameObject:
   - component: {fileID: 1591040854}
   - component: {fileID: 1591040856}
   - component: {fileID: 1591040853}
+  - component: {fileID: 1591040858}
+  - component: {fileID: 1591040857}
   m_Layer: 0
   m_Name: dziura1_duza (1)
   m_TagString: Untagged
@@ -16693,6 +16935,44 @@ PolygonCollider2D:
       - {x: 1.88, y: -1.62}
       - {x: 1.88, y: 0.87}
       - {x: 1.67, y: 0.88}
+--- !u!114 &1591040857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591040852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519892de34977064b867bfcc103cab12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1591040858
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591040852}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1.8091445, y: 2.4532323}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.76, y: 3.24}
+    newSize: {x: 3.76, y: 3.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.14171124, y: 8.146463}
+  m_EdgeRadius: 0
 --- !u!1001 &1620595672
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18332,6 +18612,76 @@ Transform:
   m_Father: {fileID: 1245811713}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1838451967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1838451970}
+  - component: {fileID: 1838451969}
+  - component: {fileID: 1838451968}
+  m_Layer: 0
+  m_Name: Next_Scene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1838451968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838451967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a105c00673ae6848b06260c425a14ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1838451969
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838451967}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.3022045}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 8.2528715}
+  m_EdgeRadius: 0
+--- !u!4 &1838451970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838451967}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 646.2534, y: 0.834812, z: -0.5175781}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1839676137
 GameObject:
   m_ObjectHideFlags: 0
@@ -19810,6 +20160,8 @@ GameObject:
   - component: {fileID: 2014743457}
   - component: {fileID: 2014743460}
   - component: {fileID: 2014743461}
+  - component: {fileID: 2014743463}
+  - component: {fileID: 2014743462}
   m_Layer: 0
   m_Name: dziura duza (2)
   m_TagString: Untagged
@@ -20044,6 +20396,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7079d8b7f148d449f94590ee6ce372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2014743462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014743456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519892de34977064b867bfcc103cab12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &2014743463
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014743456}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 2.8872833, y: 2.661642}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.17, y: 3.13}
+    newSize: {x: 8.17, y: 3.13}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.342865, y: 8.453283}
+  m_EdgeRadius: 0
 --- !u!1 &2017288285
 GameObject:
   m_ObjectHideFlags: 0
