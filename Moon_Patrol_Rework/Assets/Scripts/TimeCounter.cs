@@ -13,9 +13,12 @@ public class TimeCounter : MonoBehaviour
     private float startTime;
     string seconds;
     string minutes;
-    private int hiddenmin;
-    private int hiddensec;
-    private int timeSum;
+    string dozens;
+    string units; 
+    //private int hiddenmin;
+   // private int hiddendozens;
+   // private int hiddenunits;
+    //private int timeSum;
     string number;
     int i= 0;
     // Start is called before the first frame update
@@ -38,22 +41,33 @@ public class TimeCounter : MonoBehaviour
         
             float t = Time.time - startTime; 
 
-            hiddenmin = ((int) t / 60);
-            hiddensec = ((int)t % 60);
-            minutes = ((int) t / 60).ToString();
-            seconds = ((int)t % 60).ToString();
+           // hiddenmin = ((int) t / 100);
+           // hiddendozens = ((int)t / 10);
+           // hiddenunits = ((int)t % 10);
+            minutes = ((int) t / 100).ToString();
+            dozens = ((int)t / 10).ToString();
+            units = ((int)t % 10).ToString();
 
-            timeCounter.text = minutes + seconds;
+            if (dozens =="10")
+            {
+
+                dozens = "0"; 
+
+            }    
+
+            timeCounter.text = minutes + dozens + units;
             
-            timeSum = hiddenmin + hiddensec;
+           // timeSum = hiddenmin + hiddendozens + hiddenunits;
             
 
         }
 
         else
         {
+
+              finalTime.text = minutes + dozens + units;
             
-            if(i <= timeSum)
+            /*if(i <= timeSum)
            {
                 number=i.ToString();
 
@@ -61,7 +75,7 @@ public class TimeCounter : MonoBehaviour
                 i++;  
             
            }
-
+            */
                 
 
 
