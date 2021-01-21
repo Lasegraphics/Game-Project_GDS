@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DestroyObject : MonoBehaviour
 {
-
+   public GameObject Animation;
    public GameObject objectType;
    Counter counter;
   
@@ -40,7 +40,7 @@ public class DestroyObject : MonoBehaviour
         if(other.gameObject.tag == "Bullet")
         {
             Destroy(this.gameObject);
-
+            Animation.SetActive(true);
             counter.CheckingPoints();
 
            

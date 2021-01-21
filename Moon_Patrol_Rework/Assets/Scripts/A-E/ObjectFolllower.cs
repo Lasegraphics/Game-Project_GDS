@@ -2,27 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ItsActiveSton : MonoBehaviour
+public class ObjectFolllower : MonoBehaviour
 {
-
-    public float destroyTime = 0.5f;
     // Start is called before the first frame update
+    public GameObject Enemy;
     void Start()
     {
-        gameObject.SetActive(false);
         
-
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(gameObject.activeSelf == true)
-        {
-
-            Destroy(gameObject, destroyTime);
-
-        }
-        
+        transform.position = new Vector3(Enemy.transform.position.x, Enemy.transform.position.y, transform.position.z);
     }
+        
 }
