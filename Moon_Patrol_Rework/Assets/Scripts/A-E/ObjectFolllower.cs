@@ -13,8 +13,20 @@ public class ObjectFolllower : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {   
+        try
+        {
+        
         transform.position = new Vector3(Enemy.transform.position.x, Enemy.transform.position.y, transform.position.z);
+
+        }
+
+        catch
+        {
+            Debug.Log("Enemy was destroyed");
+        }
+
+
     }
         
 }
