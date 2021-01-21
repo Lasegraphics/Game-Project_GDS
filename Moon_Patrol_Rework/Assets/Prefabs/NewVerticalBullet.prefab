@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 5009120057069491958}
   - component: {fileID: 7381158952340200628}
   - component: {fileID: 1366287572281896192}
+  - component: {fileID: -3890837704671488737}
   m_Layer: 0
   m_Name: NewVerticalBullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104,3 +105,34 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!60 &-3890837704671488737
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5099416500586357527}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.08, y: 0.16002749}
+    newSize: {x: 0.08, y: 0.16002749}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.03877688, y: 0.082825616}
+      - {x: -0.03877688, y: -0.059552304}
+      - {x: -0.016872585, y: -0.0814566}
+      - {x: 0.037888154, y: -0.0814566}
+      - {x: 0.059792448, y: -0.059552304}
+      - {x: 0.059792448, y: 0.082825616}
