@@ -1,0 +1,1139 @@
+fileFormatVersion: 2
+guid: 46a0e755f3aa05a4aa021fe7f9a9ca58
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -738858827917764740
+    second: assety 001 car_0
+  - first:
+      213: -705037853260310972
+    second: assety 001 car_1
+  - first:
+      213: -8340209761150621690
+    second: assety 001 car_2
+  - first:
+      213: -7282579516033936589
+    second: assety 001 car_3
+  - first:
+      213: -4677937456548150907
+    second: assety 001 car_4
+  - first:
+      213: 6814838059940805003
+    second: assety 001 car_5
+  - first:
+      213: 517731970397083920
+    second: assety 001 car_6
+  - first:
+      213: 7892910517808183323
+    second: assety 001 car_7
+  - first:
+      213: -3398166159303654855
+    second: assety 001 car_8
+  - first:
+      213: -6596825071448284016
+    second: assety 001 car_9
+  - first:
+      213: -5058139728028000729
+    second: assety 001 car_10
+  - first:
+      213: 3803237577130630102
+    second: assety 001 car_11
+  - first:
+      213: 8829196178328626016
+    second: assety 001 car_12
+  - first:
+      213: 1223545546083623414
+    second: assety 001 car_13
+  - first:
+      213: -4681336431231034839
+    second: assety 001 car_14
+  - first:
+      213: 433106439641737586
+    second: assety 001 car_15
+  - first:
+      213: 7776010815950094339
+    second: assety 001 car_16
+  - first:
+      213: 737779232210113693
+    second: assety 001 car_17
+  - first:
+      213: 5947570476007572180
+    second: assety 001 car_18
+  - first:
+      213: -2702444639041043896
+    second: assety 001 car_19
+  - first:
+      213: 4938540487974187170
+    second: assety 001 car_20
+  - first:
+      213: 6773085081151560259
+    second: assety 001 car_21
+  - first:
+      213: 2996738967591871375
+    second: assety 001 car_22
+  - first:
+      213: 2410195304758060585
+    second: assety 001 car_23
+  - first:
+      213: -1274085694013996889
+    second: assety 001 car_24
+  - first:
+      213: -4507958547140462872
+    second: assety 001 car_25
+  - first:
+      213: -3506744861221285572
+    second: assety 001 car_26
+  - first:
+      213: 8339722235009847612
+    second: assety 001 car_27
+  - first:
+      213: -4830906731262174721
+    second: assety 001 car_28
+  - first:
+      213: -3495342018840337317
+    second: assety 001 car_29
+  - first:
+      213: 2787803293285330332
+    second: assety 001 car_30
+  - first:
+      213: -266621021886524395
+    second: assety 001 car_31
+  - first:
+      213: 1924332001431746176
+    second: assety 001 car_32
+  - first:
+      213: 5731164815241425570
+    second: assety 001 car_33
+  - first:
+      213: 8421074585487667910
+    second: assety 001 car_34
+  - first:
+      213: -2337626368831991692
+    second: assety 001 car_35
+  - first:
+      213: -4716565112688035306
+    second: assety 001 car_36
+  - first:
+      213: 3551157016046841377
+    second: assety 001 car_37
+  - first:
+      213: 3889625242707087499
+    second: assety 001 car_38
+  - first:
+      213: -325172831910111287
+    second: assety 001 car_39
+  - first:
+      213: -5600588098952661009
+    second: assety 001 car_40
+  - first:
+      213: -797980551087159875
+    second: assety 001 car_41
+  - first:
+      213: 8211019365290478010
+    second: assety 001 car_42
+  - first:
+      213: 5402368259028061743
+    second: assety 001 car_43
+  - first:
+      213: 5031932382215823067
+    second: assety 001 car_44
+  - first:
+      213: -3361657321158737699
+    second: assety 001 car_45
+  - first:
+      213: 2523129461757279472
+    second: assety 001 car_46
+  - first:
+      213: 959596394258293648
+    second: assety 001 car_47
+  - first:
+      213: 969742321904762245
+    second: assety 001 car_48
+  - first:
+      213: -4001546318665344149
+    second: assety 001 car_49
+  - first:
+      213: 2697208372192676826
+    second: assety 001 car_50
+  - first:
+      213: 2489395667337048470
+    second: assety 001 car_51
+  - first:
+      213: 5892627088162036351
+    second: assety 001 car_52
+  - first:
+      213: 7276931672621254991
+    second: assety 001 car_53
+  - first:
+      213: -407970665677659572
+    second: assety 001 car_54
+  - first:
+      213: -8248385971434913466
+    second: assety 001 car_55
+  - first:
+      213: -2176566011727328266
+    second: assety 001 car_56
+  - first:
+      213: -9001221786479220127
+    second: assety 001 car_57
+  - first:
+      213: 5049785787419606464
+    second: assety 001 car_58
+  - first:
+      213: 3984250270348164480
+    second: assety 001 car_59
+  - first:
+      213: 1255030244460199778
+    second: assety 001 car_60
+  - first:
+      213: 1819792056556567380
+    second: assety 001 car_61
+  - first:
+      213: 1681679236473527286
+    second: assety 001 car_62
+  - first:
+      213: 11554699905114175
+    second: assety 001 car_63
+  - first:
+      213: -6697282616863135552
+    second: assety 001 car_64
+  - first:
+      213: -570618155999591782
+    second: assety 001 car_65
+  - first:
+      213: -7656564301150874705
+    second: assety 001 car_66
+  - first:
+      213: 3879621221648273898
+    second: assety 001 car_67
+  - first:
+      213: -6856184715032330464
+    second: assety 001 car_68
+  - first:
+      213: -3191723586869528367
+    second: assety 001 car_69
+  - first:
+      213: 3602264501261919347
+    second: assety 001 car_70
+  - first:
+      213: -1813463558589735516
+    second: assety 001 car_71
+  - first:
+      213: -2082290018365373354
+    second: assety 001 car_72
+  - first:
+      213: -4967511412369200963
+    second: assety 001 car_73
+  - first:
+      213: 8217665651697822287
+    second: assety 001 car_74
+  - first:
+      213: -5191260916667384891
+    second: assety 001 car_75
+  - first:
+      213: 7368028609369204698
+    second: assety 001 car_76
+  - first:
+      213: -5988855639697391971
+    second: assety 001 car_77
+  - first:
+      213: -7403963845175241513
+    second: assety 001 car_78
+  - first:
+      213: -6184579438946230116
+    second: assety 001 car_79
+  - first:
+      213: 3902170097955848007
+    second: assety 001 car_80
+  - first:
+      213: 2977890490760295167
+    second: assety 001 car_81
+  - first:
+      213: -8518157201121139935
+    second: assety 001 car_82
+  - first:
+      213: 9152103305581978863
+    second: assety 001 car_83
+  - first:
+      213: -2161759680482315072
+    second: assety 001 car_84
+  - first:
+      213: 6688096361776016761
+    second: assety 001 car_85
+  - first:
+      213: -7170223566690825992
+    second: assety 001 car_86
+  - first:
+      213: 4136086680362896930
+    second: assety 001 car_87
+  - first:
+      213: -7472306835736949398
+    second: assety 001 car_88
+  - first:
+      213: 2525102780716031465
+    second: assety 001 car_89
+  - first:
+      213: -6331234995153282142
+    second: assety 001 car_90
+  - first:
+      213: 8911266318345461889
+    second: assety 001 car_91
+  - first:
+      213: -7440474281366095044
+    second: assety 001 car_92
+  - first:
+      213: -259297044081667113
+    second: assety 001 car_93
+  - first:
+      213: 5977477339049258939
+    second: assety 001 car_94
+  - first:
+      213: -4393990664236479419
+    second: assety 001 car_95
+  - first:
+      213: 2764308119396851649
+    second: assety 001 car_96
+  - first:
+      213: -9178105796152359843
+    second: assety 001 car_97
+  - first:
+      213: -1291560412754340838
+    second: assety 001 car_98
+  - first:
+      213: -297446032130641232
+    second: assety 001 car_99
+  - first:
+      213: 6928316253066935644
+    second: assety 001 car_100
+  - first:
+      213: -4615162552039097343
+    second: assety 001 car_101
+  - first:
+      213: -205626051448405569
+    second: assety 001 car_102
+  - first:
+      213: -5282778809268754201
+    second: assety 001 car_103
+  - first:
+      213: 7689271262129229868
+    second: assety 001 car_104
+  - first:
+      213: 1507790767198465524
+    second: assety 001 car_105
+  - first:
+      213: -1309313622433248664
+    second: assety 001 car_106
+  - first:
+      213: 2864798563639519907
+    second: assety 001 car_107
+  - first:
+      213: -5633846005318446353
+    second: assety 001 car_108
+  - first:
+      213: -88733755147791477
+    second: assety 001 car_109
+  - first:
+      213: -996114003854107638
+    second: assety 001 car_110
+  - first:
+      213: -7216110470537354961
+    second: assety 001 car_111
+  - first:
+      213: 4600287090915774479
+    second: assety 001 car_112
+  - first:
+      213: 8071488225431250361
+    second: assety 001 car_113
+  - first:
+      213: 1140420909796837979
+    second: assety 001 car_114
+  - first:
+      213: 8808673284852096815
+    second: assety 001 car_115
+  - first:
+      213: 1768981263221614647
+    second: assety 001 car_116
+  - first:
+      213: -8037206661332620486
+    second: assety 001 car_117
+  - first:
+      213: -2292722206857193907
+    second: assety 001 car_118
+  - first:
+      213: 8651621132250958289
+    second: assety 001 car_119
+  - first:
+      213: 4216788979587192707
+    second: assety 001 car_120
+  - first:
+      213: 495291697923066708
+    second: assety 001 car_121
+  - first:
+      213: -3811416860455175250
+    second: assety 001 car_122
+  - first:
+      213: 5185389045507064815
+    second: assety 001 car_123
+  - first:
+      213: -7815267265821763721
+    second: assety 001 car_124
+  - first:
+      213: 2948537466220270158
+    second: assety 001 car_125
+  - first:
+      213: -29978368391420139
+    second: assety 001 car_126
+  - first:
+      213: -2847168312677257222
+    second: assety 001 car_127
+  - first:
+      213: -3585036219315590975
+    second: assety 001 car_128
+  - first:
+      213: 8928149910302557215
+    second: assety 001 car_129
+  - first:
+      213: 6183636979902723828
+    second: assety 001 car_130
+  - first:
+      213: 5769377579086802876
+    second: assety 001 car_131
+  - first:
+      213: -4076053350270068895
+    second: assety 001 car_132
+  - first:
+      213: 8493127158639126361
+    second: assety 001 car_133
+  - first:
+      213: 804208007406043717
+    second: assety 001 car_134
+  - first:
+      213: 6630858203901114275
+    second: assety 001 car_135
+  - first:
+      213: -4631791818394255295
+    second: assety 001 car_136
+  - first:
+      213: 5145147867166080055
+    second: assety 001 car_137
+  - first:
+      213: -5129222836641584157
+    second: assety 001 car_138
+  - first:
+      213: -1695862193813540190
+    second: assety 001 car_139
+  - first:
+      213: -1420317297300937609
+    second: assety 001 car_140
+  - first:
+      213: 1428953151714439126
+    second: assety 001 car_141
+  - first:
+      213: 4578149150697118398
+    second: assety 001 car_142
+  - first:
+      213: -3663298084718581951
+    second: assety 001 car_143
+  - first:
+      213: 1694203434479412027
+    second: assety 001 car_144
+  - first:
+      213: 6845430782054810817
+    second: assety 001 car_145
+  - first:
+      213: -6914991120663047210
+    second: assety 001 car_146
+  - first:
+      213: 1055978563136789278
+    second: assety 001 car_147
+  - first:
+      213: -5603739242803147605
+    second: assety 001 car_148
+  - first:
+      213: -2230139336171889372
+    second: assety 001 car_149
+  - first:
+      213: -601475960504394441
+    second: assety 001 car_150
+  - first:
+      213: -5797698578375116472
+    second: assety 001 car_151
+  - first:
+      213: -182967341253215444
+    second: assety 001 car_152
+  - first:
+      213: 3654401285980602756
+    second: assety 001 car_153
+  - first:
+      213: 521540228633981941
+    second: assety 001 car_154
+  - first:
+      213: -6355781996083036356
+    second: assety 001 car_155
+  - first:
+      213: 7750502006839263049
+    second: assety 001 car_156
+  - first:
+      213: -2770670472139083445
+    second: assety 001 car_157
+  - first:
+      213: -8349940727864787896
+    second: assety 001 car_158
+  - first:
+      213: -3418527674149762493
+    second: assety 001 car_159
+  - first:
+      213: 98341373383723322
+    second: assety 001 car_160
+  - first:
+      213: 5258428804845646115
+    second: assety 001 car_161
+  - first:
+      213: 8259933841888055973
+    second: assety 001 car_162
+  - first:
+      213: -8422661063397915007
+    second: assety 001 car_163
+  - first:
+      213: -2749172234176947201
+    second: assety 001 car_164
+  - first:
+      213: -6469039502802058710
+    second: assety 001 car_165
+  - first:
+      213: -7513267703464148317
+    second: assety 001 car_166
+  - first:
+      213: 481647024864542686
+    second: assety 001 car_167
+  - first:
+      213: -332647351958636120
+    second: assety 001 car_168
+  - first:
+      213: 6891536877435466382
+    second: assety 001 car_169
+  - first:
+      213: 4195148220083340246
+    second: assety 001 car_170
+  - first:
+      213: -5370542024602840752
+    second: assety 001 car_171
+  - first:
+      213: -5641553170451842462
+    second: assety 001 car_172
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: assety 001 car_5
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 954
+        width: 277
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b897594eb1b239e50800000000000000
+      internalID: 6814838059940805003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 001 car_12
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1148
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063a385252b978a70800000000000000
+      internalID: 8829196178328626016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 001 car_14
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1094
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a116e815d880fb0800000000000000
+      internalID: -4681336431231034839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 001 car_15
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 939
+        width: 258
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279a7cc1304b20600800000000000000
+      internalID: 433106439641737586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 001 car_16
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1054
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3000d4653a0f9eb60800000000000000
+      internalID: 7776010815950094339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 001 car_17
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 877
+        width: 267
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d945b828d4e1d3a00800000000000000
+      internalID: 737779232210113693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 001 car_18
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 887
+        width: 118
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2480b16d30a8250800000000000000
+      internalID: 5947570476007572180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 001 car_25
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 910
+        width: 71
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6b187e5938071c0800000000000000
+      internalID: -4507958547140462872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 001 car_26
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 926
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c319af4d02a855fc0800000000000000
+      internalID: -3506744861221285572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 001 car_27
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 923
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31503fdf25acb370800000000000000
+      internalID: 8339722235009847612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 001 car_31
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 931
+        width: 44
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5145dccd795cc4cf0800000000000000
+      internalID: -266621021886524395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 001 car_33
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 931
+        width: 49
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2bea1d800398f40800000000000000
+      internalID: 5731164815241425570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 001 car_50
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 774
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb01cd59b86e6520800000000000000
+      internalID: 2697208372192676826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 001 car_51
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 771
+        width: 64
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69175098b2c1c8220800000000000000
+      internalID: 2489395667337048470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 001 car_52
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 774
+        width: 54
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a1ebfbd11d6c150800000000000000
+      internalID: 5892627088162036351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 001 car_53
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 776
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4901692dcadcf460800000000000000
+      internalID: 7276931672621254991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 001 car_74
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 442
+        width: 484
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4aa0640f530b0270800000000000000
+      internalID: 8217665651697822287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 001 car_89
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 420
+        width: 525
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed1ee9b997fa0320800000000000000
+      internalID: 2525102780716031465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 001 car_97
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 454
+        width: 272
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d548265f761d0a080800000000000000
+      internalID: -9178105796152359843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 001 car_104
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 413
+        width: 540
+        height: 329
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2015d03977c5ba60800000000000000
+      internalID: 7689271262129229868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 001 car_155
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 119
+        width: 441
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fb5ade2f9bbc7a0800000000000000
+      internalID: -6355781996083036356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 001 car_161
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 103
+        width: 434
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321b18d3321b9f840800000000000000
+      internalID: 5258428804845646115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 001 car_169
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 139
+        width: 198
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82bb00f648a3af50800000000000000
+      internalID: 6891536877435466382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 001 car_170
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 144
+        width: 55
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d30e2e4419283a30800000000000000
+      internalID: 4195148220083340246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

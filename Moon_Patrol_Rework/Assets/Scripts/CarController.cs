@@ -8,6 +8,7 @@ public class CarController : MonoBehaviour
     public Rigidbody2D carRigidbody;
     public Rigidbody2D backTire;
     public Rigidbody2D frontTire;
+    public Rigidbody2D middleTire;
     private float movement;
     public float speed;
     public float basicSpeed;
@@ -22,6 +23,9 @@ public class CarController : MonoBehaviour
     void Start()
     {
         carRigidbody = GetComponent<Rigidbody2D>();
+        frontTire = GetComponent<Rigidbody2D>();
+        middleTire = GetComponent<Rigidbody2D>();
+        backTire = GetComponent<Rigidbody2D>();
     }
 
     void Update()

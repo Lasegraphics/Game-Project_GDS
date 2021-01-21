@@ -24,4 +24,12 @@ public class HorizontalShooting : MonoBehaviour
         bullet.GetComponent<Rigidbody2D>().AddForce(new Vector2(horizontalBulletSpeed, 0f), ForceMode2D.Force);
         Destroy(bullet, HorizontalTime);
     }
+    
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.tag == "Points100")
+        {
+            Destroy(gameObject);
+        }
+    }
 }
