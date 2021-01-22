@@ -39,7 +39,8 @@ public class DestroyObject : MonoBehaviour
         
         if(other.gameObject.tag == "Bullet")
         {
-            Destroy(this.gameObject);
+            this.gameObject.SetActive(false);
+            //Destroy(this.gameObject);
             Animation.SetActive(true);
             counter.CheckingPoints();
 

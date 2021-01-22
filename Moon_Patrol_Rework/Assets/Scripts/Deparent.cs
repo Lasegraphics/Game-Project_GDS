@@ -35,7 +35,7 @@ public class Deparent : MonoBehaviour
                 if (gameObject.transform.parent == Enemies.transform)
         
                 {
-                 Destroy(this.gameObject, 2);
+                 Destroy(this.gameObject, 4);
 
 
                 }
