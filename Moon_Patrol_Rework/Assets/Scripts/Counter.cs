@@ -11,11 +11,11 @@ public class Counter : MonoBehaviour
 
     
 
-    public Text counterViewPoints;
+    private Text counterViewPoints;
     // Start is called before the first frame update
     void Start()
     {
-        
+        counterViewPoints = GameObject.Find("Text").GetComponent<Text>();
         checkingPoints = 0;
         itsActive = true;
 

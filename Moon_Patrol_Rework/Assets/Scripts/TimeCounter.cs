@@ -8,8 +8,8 @@ public class TimeCounter : MonoBehaviour
 {
     bool lvlFin = false;
     
-    public Text timeCounter;
-    public Text finalTime;
+    private Text timeCounter;
+    private Text finalTime;
     private float startTime;
     string seconds;
     string minutes;
@@ -24,6 +24,9 @@ public class TimeCounter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+        timeCounter = GameObject.Find("Timer").GetComponent<Text>();
+        finalTime = GameObject.Find("Text (1)").GetComponent<Text>();
         startTime = Time.time;
         
 

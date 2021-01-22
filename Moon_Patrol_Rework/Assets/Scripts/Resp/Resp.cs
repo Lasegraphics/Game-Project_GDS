@@ -9,6 +9,7 @@ public class Resp : MonoBehaviour
     void OnCollisionEnter2D()
     {
         Application.LoadLevel (scenesName);
+
     }
     
 
