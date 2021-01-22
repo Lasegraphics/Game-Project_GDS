@@ -32,8 +32,8 @@ public class ReleaseEnemy : MonoBehaviour
             
             trigger.Invoke("EnablingEnemy1",1f);
             trigger.Invoke("EnablingEnemy2", 2f);
-            trigger.Invoke("EnablingEnemy3", 9f);
-            trigger.Invoke("EnablingEnemy4", 10f);
+            trigger.Invoke("EnablingEnemy3", 7f);
+            trigger.Invoke("EnablingEnemy4", 8f);
             trigger.Invoke("EnablingEnemy5", 19f);
             trigger.Invoke("EnablingEnemy6", 20f);
             trigger.Invoke("EnablingEnemy7", 36f);
