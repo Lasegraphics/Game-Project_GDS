@@ -6,13 +6,13 @@ public class ReleasingEnemyE : MonoBehaviour
 {
     // Start is called before the first frame update  EnemyInvoke trigger;
 
-    BombInvoke bombTrigger;
+    BombInvokeE bombTrigger;
     EnemyInEJ trigger;
     void Start()
     {
 
           trigger = GameObject.Find("Manager").GetComponent<EnemyInEJ>();
-          bombTrigger = GameObject.Find("Manager").GetComponent<BombInvoke>();
+          bombTrigger = GameObject.Find("Manager").GetComponent<BombInvokeE>();
         
     }
 
