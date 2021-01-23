@@ -12,9 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/A-E.unity
     guid: 130d3733424611c458bff248249c2943
   - enabled: 1
-    path: Assets/Scenes/E_J.unity
-    guid: 58f18d675c3b52c4cb2c4f1b74b0d072
+    path: Assets/Scenes/E-J.unity
+    guid: 1fd0b5cab44c2b347a7b57c82c6062cb
   - enabled: 1
     path: Assets/Scenes/J-O.unity
-    guid: 4752e0648158c364f8ebfb94b10a17ef
+    guid: 30e4a5ee11491eb428f3985442b141ac
   m_configObjects: {}
