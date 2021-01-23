@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: 50ae809d0f0369c4ebe8e109a026873f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4718224813482572968
+    second: assety 004 ground 2nd scene2_0
+  - first:
+      213: 2795419754342720800
+    second: assety 004 ground 2nd scene2_1
+  - first:
+      213: -8952772538237395327
+    second: assety 004 ground 2nd scene2_2
+  - first:
+      213: -8280443848103038081
+    second: assety 004 ground 2nd scene2_3
+  - first:
+      213: 4457815580636802902
+    second: assety 004 ground 2nd scene2_4
+  - first:
+      213: 8875563756851247284
+    second: assety 004 ground 2nd scene2_5
+  - first:
+      213: 8718607161666175624
+    second: assety 004 ground 2nd scene2_6
+  - first:
+      213: 2415910241086383163
+    second: assety 004 ground 2nd scene2_7
+  - first:
+      213: 2080191531437465711
+    second: assety 004 ground 2nd scene2_8
+  - first:
+      213: -5052898467662776822
+    second: assety 004 ground 2nd scene2_9
+  - first:
+      213: 22392594319482109
+    second: assety 004 ground 2nd scene2_10
+  - first:
+      213: 1949046303428820237
+    second: assety 004 ground 2nd scene2_11
+  - first:
+      213: 8530893826245021392
+    second: assety 004 ground 2nd scene2_12
+  - first:
+      213: 4114315874818318854
+    second: assety 004 ground 2nd scene2_13
+  - first:
+      213: 616660214536974743
+    second: assety 004 ground 2nd scene2_14
+  - first:
+      213: 3207632736185765582
+    second: assety 004 ground 2nd scene2_15
+  - first:
+      213: -7983249675684575267
+    second: assety 004 ground 2nd scene2_16
+  - first:
+      213: 5638095382775034859
+    second: assety 004 ground 2nd scene2_17
+  - first:
+      213: -4955284503009460294
+    second: assety 004 ground 2nd scene2_18
+  - first:
+      213: -6843052852927911193
+    second: assety 004 ground 2nd scene2_19
+  - first:
+      213: -7284323670481903479
+    second: assety 004 ground 2nd scene2_20
+  - first:
+      213: -573600676105588988
+    second: assety 004 ground 2nd scene2_21
+  - first:
+      213: 4347225239166890019
+    second: assety 004 ground 2nd scene2_22
+  - first:
+      213: -8319627257525540997
+    second: assety 004 ground 2nd scene2_23
+  - first:
+      213: 633441077696243240
+    second: assety 004 ground 2nd scene2_24
+  - first:
+      213: -3356228215703027154
+    second: assety 004 ground 2nd scene2_25
+  - first:
+      213: -2531324119251199439
+    second: assety 004 ground 2nd scene2_26
+  - first:
+      213: 8522684990970373049
+    second: assety 004 ground 2nd scene2_27
+  - first:
+      213: 1400424353162610136
+    second: assety 004 ground 2nd scene2_28
+  - first:
+      213: -1521091019096849163
+    second: assety 004 ground 2nd scene2_29
+  - first:
+      213: -6771178960360665794
+    second: assety 004 ground 2nd scene2_30
+  - first:
+      213: -64161011562892179
+    second: assety 004 ground 2nd scene2_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1022
+        width: 431
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85300f5c78f758eb0800000000000000
+      internalID: -4718224813482572968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_1
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1022
+        width: 426
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02525bfa4735bc620800000000000000
+      internalID: 2795419754342720800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_2
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 1022
+        width: 426
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18edc7f6fcc51c380800000000000000
+      internalID: -8952772538237395327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_3
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 1022
+        width: 426
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73ff3b1134f51d80800000000000000
+      internalID: -8280443848103038081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_4
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 778
+        width: 427
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fee0ee6a75ddd30800000000000000
+      internalID: 4457815580636802902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_5
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 778
+        width: 427
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8337c46365c2b70800000000000000
+      internalID: 8875563756851247284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_6
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 778
+        width: 404
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8820a473507bef870800000000000000
+      internalID: 8718607161666175624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_7
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 573
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34ae217099078120800000000000000
+      internalID: 2415910241086383163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_8
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 573
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f602b103d235edc10800000000000000
+      internalID: 2080191531437465711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_9
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 571
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0638d47d9f70e9b0800000000000000
+      internalID: -5052898467662776822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_10
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 573
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc130622fd8f4000800000000000000
+      internalID: 22392594319482109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_11
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 571
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0db9a659476c0b10800000000000000
+      internalID: 1949046303428820237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_12
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 572
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de48e18cb2d36670800000000000000
+      internalID: 8530893826245021392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_13
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 362
+        width: 452
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602eb445d7cf81930800000000000000
+      internalID: 4114315874818318854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_14
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 486
+        width: 48
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791b79aa231de8800800000000000000
+      internalID: 616660214536974743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_15
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 483
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece44429afcc38c20800000000000000
+      internalID: 3207632736185765582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_16
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 481
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7819f87bcc53190800000000000000
+      internalID: -7983249675684575267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_17
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 483
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be37314f0e98e3e40800000000000000
+      internalID: 5638095382775034859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_18
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 481
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf7f1daffa4b3bb0800000000000000
+      internalID: -4955284503009460294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_19
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 481
+        width: 47
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea2202bfa79801a0800000000000000
+      internalID: -6843052852927911193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_20
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 362
+        width: 415
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980e4f73732e8ea90800000000000000
+      internalID: -7284323670481903479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_21
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 388
+        width: 58
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f6dc169392a08f0800000000000000
+      internalID: -573600676105588988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_22
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 388
+        width: 54
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320b72b8252745c30800000000000000
+      internalID: 4347225239166890019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_23
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 388
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77688ba61fba8c80800000000000000
+      internalID: -8319627257525540997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_24
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 388
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826a936dd4f6ac800800000000000000
+      internalID: 633441077696243240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_25
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 386
+        width: 48
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22c0e948384c61d0800000000000000
+      internalID: -3356228215703027154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_26
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 387
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a57a4002eeedcd0800000000000000
+      internalID: -2531324119251199439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_27
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 362
+        width: 408
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3a75b18d8a64670800000000000000
+      internalID: 8522684990970373049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_28
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 105
+        width: 388
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d54019878e4f6310800000000000000
+      internalID: 1400424353162610136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_29
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 106
+        width: 352
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f402b7f6cff3eae0800000000000000
+      internalID: -1521091019096849163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_30
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 105
+        width: 253
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d8a1d5c90f702a0800000000000000
+      internalID: -6771178960360665794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 004 ground 2nd scene2_31
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 103
+        width: 254
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d643d5166ed0c1ff0800000000000000
+      internalID: -64161011562892179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

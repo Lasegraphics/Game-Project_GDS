@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class FailAction : MonoBehaviour
 {
-    // Start is called before the first frame update
-
     public CarController CarController; 
     void Start()
     {
@@ -15,12 +13,9 @@ public class FailAction : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-
-
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == "Body")
+        if(other.gameObject.tag == "Player")
         {
 
             CarController.RestartPoint();

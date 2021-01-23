@@ -40,9 +40,9 @@ public class CarController : MonoBehaviour
             carRigidbody.AddForce (new Vector2(0f, jumpPower));
         }
     }
-     public void RestartPoint()
+    public void RestartPoint()
     {
-        gameObject.transform.position = startPoint.position;  
+       gameObject.transform.position = startPoint.position;  
     }
 
     public float PobierzWartoscHP()
