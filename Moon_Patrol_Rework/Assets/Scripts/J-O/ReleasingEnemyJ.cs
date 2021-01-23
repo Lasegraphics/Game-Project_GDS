@@ -21,26 +21,26 @@ public class ReleasingEnemyJ : MonoBehaviour
    public void OnTriggerEnter2D(Collider2D other)
   {
       
-        if (other.gameObject.tag == "Body")
+        if (other.gameObject.tag == "Player")
 
 
         {
 
             
-            trigger.Invoke("EnablingEnemy1",40f);
-            trigger.Invoke("EnablingEnemy2", 41f);
-            trigger.Invoke("EnablingEnemy3", 41f);
-            trigger.Invoke("EnablingEnemy4", 42f);
-            trigger.Invoke("EnablingEnemy5", 48f);
-            trigger.Invoke("EnablingEnemy6", 49f);
-            trigger.Invoke("EnablingEnemy7", 49f);
-            trigger.Invoke("EnablingEnemy8", 54);
-            trigger.Invoke("EnablingEnemy9", 54f);
-            trigger.Invoke("EnablingEnemy10", 55f);
-            trigger.Invoke("EnablingEnemy11", 56f);
-            trigger.Invoke("EnablingEnemy12", 59f);
-            trigger.Invoke("EnablingEnemy13", 59f);
-            trigger.Invoke("EnablingEnemy14", 60f);
+            trigger.Invoke("EnablingEnemy1",2f);
+            trigger.Invoke("EnablingEnemy2", 2f);
+            trigger.Invoke("EnablingEnemy3", 2f);
+            trigger.Invoke("EnablingEnemy4", 3f);
+            trigger.Invoke("EnablingEnemy5", 14f);
+            trigger.Invoke("EnablingEnemy6", 14f);
+            trigger.Invoke("EnablingEnemy7", 6f);
+            trigger.Invoke("EnablingEnemy8", 7f);
+            trigger.Invoke("EnablingEnemy9", 7f);
+            trigger.Invoke("EnablingEnemy10", 15f);
+            trigger.Invoke("EnablingEnemy11", 18f);
+            trigger.Invoke("EnablingEnemy12", 18f);
+            trigger.Invoke("EnablingEnemy13", 18f);
+            trigger.Invoke("EnablingEnemy14", 15f);
             bombTrigger.Invoke("EnablingBomb1", 3f);
             bombTrigger.Invoke("EnablingBomb2", 5f);
             bombTrigger.Invoke("EnablingBomb3", 12f);
