@@ -15,15 +15,24 @@ public class TimeCounter : MonoBehaviour
     string minutes;
     string dozens;
     string units; 
-    string topRecord ="abc";
+    string topUnits; 
+    string topRecord;
+    string topSeconds;
+    string topMinutes;
+    string topDozens;
     private Text tpRecord;
     private Text avTime;
-    //private int hiddenmin;
-   // private int hiddendozens;
-   // private int hiddenunits;
-    //private int timeSum;
+    private int hiddenmin;
+    private int hiddendozens;
+    private int hiddenunits;
+    private int hiddenTopMin;
+    private int hiddenTopDozens;
+    private int hiddenTopUnits;
+    private int timeSum;
+    private int hiddenTopRecord;
     string number;
     int i= 0;
+    private int difference;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,6 +55,8 @@ public class TimeCounter : MonoBehaviour
             tpRecord = GameObject.Find("TopRecord").GetComponent<Text>();
             avTime = GameObject.Find("Text (3)").GetComponent<Text>();
 
+               tpRecord.text = topRecord;
+
 
         }
         catch
@@ -60,9 +71,9 @@ public class TimeCounter : MonoBehaviour
         
             float t = Time.time - startTime; 
 
-           // hiddenmin = ((int) t / 100);
-           // hiddendozens = ((int)t / 10);
-           // hiddenunits = ((int)t % 10);
+            hiddenmin = ((int) t / 100);
+            hiddendozens = ((int)t / 10);
+            hiddenunits = ((int)t % 10);
             minutes = ((int) t / 100).ToString();
             dozens = ((int)t / 10).ToString();
             units = ((int)t % 10).ToString();
@@ -76,7 +87,7 @@ public class TimeCounter : MonoBehaviour
 
             timeCounter.text = minutes + dozens + units;
             
-           // timeSum = hiddenmin + hiddendozens + hiddenunits;
+           timeSum = hiddendozens  * 10  + hiddenunits * 1;
             
 
         }
@@ -86,8 +97,20 @@ public class TimeCounter : MonoBehaviour
 
               finalTime.text = minutes + dozens + units;
             
-          
+              
 
+             difference = hiddenTopRecord - timeSum;
+             //avTime.text = difference.ToString();
+            if(i >= difference)
+                
+             {
+                number=i.ToString();
+
+                avTime.text = "0" + number; 
+                i--;  
+            
+            }
+            
 
 
         }
@@ -104,8 +127,12 @@ public class TimeCounter : MonoBehaviour
 
     public void TopRecord()
     {
+        topMinutes = (0/ 100).ToString();
+        topDozens = (70 / 10).ToString();
+        topUnits = (0 % 10).ToString();
         
-        tpRecord.text = topRecord;
+        topRecord = topMinutes + topDozens + topUnits;
+        
         Debug.Log("TopRecord działa");
 
 
@@ -113,17 +140,11 @@ public class TimeCounter : MonoBehaviour
 
     public void AvarageTimeAE()
     {
-        //tpRecord.text = "070";
+        
+        hiddenTopRecord = 70;
         Debug.Log("AvarageTime działa");
-      /*if(i <= timeSum)
-           {
-                number=i.ToString();
-
-                finalTime.text = number; 
-                i++;  
-            
-           }
-            */
+      
+          
     }
                 
 
