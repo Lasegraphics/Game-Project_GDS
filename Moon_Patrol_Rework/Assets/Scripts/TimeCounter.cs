@@ -31,7 +31,7 @@ public class TimeCounter : MonoBehaviour
     private int timeSum;
     private int hiddenTopRecord;
     string number;
-    int i= 0;
+    int i= 70;
     private int difference;
     // Start is called before the first frame update
     void Start()
@@ -100,8 +100,10 @@ public class TimeCounter : MonoBehaviour
               
 
              difference = hiddenTopRecord - timeSum;
+
+             //avTime.text = difference.ToString(); 
              //avTime.text = difference.ToString();
-            if(i >= difference)
+            if(timeSum <= i)
                 
              {
                 number=i.ToString();
@@ -109,7 +111,8 @@ public class TimeCounter : MonoBehaviour
                 avTime.text = "0" + number; 
                 i--;  
             
-            }
+             }
+            
             
 
 
@@ -140,7 +143,7 @@ public class TimeCounter : MonoBehaviour
 
     public void AvarageTimeAE()
     {
-        
+ 
         hiddenTopRecord = 70;
         Debug.Log("AvarageTime działa");
       
