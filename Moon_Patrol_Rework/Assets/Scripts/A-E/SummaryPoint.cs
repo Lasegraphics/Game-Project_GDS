@@ -11,6 +11,14 @@ public class SummaryPoint : MonoBehaviour
     void Start()
 
     {
+        
+        
+        
+
+    }
+
+    void Update()
+    {
         catcher = GameObject.Find("Manager").GetComponent<TimeCounter>();
         
         if (catcher == null)
@@ -18,12 +26,6 @@ public class SummaryPoint : MonoBehaviour
 
             Debug.LogError("Cannot find TimeCounter");
         }
-
-
-    }
-
-    void Update()
-    {
 
         
     }

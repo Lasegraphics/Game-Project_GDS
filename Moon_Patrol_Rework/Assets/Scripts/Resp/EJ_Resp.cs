@@ -7,6 +7,22 @@ public class EJ_Resp : MonoBehaviour
 {
     void OnCollisionEnter2D()
     {
-        SceneManager.LoadScene(2);
+       Invoke("LoadSummary",1f);
+       Invoke("LoadNewScene", 6f);
+    }
+
+
+    void LoadNewScene()
+    {
+
+         SceneManager.LoadScene(2);
+
+    }
+
+    void LoadSummary()
+    {
+
+        SceneManager.LoadScene("Assets/Scenes/Scena podsumowania.unity", LoadSceneMode.Additive);
+
     }
 }
