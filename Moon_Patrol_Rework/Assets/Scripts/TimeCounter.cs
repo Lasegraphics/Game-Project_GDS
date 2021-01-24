@@ -32,7 +32,7 @@ public class TimeCounter : MonoBehaviour
     private int hiddenTopRecord;
     string number;
     int i= 70;
-    private int difference;
+    public int difference;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +40,7 @@ public class TimeCounter : MonoBehaviour
         
         startTime = Time.time;
         
+
 
 
 
