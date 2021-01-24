@@ -5,10 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class EJ_Resp : MonoBehaviour
 {
+
+
     void OnCollisionEnter2D()
     {
        Invoke("LoadSummary",1f);
        Invoke("LoadNewScene", 6f);
+       this.gameObject.SetActive(false);
     }
 
 

@@ -36,10 +36,11 @@ public class SummaryPoint : MonoBehaviour
       
 
         catcher.ItsFinish();
-
+        catcher.AvarangeTimeAE();
+        catcher.TopRecord();
         Debug.Log("Wykryto");
 
-        catcher.AvarangeTimeAE();
+        
 
 
     }
