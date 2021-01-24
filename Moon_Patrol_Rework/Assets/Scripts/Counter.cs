@@ -17,7 +17,7 @@ public class Counter : MonoBehaviour
     
 
     private Text counterViewPoints;
-    private Text bonusTotext;
+    //private Text bonusTotext;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,10 +34,14 @@ public class Counter : MonoBehaviour
     {   
         try 
         {
+           
             counterViewPoints = GameObject.Find("Text").GetComponent<Text>();
-            bonusTotext = GameObject.Find("Text (4)").GetComponent<Text>();
+            //bonusTotext = GameObject.Find("Text (4)").GetComponent<Text>();
 
-            bonusTotext.text = sum.ToString();
+            //addBonusSum();
+            //TimeCounter pointsDif = new TimeCounter();
+           // additionalPoints = pointsDif.difference;
+           // bonusTotext.text = additionalPoints.ToString();
 
             /*if(timeSum <= i)
                 
@@ -77,14 +81,15 @@ public class Counter : MonoBehaviour
 
     public void addBonusSum()
     {
-        TimeCounter pointsDif = new TimeCounter();
-       additionalPoints = pointsDif.difference * 100;
+       //TimeCounter pointsDif = new TimeCounter();
+       //additionalPoints = pointsDif.difference * 100;
 
-        counterViewPoints.text = intercept;
+        // counterViewPoints.text = intercept;
 
-        convertedPoints = int.Parse(intercept);
+            //convertedPoints = int.Parse(intercept);
+         
 
-        sum = additionalPoints + convertedPoints + 1000;
+        //sum = additionalPoints + convertedPoints + 1000;
         
 
 

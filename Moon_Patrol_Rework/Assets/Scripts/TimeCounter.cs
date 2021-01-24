@@ -33,6 +33,9 @@ public class TimeCounter : MonoBehaviour
     string number;
     int i= 70;
     public int difference;
+    int intercept; 
+    int basicValue = 1000;
+    private Text bonusTotext;
     // Start is called before the first frame update
     void Start()
     {
@@ -55,6 +58,7 @@ public class TimeCounter : MonoBehaviour
             finalTime = GameObject.Find("Text (1)").GetComponent<Text>();
             tpRecord = GameObject.Find("TopRecord").GetComponent<Text>();
             avTime = GameObject.Find("Text (3)").GetComponent<Text>();
+            bonusTotext = GameObject.Find("Text (4)").GetComponent<Text>();
 
                tpRecord.text = topRecord;
 
@@ -100,7 +104,24 @@ public class TimeCounter : MonoBehaviour
             
               
 
-             difference = hiddenTopRecord - timeSum;
+           //  difference = hiddenTopRecord - timeSum;
+
+                intercept = 1000 + timeSum * 100;
+            
+            
+            if(basicValue <= intercept)
+                
+             {
+               string ToText=basicValue.ToString();
+
+               
+                //bonusTotext.text = intercept.ToString();
+                bonusTotext.text = ToText;
+                basicValue +=100;  
+            
+             }
+
+             
 
              //avTime.text = difference.ToString(); 
              //avTime.text = difference.ToString();
