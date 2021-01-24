@@ -20,7 +20,7 @@ public class SummaryPoint : MonoBehaviour
     void Update()
     {
         catcher = GameObject.Find("Manager").GetComponent<TimeCounter>();
-        
+
         if (catcher == null)
         {
 
@@ -38,6 +38,8 @@ public class SummaryPoint : MonoBehaviour
         catcher.ItsFinish();
 
         Debug.Log("Wykryto");
+
+        catcher.AvarangeTimeAE();
 
 
     }

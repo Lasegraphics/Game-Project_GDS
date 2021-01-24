@@ -15,6 +15,7 @@ public class TimeCounter : MonoBehaviour
     string minutes;
     string dozens;
     string units; 
+    private Text avTime;
     //private int hiddenmin;
    // private int hiddendozens;
    // private int hiddenunits;
@@ -40,6 +41,7 @@ public class TimeCounter : MonoBehaviour
         {
             timeCounter = GameObject.Find("Timer").GetComponent<Text>();
             finalTime = GameObject.Find("Text (1)").GetComponent<Text>();
+            avTime = GameObject.Find("Text (2)").GetComponent<Text>();
 
         }
         catch
@@ -103,6 +105,13 @@ public class TimeCounter : MonoBehaviour
 
         lvlFin = true; 
     }    
+
+    public void AvarangeTimeAE()
+    {
+        avTime.text = "070";
+
+
+    }
 
 
 
