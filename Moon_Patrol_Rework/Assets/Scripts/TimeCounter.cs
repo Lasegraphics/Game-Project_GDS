@@ -25,8 +25,7 @@ public class TimeCounter : MonoBehaviour
     void Start()
     {
 
-        timeCounter = GameObject.Find("Timer").GetComponent<Text>();
-        finalTime = GameObject.Find("Text (1)").GetComponent<Text>();
+        
         startTime = Time.time;
         
 
@@ -37,6 +36,17 @@ public class TimeCounter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        try 
+        {
+            timeCounter = GameObject.Find("Timer").GetComponent<Text>();
+            finalTime = GameObject.Find("Text (1)").GetComponent<Text>();
+
+        }
+        catch
+        {
+            Debug.Log("Nie pobrano");
+
+        }
 
         if(lvlFin == false)
         {

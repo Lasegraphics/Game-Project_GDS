@@ -9,7 +9,23 @@ public class ActiveDaneger : MonoBehaviour
     void Start()
     {
 
-         danger = GameObject.Find("iceshard").GetComponent<DangerScript>();
+        
+    }
+
+    void Update()
+    {
+         try 
+         {
+              danger = GameObject.Find("iceshard").GetComponent<DangerScript>();
+
+         }
+         catch
+         {
+              Debug.Log("Nie pobrano");
+
+         }
+          
+
 
     }
      void OnTriggerEnter2D (Collider2D other)

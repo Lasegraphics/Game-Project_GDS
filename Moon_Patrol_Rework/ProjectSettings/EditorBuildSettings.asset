@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/J-O.unity
     guid: 30e4a5ee11491eb428f3985442b141ac
+  - enabled: 1
+    path: Assets/Scenes/Canvas.unity
+    guid: 5f407cd2bdc364a5a8c38463bcdf342a
   m_configObjects: {}

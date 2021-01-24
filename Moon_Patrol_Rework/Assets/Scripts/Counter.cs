@@ -15,7 +15,7 @@ public class Counter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        counterViewPoints = GameObject.Find("Text").GetComponent<Text>();
+      
         checkingPoints = 0;
         itsActive = true;
 
@@ -23,7 +23,18 @@ public class Counter : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {   
+        try 
+        {
+            counterViewPoints = GameObject.Find("Text").GetComponent<Text>();
+
+        }
+        catch
+        {
+            Debug.Log("Nie Pobrano");
+
+        }
+        
         
         if(checkingPoints == 11 && itsActive == true)
         {
