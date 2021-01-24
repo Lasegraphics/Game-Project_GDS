@@ -6,12 +6,39 @@ using UnityEngine.SceneManagement;
 public class EJ_Resp : MonoBehaviour
 {
 
-
-    void OnCollisionEnter2D()
+    TimeCounter catcher;
+    void Start()
     {
-       Invoke("LoadSummary",1f);
-       Invoke("LoadNewScene", 6f);
-       this.gameObject.SetActive(false);
+
+          catcher = GameObject.Find("Manager").GetComponent<TimeCounter>();
+
+        if (catcher == null)
+        {
+
+            Debug.LogError("Cannot find TimeCounter");
+        }
+
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.tag == "Player")
+        {
+
+
+
+             Invoke("LoadSummary",1f);
+             Invoke("LoadNewScene", 6f);
+             catcher.ItsFinish();
+             catcher.AvarageTimeAE();
+             catcher.TopRecord();
+             Debug.Log("Wykryto");
+        
+       //this.gameObject.SetActive(false);
+
+        }
+       
+       
     }
 
 

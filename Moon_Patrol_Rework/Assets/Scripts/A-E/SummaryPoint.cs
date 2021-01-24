@@ -34,16 +34,17 @@ public class SummaryPoint : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
       
-
         catcher.ItsFinish();
-        catcher.AvarangeTimeAE();
+        catcher.AvarageTimeAE();
         catcher.TopRecord();
         Debug.Log("Wykryto");
+        
 
         
 
 
     }
+
 
 
 }

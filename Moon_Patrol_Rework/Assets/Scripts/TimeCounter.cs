@@ -15,6 +15,7 @@ public class TimeCounter : MonoBehaviour
     string minutes;
     string dozens;
     string units; 
+    string topRecord ="abc";
     private Text tpRecord;
     private Text avTime;
     //private int hiddenmin;
@@ -38,20 +39,21 @@ public class TimeCounter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        try 
+        try
         {
             timeCounter = GameObject.Find("Timer").GetComponent<Text>();
             finalTime = GameObject.Find("Text (1)").GetComponent<Text>();
-            tpRecord = GameObject.Find("Text (2)").GetComponent<Text>();
+            tpRecord = GameObject.Find("TopRecord").GetComponent<Text>();
             avTime = GameObject.Find("Text (3)").GetComponent<Text>();
+
 
         }
         catch
         {
-            Debug.Log("Nie pobrano");
 
+                Debug.Log("Nie Pobrano");
         }
-
+        
         if(lvlFin == false)
         {
 
@@ -95,23 +97,24 @@ public class TimeCounter : MonoBehaviour
 
     public void ItsFinish()
     {
-         Debug.Log("lvlFin działa");
+        Debug.Log("lvlFin działa");
 
         lvlFin = true; 
     }    
 
     public void TopRecord()
     {
-        tpRecord.text = "070";
-
+        
+        tpRecord.text = topRecord;
         Debug.Log("TopRecord działa");
 
 
     }
 
-    public void AvarangeTimeAE()
+    public void AvarageTimeAE()
     {
-        Debug.Log("AvarangeTime działa");
+        //tpRecord.text = "070";
+        Debug.Log("AvarageTime działa");
       /*if(i <= timeSum)
            {
                 number=i.ToString();
