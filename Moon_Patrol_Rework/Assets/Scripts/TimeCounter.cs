@@ -36,6 +36,7 @@ public class TimeCounter : MonoBehaviour
     int intercept; 
     int basicValue = 1000;
     private Text bonusTotext;
+    private Text counterViewPoints
     // Start is called before the first frame update
     void Start()
     {
@@ -59,6 +60,7 @@ public class TimeCounter : MonoBehaviour
             tpRecord = GameObject.Find("TopRecord").GetComponent<Text>();
             avTime = GameObject.Find("Text (3)").GetComponent<Text>();
             bonusTotext = GameObject.Find("Text (4)").GetComponent<Text>();
+            counterViewPoints = GameObject.Find("Text").GetComponent<Text>();
 
                tpRecord.text = topRecord;
 
@@ -109,6 +111,8 @@ public class TimeCounter : MonoBehaviour
            //  difference = hiddenTopRecord - timeSum;
 
                 intercept = 1000 + difference * 100;
+
+                
             
             
             if(basicValue <= intercept)
