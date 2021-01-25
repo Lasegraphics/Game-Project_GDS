@@ -36,7 +36,7 @@ public class TimeCounter : MonoBehaviour
     int intercept; 
     int basicValue = 1000;
     private Text bonusTotext;
-    private Text counterViewPoints
+    private Text counterViewPoints;
     // Start is called before the first frame update
     void Start()
     {
@@ -97,6 +97,8 @@ public class TimeCounter : MonoBehaviour
            timeSum = hiddendozens  * 10  + hiddenunits * 1;
 
            difference = i - timeSum;
+
+           
             
 
         }

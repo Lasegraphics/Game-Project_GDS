@@ -29,6 +29,7 @@ public class BombInvoke : MonoBehaviour
     public GameObject bomb19;
     public GameObject bomb20;
     public GameObject bomb21;
+    public GameObject GapBomb01;
     void Start()
     {
 
@@ -55,6 +56,7 @@ public class BombInvoke : MonoBehaviour
         bomb19.SetActive(false);
         bomb20.SetActive(false);
         bomb21.SetActive(false);
+        GapBomb01.SetActive(false);
 
     }
 
@@ -377,6 +379,22 @@ public class BombInvoke : MonoBehaviour
 
     } 
 
+    public void EnablingGapBomb01()
+    {
+
+         try
+        {
+          GapBomb01.SetActive(true);
+
+        }
+        catch 
+        {
+          Debug.Log("Proces zatrzymany");
+            
+        }
+
+    }
+
     public void Update()
     {
         if(checker.Enemy1 == null)
@@ -562,6 +580,7 @@ public class BombInvoke : MonoBehaviour
             {
                 bomb07.SetActive(false);
                 bomb17.SetActive(false);
+                GapBomb01.SetActive(false);
 
             }
             catch
@@ -595,6 +614,9 @@ public class BombInvoke : MonoBehaviour
 
         }
 
+
+
+       
 
 
     } 
