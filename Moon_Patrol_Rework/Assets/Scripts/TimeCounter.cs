@@ -93,6 +93,8 @@ public class TimeCounter : MonoBehaviour
             timeCounter.text = minutes + dozens + units;
             
            timeSum = hiddendozens  * 10  + hiddenunits * 1;
+
+           difference = i - timeSum;
             
 
         }
@@ -106,7 +108,7 @@ public class TimeCounter : MonoBehaviour
 
            //  difference = hiddenTopRecord - timeSum;
 
-                intercept = 1000 + timeSum * 100;
+                intercept = 1000 + difference * 100;
             
             
             if(basicValue <= intercept)
