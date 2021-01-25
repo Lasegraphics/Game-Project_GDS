@@ -11,13 +11,13 @@ public class PutLevelState : MonoBehaviour
     private Text PutState;
     void Start()
     {
-            PutState = GameObject.Find("LevelState").GetComponent<Text>();
+           
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+         PutState = GameObject.Find("LevelState").GetComponent<Text>();
     }
 
     void OnTriggerEnter2D(Collider2D other)

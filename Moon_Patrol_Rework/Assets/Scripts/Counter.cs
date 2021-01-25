@@ -39,8 +39,8 @@ public class Counter : MonoBehaviour
            
             counterViewPoints = GameObject.Find("Text").GetComponent<Text>();
             masterPoints = GameObject.Find("MasterPoints").GetComponent<Text>();
-            counterViewPoints.text = masterPointsStr;
-            masterPoints.text = masterPointsStr;
+            //counterViewPoints.text = masterPointsStr;
+            //masterPoints.text = masterPointsStr;
 
 
 
@@ -109,7 +109,7 @@ public class Counter : MonoBehaviour
         pointsNumber += 500;
 
         counterViewPoints.text = pointsNumber.ToString();
-
+         masterPoints.text = pointsNumber.ToString();
 
     }
 
@@ -119,6 +119,7 @@ public class Counter : MonoBehaviour
         pointsNumber += 100;
 
         counterViewPoints.text = pointsNumber.ToString();
+        masterPoints.text = pointsNumber.ToString();
 
 
     }
@@ -129,7 +130,7 @@ public class Counter : MonoBehaviour
         pointsNumber += 200;
 
         counterViewPoints.text = pointsNumber.ToString();
-
+         masterPoints.text = pointsNumber.ToString();
 
     }
 
@@ -139,7 +140,7 @@ public class Counter : MonoBehaviour
         pointsNumber += 500;
 
         counterViewPoints.text = pointsNumber.ToString();
-
+         masterPoints.text = pointsNumber.ToString();
     }
 
     public void CheckingPoints()
