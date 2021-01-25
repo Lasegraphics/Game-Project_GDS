@@ -6,6 +6,8 @@ using System;
 
 public class TimeCounter : MonoBehaviour
 {
+
+    //Skrypt przekazuje informacje czasowe i 
     bool lvlFin = false;
     
     private Text timeCounter;
@@ -38,6 +40,8 @@ public class TimeCounter : MonoBehaviour
     private Text bonusTotext;
     private Text counterViewPoints;
     // Start is called before the first frame update
+
+
     void Start()
     {
 

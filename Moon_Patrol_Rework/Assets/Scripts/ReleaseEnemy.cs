@@ -10,6 +10,8 @@ public class ReleaseEnemy : MonoBehaviour
 
     BombInvoke bombTrigger;
 
+
+   //Skrypt przechowuje informacje na temat bramek czasowych dla wywołania przeciwników w momencie trigger obiektu EnemyTrigger  
     void Start()
     {
 

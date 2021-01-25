@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Counter : MonoBehaviour
 {
+    //Skrypt zawieta metody dodające punkty do zmiennej łańcuchowej klasy Text w Hudzie gry.   
     int pointsNumber;
     int checkingPoints = 0;
     bool itsActive = true;
@@ -36,7 +37,7 @@ public class Counter : MonoBehaviour
     {   
         try 
         {
-           
+           //Podział na dwa pola text. 
             counterViewPoints = GameObject.Find("Text").GetComponent<Text>();
             masterPoints = GameObject.Find("MasterPoints").GetComponent<Text>();
             //counterViewPoints.text = masterPointsStr;
@@ -68,7 +69,7 @@ public class Counter : MonoBehaviour
 
         }
         
-        
+        //System aktywacji punktów bonusowych. instrukcja warunkowa sprawdza czy uzyskane są punkty prywatne za zestrzelenie przeciwnika, oraz warunek zabezpieczający przed wielokrotnym uzyciem metody.   
         if(checkingPoints == 11 && itsActive == true)
         {
 

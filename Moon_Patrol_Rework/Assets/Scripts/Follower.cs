@@ -6,6 +6,7 @@ using PathCreation;
 public class Follower : MonoBehaviour
 {
 
+    //Skrypt odpowiedzialny za przypisanie obiektu w tym przypadku przeciwnika do ściezki w obiekcie Path.  
     public PathCreator pathCreator;
     
     public float speed = 5;

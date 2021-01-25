@@ -6,7 +6,10 @@ public class BombInvoke : MonoBehaviour
 {
     // Start is called before the first frame update
 
+    // Scrypt zawiera metody opisujące stan bomb wywoływanych w momencie pojawienia się samochodziku w polu trigger   
     EnemyInvoke checker;
+
+    // Znajduje się tutaj odniesienie do skryptu wywołującego przeciwnikow po to by sprawdzić za pomocą zmiennej z klasy EnemyInvoke ich stan. 
 
     public GameObject bomb01;
     public GameObject bomb02;

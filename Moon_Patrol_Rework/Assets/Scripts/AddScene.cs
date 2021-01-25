@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class AddScene : MonoBehaviour
 {
     // Start is called before the first frame update
+
+    //SceneManager wczytuje scenę zawierającą HUD
     void Start()
     {
         SceneManager.LoadScene("Assets/Scenes/Canvas.unity", LoadSceneMode.Additive);

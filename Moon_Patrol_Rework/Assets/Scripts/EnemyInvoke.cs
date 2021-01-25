@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyInvoke : MonoBehaviour
 {
     // Start is called before the first frame update
-
+    // Skrypt ten opisuje stan przeciwników w scenie. 
     public GameObject Enemy1;
     public GameObject Enemy2;
     public GameObject Enemy3;
@@ -43,6 +43,8 @@ public class EnemyInvoke : MonoBehaviour
 
     // Update is called once per frame
    
+
+   // Metody te są aktywowane w opóźnieniu czasowym w skrypcie ReleaseEnemy
 
     public void EnablingEnemy1() => Enemy1.SetActive(true);
    
