@@ -1,0 +1,677 @@
+fileFormatVersion: 2
+guid: 74d3d178b1b51884dbf6ab90743c81b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1012246051306853250
+    second: assety 001 car2 (1)_0
+  - first:
+      213: -399386391130775992
+    second: assety 001 car2 (1)_1
+  - first:
+      213: 1144755460031274274
+    second: assety 001 car2 (1)_2
+  - first:
+      213: -8876102267596083901
+    second: assety 001 car2 (1)_3
+  - first:
+      213: -3465802056951865161
+    second: assety 001 car2 (1)_4
+  - first:
+      213: -8116742623476503047
+    second: assety 001 car2 (1)_5
+  - first:
+      213: 933135777839265469
+    second: assety 001 car2 (1)_6
+  - first:
+      213: 1815804542466324043
+    second: assety 001 car2 (1)_7
+  - first:
+      213: 5139888312241772641
+    second: assety 001 car2 (1)_8
+  - first:
+      213: -37268651543611541
+    second: assety 001 car2 (1)_9
+  - first:
+      213: -4145175287249836451
+    second: assety 001 car2 (1)_10
+  - first:
+      213: 4886414669327414573
+    second: assety 001 car2 (1)_11
+  - first:
+      213: 2719405873857276480
+    second: assety 001 car2 (1)_12
+  - first:
+      213: 791586236833782110
+    second: assety 001 car2 (1)_13
+  - first:
+      213: 37778142943606877
+    second: assety 001 car2 (1)_14
+  - first:
+      213: 4382060840980044924
+    second: assety 001 car2 (1)_15
+  - first:
+      213: 8797426091301987611
+    second: assety 001 car2 (1)_16
+  - first:
+      213: 6657207083752648256
+    second: assety 001 car2 (1)_17
+  - first:
+      213: -3688886376690601967
+    second: assety 001 car2 (1)_18
+  - first:
+      213: 5453732938885616697
+    second: assety 001 car2 (1)_19
+  - first:
+      213: 5128820451815729888
+    second: assety 001 car2 (1)_20
+  - first:
+      213: -1142374945647582901
+    second: assety 001 car2 (1)_21
+  - first:
+      213: -2251676273226684090
+    second: assety 001 car2 (1)_22
+  - first:
+      213: 3155307513517811490
+    second: assety 001 car2 (1)_23
+  - first:
+      213: 316621001320680556
+    second: assety 001 car2 (1)_24
+  - first:
+      213: 2292021814844746068
+    second: assety 001 car2 (1)_25
+  - first:
+      213: 7204204038635294491
+    second: assety 001 car2 (1)_26
+  - first:
+      213: 8238039497248885600
+    second: assety 001 car2 (1)_27
+  - first:
+      213: 480810710791822476
+    second: assety 001 car2 (1)_28
+  - first:
+      213: -4287217213204925954
+    second: assety 001 car2 (1)_29
+  - first:
+      213: 3451083617706825220
+    second: assety 001 car2 (1)_30
+  - first:
+      213: 5127022748635450918
+    second: assety 001 car2 (1)_31
+  - first:
+      213: 3660474816912708878
+    second: assety 001 car2 (1)_32
+  - first:
+      213: 4387899340930065545
+    second: assety 001 car2 (1)_33
+  - first:
+      213: -9105698590880926764
+    second: assety 001 car2 (1)_34
+  - first:
+      213: 3159342129480676989
+    second: assety 001 car2 (1)_35
+  - first:
+      213: 794970250740109988
+    second: assety 001 car2 (1)_36
+  - first:
+      213: -1569601947573413206
+    second: assety 001 car2 (1)_37
+  - first:
+      213: 7318244863620997073
+    second: assety 001 car2 (1)_38
+  - first:
+      213: 6411877314167513661
+    second: assety 001 car2 (1)_39
+  - first:
+      213: -4426638739590335148
+    second: assety 001 car2 (1)_40
+  - first:
+      213: -5664035195920769674
+    second: assety 001 car2 (1)_41
+  - first:
+      213: -6486999750323715048
+    second: assety 001 car2 (1)_42
+  - first:
+      213: -8850550825961776056
+    second: assety 001 car2 (1)_43
+  - first:
+      213: 8490773237212084587
+    second: assety 001 car2 (1)_44
+  - first:
+      213: 3231285425798512375
+    second: assety 001 car2 (1)_45
+  - first:
+      213: -4859961352384776029
+    second: assety 001 car2 (1)_46
+  - first:
+      213: -3745022917142072802
+    second: assety 001 car2 (1)_47
+  - first:
+      213: -4615613839566988841
+    second: assety 001 car2 (1)_48
+  - first:
+      213: 1043376334077824838
+    second: assety 001 car2 (1)_49
+  - first:
+      213: 688175669466790882
+    second: assety 001 car2 (1)_50
+  - first:
+      213: -7764206806674966140
+    second: assety 001 car2 (1)_51
+  - first:
+      213: -464233010389493305
+    second: assety 001 car2 (1)_52
+  - first:
+      213: -5582543296788764343
+    second: assety 001 car2 (1)_53
+  - first:
+      213: 6284510538391382133
+    second: assety 001 car2 (1)_54
+  - first:
+      213: -6223212695797097457
+    second: assety 001 car2 (1)_55
+  - first:
+      213: -6367092934339650268
+    second: assety 001 car2 (1)_56
+  - first:
+      213: 8581071431666940733
+    second: assety 001 car2 (1)_57
+  - first:
+      213: 2258615580525164922
+    second: assety 001 car2 (1)_58
+  - first:
+      213: 4864151417974240457
+    second: assety 001 car2 (1)_59
+  - first:
+      213: -1352625787062915742
+    second: assety 001 car2 (1)_60
+  - first:
+      213: -6840028659797736376
+    second: assety 001 car2 (1)_61
+  - first:
+      213: 6144639045432618800
+    second: assety 001 car2 (1)_62
+  - first:
+      213: -1277370834688593016
+    second: assety 001 car2 (1)_63
+  - first:
+      213: -8062193749458695723
+    second: assety 001 car2 (1)_64
+  - first:
+      213: 7094136602001904666
+    second: assety 001 car2 (1)_65
+  - first:
+      213: 8013647789100998551
+    second: assety 001 car2 (1)_66
+  - first:
+      213: -7875652633051576210
+    second: assety 001 car2 (1)_67
+  - first:
+      213: 7949765399409113369
+    second: assety 001 car2 (1)_68
+  - first:
+      213: 8319186704538921866
+    second: assety 001 car2 (1)_69
+  - first:
+      213: 103958452983461342
+    second: assety 001 car2 (1)_70
+  - first:
+      213: -1133490046729069452
+    second: assety 001 car2 (1)_71
+  - first:
+      213: -6268728910010378572
+    second: assety 001 car2 (1)_72
+  - first:
+      213: -9206018816361895567
+    second: assety 001 car2 (1)_73
+  - first:
+      213: -1322530720553063119
+    second: assety 001 car2 (1)_74
+  - first:
+      213: -4756113704162803697
+    second: assety 001 car2 (1)_75
+  - first:
+      213: 8214752174578832575
+    second: assety 001 car2 (1)_76
+  - first:
+      213: -6250633008346267119
+    second: assety 001 car2 (1)_77
+  - first:
+      213: -438180966860189630
+    second: assety 001 car2 (1)_78
+  - first:
+      213: -5975519944806211656
+    second: assety 001 car2 (1)_79
+  - first:
+      213: -7782703893820185001
+    second: assety 001 car2 (1)_80
+  - first:
+      213: -8450530171155321359
+    second: assety 001 car2 (1)_81
+  - first:
+      213: -8937888458214916372
+    second: assety 001 car2 (1)_82
+  - first:
+      213: -8242331934169637250
+    second: assety 001 car2 (1)_83
+  - first:
+      213: -7888954940832490647
+    second: assety 001 car2 (1)_84
+  - first:
+      213: -277167516240083995
+    second: assety 001 car2 (1)_85
+  - first:
+      213: -4247293616938169410
+    second: assety 001 car2 (1)_86
+  - first:
+      213: 3168950127035372256
+    second: assety 001 car2 (1)_87
+  - first:
+      213: -114913642331406016
+    second: assety 001 car2 (1)_88
+  - first:
+      213: -2172144591311424271
+    second: assety 001 car2 (1)_89
+  - first:
+      213: 3318047505458389381
+    second: assety 001 car2 (1)_90
+  - first:
+      213: 7079673434922538830
+    second: assety 001 car2 (1)_91
+  - first:
+      213: -4978659469113164041
+    second: assety 001 car2 (1)_92
+  - first:
+      213: 534658550174694854
+    second: assety 001 car2 (1)_93
+  - first:
+      213: 1592698263783855380
+    second: assety 001 car2 (1)_94
+  - first:
+      213: -73438749615164189
+    second: assety 001 car2 (1)_95
+  - first:
+      213: 6235719864440095603
+    second: assety 001 car2 (1)_96
+  - first:
+      213: -910399530893758097
+    second: assety 001 car2 (1)_97
+  - first:
+      213: 8849617381432558889
+    second: assety 001 car2 (1)_98
+  - first:
+      213: -3445973327974218331
+    second: assety 001 car2 (1)_99
+  - first:
+      213: 6957578432848101432
+    second: assety 001 car2 (1)_100
+  - first:
+      213: -6512839968970178054
+    second: assety 001 car2 (1)_101
+  - first:
+      213: 72411581931988724
+    second: assety 001 car2 (1)_102
+  - first:
+      213: -8371264763477407125
+    second: assety 001 car2 (1)_103
+  - first:
+      213: 7804744810816175644
+    second: assety 001 car2 (1)_104
+  - first:
+      213: 4701321664276673593
+    second: assety 001 car2 (1)_105
+  - first:
+      213: 487754206575344151
+    second: assety 001 car2 (1)_106
+  - first:
+      213: -2986952107631914686
+    second: assety 001 car2 (1)_107
+  - first:
+      213: -7638373830035060373
+    second: assety 001 car2 (1)_108
+  - first:
+      213: 4434797199965828020
+    second: assety 001 car2 (1)_109
+  - first:
+      213: 223015579907862963
+    second: assety 001 car2 (1)_110
+  - first:
+      213: 3191857398752697173
+    second: assety 001 car2 (1)_111
+  - first:
+      213: 5091268238262031262
+    second: assety 001 car2 (1)_112
+  - first:
+      213: -6332018489095243673
+    second: assety 001 car2 (1)_113
+  - first:
+      213: -5970467870931587313
+    second: assety 001 car2 (1)_114
+  - first:
+      213: 2394954118737860192
+    second: assety 001 car2 (1)_115
+  - first:
+      213: 3606047456155675350
+    second: assety 001 car2 (1)_116
+  - first:
+      213: 2707817532144569153
+    second: assety 001 car2 (1)_117
+  - first:
+      213: 7005967525822883467
+    second: assety 001 car2 (1)_118
+  - first:
+      213: -6023424190093653260
+    second: assety 001 car2 (1)_119
+  - first:
+      213: 4837305943094770288
+    second: assety 001 car2 (1)_120
+  - first:
+      213: -7180395305379895698
+    second: assety 001 car2 (1)_121
+  - first:
+      213: 7156527550313936486
+    second: assety 001 car2 (1)_122
+  - first:
+      213: 708394003822887228
+    second: assety 001 car2 (1)_123
+  - first:
+      213: 2421378216276051018
+    second: assety 001 car2 (1)_124
+  - first:
+      213: 3698586565422969407
+    second: assety 001 car2 (1)_125
+  - first:
+      213: 5350128596477664575
+    second: assety 001 car2 (1)_126
+  - first:
+      213: -7979278674939548912
+    second: assety 001 car2 (1)_127
+  - first:
+      213: -2854327159037251703
+    second: assety 001 car2 (1)_128
+  - first:
+      213: 8985125552059170083
+    second: assety 001 car2 (1)_129
+  - first:
+      213: 4124165277948497330
+    second: assety 001 car2 (1)_130
+  - first:
+      213: 4963768028169439975
+    second: assety 001 car2 (1)_131
+  - first:
+      213: 2843584470173884866
+    second: assety 001 car2 (1)_132
+  - first:
+      213: -2066304831976947736
+    second: assety 001 car2 (1)_133
+  - first:
+      213: 22126296988084211
+    second: assety 001 car2 (1)_134
+  - first:
+      213: -8476638397244503054
+    second: assety 001 car2 (1)_135
+  - first:
+      213: -5680361118121753082
+    second: assety 001 car2 (1)_136
+  - first:
+      213: -3860354607166191742
+    second: assety 001 car2 (1)_137
+  - first:
+      213: 2579875582650902821
+    second: assety 001 car2 (1)_138
+  - first:
+      213: 4724393018819751647
+    second: assety 001 car2 (1)_139
+  - first:
+      213: 7680444195159341543
+    second: assety 001 car2 (1)_140
+  - first:
+      213: -7157091360408619474
+    second: assety 001 car2 (1)_141
+  - first:
+      213: 4028324515767386714
+    second: assety 001 car2 (1)_142
+  - first:
+      213: 1676612625215114691
+    second: assety 001 car2 (1)_143
+  - first:
+      213: -8760995113024103846
+    second: assety 001 car2 (1)_144
+  - first:
+      213: -3017028088754587047
+    second: assety 001 car2 (1)_145
+  - first:
+      213: 5732291327695398219
+    second: assety 001 car2 (1)_146
+  - first:
+      213: -9065780773672443072
+    second: assety 001 car2 (1)_147
+  - first:
+      213: -928254027018611565
+    second: assety 001 car2 (1)_148
+  - first:
+      213: 3606095111248574516
+    second: assety 001 car2 (1)_149
+  - first:
+      213: 7822737906542825165
+    second: assety 001 car2 (1)_150
+  - first:
+      213: 347362260913575883
+    second: assety 001 car2 (1)_151
+  - first:
+      213: -6281820828950014147
+    second: assety 001 car2 (1)_152
+  - first:
+      213: -617378483954745509
+    second: assety 001 car2 (1)_153
+  - first:
+      213: -2236690572922589335
+    second: assety 001 car2 (1)_154
+  - first:
+      213: 7463640100550062696
+    second: assety 001 car2 (1)_155
+  - first:
+      213: -7540249079059854090
+    second: assety 001 car2 (1)_156
+  - first:
+      213: -5536680578767414638
+    second: assety 001 car2 (1)_157
+  - first:
+      213: -4175642443066870688
+    second: assety 001 car2 (1)_158
+  - first:
+      213: -5234661611243659886
+    second: assety 001 car2 (1)_159
+  - first:
+      213: 4537991466603353733
+    second: assety 001 car2 (1)_160
+  - first:
+      213: -239756191188338566
+    second: assety 001 car2 (1)_161
+  - first:
+      213: -869476243468611166
+    second: assety 001 car2 (1)_162
+  - first:
+      213: -6682258708996178627
+    second: assety 001 car2 (1)_163
+  - first:
+      213: -4950518553256427555
+    second: assety 001 car2 (1)_164
+  - first:
+      213: 905690823892830353
+    second: assety 001 car2 (1)_165
+  - first:
+      213: -9030820363850826523
+    second: assety 001 car2 (1)_166
+  - first:
+      213: -7776823796986915036
+    second: assety 001 car2 (1)_167
+  - first:
+      213: 7605255808421481934
+    second: assety 001 car2 (1)_168
+  - first:
+      213: 8720819529710339494
+    second: assety 001 car2 (1)_169
+  - first:
+      213: -248390034129823211
+    second: assety 001 car2 (1)_170
+  - first:
+      213: 7661460993335137024
+    second: assety 001 car2 (1)_171
+  - first:
+      213: -764526930170581262
+    second: assety 001 car2 (1)_172
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: assety 001 car2 (1)_17
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 890
+        width: 267
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e6a4f3296236c50800000000000000
+      internalID: 6657207083752648256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assety 001 car2 (1)_143
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 477
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdc1efac46844710800000000000000
+      internalID: 1676612625215114691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
