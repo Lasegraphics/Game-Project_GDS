@@ -1,0 +1,656 @@
+fileFormatVersion: 2
+guid: 203a01a904035490493f3f860ebf8dfd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1571204632754705024
+    second: this is war 2 bomby i inne_0
+  - first:
+      213: -367178117118444820
+    second: this is war 2 bomby i inne_1
+  - first:
+      213: 2904059849254288809
+    second: this is war 2 bomby i inne_2
+  - first:
+      213: -2206861899116449615
+    second: this is war 2 bomby i inne_3
+  - first:
+      213: 6261936921213960765
+    second: this is war 2 bomby i inne_4
+  - first:
+      213: 3070500930491502268
+    second: this is war 2 bomby i inne_5
+  - first:
+      213: -4487951319855012040
+    second: this is war 2 bomby i inne_6
+  - first:
+      213: -4049760961584137194
+    second: this is war 2 bomby i inne_7
+  - first:
+      213: 1944952006927296612
+    second: this is war 2 bomby i inne_8
+  - first:
+      213: 1740288155842773562
+    second: this is war 2 bomby i inne_9
+  - first:
+      213: 5170604667247533003
+    second: this is war 2 bomby i inne_10
+  - first:
+      213: 5489538360044071120
+    second: this is war 2 bomby i inne_11
+  - first:
+      213: 554746419212418620
+    second: this is war 2 bomby i inne_12
+  - first:
+      213: 5237427313893848098
+    second: this is war 2 bomby i inne_13
+  - first:
+      213: 7117389203127814596
+    second: this is war 2 bomby i inne_14
+  - first:
+      213: -3669631381366526879
+    second: this is war 2 bomby i inne_15
+  - first:
+      213: 3514652777825154307
+    second: this is war 2 bomby i inne_16
+  - first:
+      213: -7685489219164550944
+    second: this is war 2 bomby i inne_17
+  - first:
+      213: -1136006704481428818
+    second: this is war 2 bomby i inne_18
+  - first:
+      213: -6897542579803067327
+    second: this is war 2 bomby i inne_19
+  - first:
+      213: 4603742257032959342
+    second: this is war 2 bomby i inne_20
+  - first:
+      213: 4606456462493261172
+    second: this is war 2 bomby i inne_21
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: this is war 2 bomby i inne_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 215
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082dac4f94a0ec510800000000000000
+      internalID: 1571204632754705024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: this is war 2 bomby i inne_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 215
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceabbd7a27587eaf0800000000000000
+      internalID: -367178117118444820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: this is war 2 bomby i inne_2
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 173
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9adb649eb0b4d4820800000000000000
+      internalID: 2904059849254288809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: this is war 2 bomby i inne_3
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 163
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0f1d29bc6af51e0800000000000000
+      internalID: -2206861899116449615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: this is war 2 bomby i inne_4
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 159
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d328cd2e37ed6e650800000000000000
+      internalID: 6261936921213960765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: this is war 2 bomby i inne_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 208
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbec37cf35c9c9a20800000000000000
+      internalID: 3070500930491502268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: this is war 2 bomby i inne_6
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 202
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837ebc28d0897b1c0800000000000000
+      internalID: -4487951319855012040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: this is war 2 bomby i inne_7
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 201
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c788bacdb5cc7c0800000000000000
+      internalID: -4049760961584137194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: this is war 2 bomby i inne_8
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 198
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468a516ab8bddfa10800000000000000
+      internalID: 1944952006927296612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: this is war 2 bomby i inne_9
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 189
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3204d77bdeb62810800000000000000
+      internalID: 1740288155842773562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: this is war 2 bomby i inne_10
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 189
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb1441cc8da1c740800000000000000
+      internalID: 5170604667247533003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: this is war 2 bomby i inne_11
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 184
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8ae4bbd02ce2c40800000000000000
+      internalID: 5489538360044071120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: this is war 2 bomby i inne_12
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 115
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e7399ddead2b700800000000000000
+      internalID: 554746419212418620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: this is war 2 bomby i inne_13
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 116
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224329594641fa840800000000000000
+      internalID: 5237427313893848098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: this is war 2 bomby i inne_14
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 113
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c942ac45cb06c260800000000000000
+      internalID: 7117389203127814596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: this is war 2 bomby i inne_15
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 57
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ca50183b9d21dc0800000000000000
+      internalID: -3669631381366526879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: this is war 2 bomby i inne_16
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 63
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305bb1b741e86c030800000000000000
+      internalID: 3514652777825154307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: this is war 2 bomby i inne_17
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 92
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e84a9e4648a75590800000000000000
+      internalID: -7685489219164550944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: this is war 2 bomby i inne_18
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 57
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa1ceccbe71c30f0800000000000000
+      internalID: -1136006704481428818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: this is war 2 bomby i inne_19
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 75
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ce4b381910740a0800000000000000
+      internalID: -6897542579803067327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: this is war 2 bomby i inne_20
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 82
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6597ebe037c3ef30800000000000000
+      internalID: 4603742257032959342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: this is war 2 bomby i inne_21
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 48
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d96302fbb6def30800000000000000
+      internalID: 4606456462493261172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
