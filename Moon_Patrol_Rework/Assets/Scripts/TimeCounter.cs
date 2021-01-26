@@ -6,7 +6,7 @@ using System;
 
 public class TimeCounter : MonoBehaviour
 {
-
+    Counter Trymethod;
     //Skrypt przekazuje informacje o czasie rozgrywki do zmiennej łańcuchowej typu Text w hudzie gry.  
     bool lvlFin = false;
     
@@ -38,7 +38,10 @@ public class TimeCounter : MonoBehaviour
     int intercept; 
     int basicValue = 1000;
     private Text bonusTotext;
-    private Text counterViewPoints;
+    static Text counterViewPoints;
+    int actualValue;
+    bool enable = true;
+    public int Addpoints;
     
 
     void Start()
@@ -116,7 +119,16 @@ public class TimeCounter : MonoBehaviour
            //  difference = hiddenTopRecord - timeSum;
 
                 intercept = 1000 + difference * 100;
-
+                if(enable == true)
+                {
+                    int.TryParse(counterViewPoints.text, out actualValue);
+                    Addpoints = intercept + actualValue;
+                    counterViewPoints.text = (intercept + actualValue).ToString();
+                    enable = false;
+                    Trymethod.TryToString();
+                }
+                
+                //counterViewPoints.text = intercept.ToString();
                 
             
             

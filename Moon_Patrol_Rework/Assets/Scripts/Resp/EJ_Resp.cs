@@ -7,10 +7,12 @@ public class EJ_Resp : MonoBehaviour
 {
     //Skrypt zzawietajcy metody wczytujące następną scenę w momencie kontaktu trigger z polem na końcu trasy. 
     TimeCounter catcher;
+    //Counter invokeTrig;
     
      public static string BeginLevelPoints;
     
    public int TakePoints;
+  
     void Start()
     {
          
@@ -44,12 +46,13 @@ public class EJ_Resp : MonoBehaviour
 
             BeginLevelPoints = TakePoints.ToString();
             
-
+            
              Invoke("LoadSummary",1f);
              Invoke("LoadNewScene", 6f);
              catcher.ItsFinish();
              catcher.AvarageTimeAE();
              catcher.TopRecord();
+             //invokeTrig.TryToString();
              Debug.Log("Wykryto");
         
        //this.gameObject.SetActive(false);

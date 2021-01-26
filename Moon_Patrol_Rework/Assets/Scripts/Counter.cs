@@ -9,26 +9,30 @@ public class Counter : MonoBehaviour
     static int pointsNumber;
     int checkingPoints = 0;
     bool itsActive = true;
-
     int additionalPoints;
     int convertedPoints;
     int sum;
     string intercept; 
     string masterPointsStr;
     public int pointsCatcher; 
+    private bool itsTrigger = false;
     
       
     
 
     static Text counterViewPoints;
     static Text masterPoints;
+    int trytake; 
     //private Text bonusTotext;
     // Start is called before the first frame update
     void Start()
     {
-      
+        itsTrigger = false;
+    
         checkingPoints = 0;
         itsActive = true;
+
+        counterViewPoints = counterViewPoints;
 
         
 
@@ -43,10 +47,21 @@ public class Counter : MonoBehaviour
            //Podział na dwa pola text. 
             counterViewPoints = GameObject.Find("Text").GetComponent<Text>();
             masterPoints = GameObject.Find("MasterPoints").GetComponent<Text>();
+
+            /*if(itsTrigger == true)
+            {
+                GameObject.Find("Manager").GetComponent<TimeCounter>().Addpoints = trytake;
+                counterViewPoints.text = trytake.ToString();
+
+                itsTrigger = false;
+                
+
+            }
+            */
             //counterViewPoints.text = masterPointsStr;
             //masterPoints.text = masterPointsStr;
 
-
+            
 
             //bonusTotext = GameObject.Find("Text (4)").GetComponent<Text>();
 
@@ -91,17 +106,10 @@ public class Counter : MonoBehaviour
 
     }
 
-    public void addBonusSum()
+    public void ChangeTrigger()
     {
-       //TimeCounter pointsDif = new TimeCounter();
-       //additionalPoints = pointsDif.difference * 100;
-
-        // counterViewPoints.text = intercept;
-
-            //convertedPoints = int.Parse(intercept);
-         
-
-        //sum = additionalPoints + convertedPoints + 1000;
+      
+      itsTrigger = true;
         
 
 
@@ -157,6 +165,12 @@ public class Counter : MonoBehaviour
 
 
 
-  
+    public void TryToString()
+    {
+
+        GameObject.Find("Manager").GetComponent<TimeCounter>().Addpoints = trytake;
+        counterViewPoints.text += trytake.ToString();
+
+    }
     
 }
