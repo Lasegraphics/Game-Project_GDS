@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class EnemyInvJO : MonoBehaviour
 {
-    // Start is called before the first frame update
-    // Start is called before the first frame update
+    // EnemyInvoke tylko ze dla sceny J-O
     public GameObject Enemy1;
     public GameObject Enemy2;
     public GameObject Enemy3;

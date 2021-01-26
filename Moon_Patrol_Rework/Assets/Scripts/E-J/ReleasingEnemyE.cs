@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ReleasingEnemyE : MonoBehaviour
 {
-    // Start is called before the first frame update  EnemyInvoke trigger;
+    // ReleaseEnemy tylko ze dla sceny E-J
 
     BombInvokeE bombTrigger;
     EnemyInEJ trigger;
@@ -14,6 +14,7 @@ public class ReleasingEnemyE : MonoBehaviour
           trigger = GameObject.Find("Manager").GetComponent<EnemyInEJ>();
           bombTrigger = GameObject.Find("Manager").GetComponent<BombInvokeE>();
         
+
     }
 
     // Update is called once per frame

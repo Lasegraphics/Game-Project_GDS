@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ReleasingEnemyJ : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // ReleaseEnemy tylko ze dla sceny J-O
    BombInvoke bombTrigger;
     EnemyInvJO trigger;
     void Start()

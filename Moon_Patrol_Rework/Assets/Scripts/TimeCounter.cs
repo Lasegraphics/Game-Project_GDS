@@ -7,7 +7,7 @@ using System;
 public class TimeCounter : MonoBehaviour
 {
 
-    //Skrypt przekazuje informacje czasowe i 
+    //Skrypt przekazuje informacje o czasie rozgrywki do zmiennej łańcuchowej typu Text w hudzie gry.  
     bool lvlFin = false;
     
     private Text timeCounter;
@@ -39,24 +39,17 @@ public class TimeCounter : MonoBehaviour
     int basicValue = 1000;
     private Text bonusTotext;
     private Text counterViewPoints;
-    // Start is called before the first frame update
-
 
     void Start()
     {
 
         
         startTime = Time.time;
-        
-
-
-
-
+    
     }
-
-    // Update is called once per frame
     void Update()
-    {
+    {  
+        // zmienne pobierają informacje o lokalizacji docelowej i zawartości.
         try
         {
             timeCounter = GameObject.Find("Timer").GetComponent<Text>();
@@ -76,6 +69,7 @@ public class TimeCounter : MonoBehaviour
                 Debug.Log("Nie Pobrano");
         }
         
+        //instrukcja warunkowa posiadająca wartość logiczną sprawdza czy pojazd dotarł do końca etapu wtedy czas przestaje być liczony a uruchamiane są instrukcje odpowiedzialne za podsumowanie
         if(lvlFin == false)
         {
 

@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class EJ_Resp : MonoBehaviour
 {
-
+    //Skrypt zzawietajcy metody wczytujące następną scenę w momencie kontaktu trigger z polem na końcu trasy. 
     TimeCounter catcher;
     void Start()
     {

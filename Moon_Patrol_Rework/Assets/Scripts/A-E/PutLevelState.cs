@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PutLevelState : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Wpisuje do zmiennej łańcuchowej informacje o Etapie w momencie wywołania OnTriggerEnter 
 
     public string Letter; 
     private Text PutState;

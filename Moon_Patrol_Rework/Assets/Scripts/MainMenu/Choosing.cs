@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Choosing : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Skrypt opisujący wybór opcji w menu głównym gry. 
 
      public string scenesName = "A-E";
 

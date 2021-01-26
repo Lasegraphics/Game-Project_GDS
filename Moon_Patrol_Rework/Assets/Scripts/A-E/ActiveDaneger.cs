@@ -5,7 +5,7 @@ using UnityEngine;
 public class ActiveDaneger : MonoBehaviour
 {
         DangerScript danger;
-    // Start is called before the first frame update
+    // Skrypt wysyła informacje o momencie aktywacji informacji danger w hudzie gry. 
     void Start()
     {
 

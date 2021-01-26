@@ -5,7 +5,8 @@ using UnityEngine;
 public class DangerScript : MonoBehaviour
 {
     public Animator anim; 
-    // Start is called before the first frame update
+    // Skrypt aktywuje animacje danger. 
+
     void Start()
     {
 

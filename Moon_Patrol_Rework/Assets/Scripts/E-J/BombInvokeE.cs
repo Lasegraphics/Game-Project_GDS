@@ -5,6 +5,8 @@ using UnityEngine;
 public class BombInvokeE : MonoBehaviour
 {
     // Start is called before the first frame update
+
+    // BombInvoke tylko ze dla sceny E-J
     EnemyInEJ checker;
 
     public GameObject bomb01;

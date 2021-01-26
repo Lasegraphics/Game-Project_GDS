@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SummaryPoint : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Skrypt wywołuje metody wpisujące czas do tablicy podsumowującej. 
 
     TimeCounter catcher; 
     
