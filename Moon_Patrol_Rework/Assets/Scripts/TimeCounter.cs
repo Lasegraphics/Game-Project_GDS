@@ -39,9 +39,9 @@ public class TimeCounter : MonoBehaviour
     int basicValue = 1000;
     private Text bonusTotext;
     static Text counterViewPoints;
-    int actualValue;
+   public static int actualValue;
     bool enable = true;
-    public int Addpoints;
+    public static int Addpoints;
     
 
     void Start()
@@ -121,11 +121,21 @@ public class TimeCounter : MonoBehaviour
                 intercept = 1000 + difference * 100;
                 if(enable == true)
                 {
+
+                    Counter.pointsNumber += intercept;
+
+                    counterViewPoints.text = Counter.pointsNumber.ToString();
                     int.TryParse(counterViewPoints.text, out actualValue);
-                    Addpoints = intercept + actualValue;
-                    counterViewPoints.text = (intercept + actualValue).ToString();
+                    //Addpoints = intercept + actualValue;
+                    //ounterViewPoints.text = (intercept + actualValue).ToString();
                     enable = false;
-                    Trymethod.TryToString();
+                    //Trymethod.TryToString();
+                }
+                else 
+                {
+
+                        Debug.Log("Nie dodano punktów bonusowych");
+
                 }
                 
                 //counterViewPoints.text = intercept.ToString();
