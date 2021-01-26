@@ -39,6 +39,7 @@ public class TimeCounter : MonoBehaviour
     int basicValue = 1000;
     private Text bonusTotext;
     private Text counterViewPoints;
+    
 
     void Start()
     {
@@ -49,6 +50,7 @@ public class TimeCounter : MonoBehaviour
     }
     void Update()
     {  
+    
         // zmienne pobierają informacje o lokalizacji docelowej i zawartości.
         try
         {
@@ -58,7 +60,7 @@ public class TimeCounter : MonoBehaviour
             avTime = GameObject.Find("Text (3)").GetComponent<Text>();
             bonusTotext = GameObject.Find("Text (4)").GetComponent<Text>();
             counterViewPoints = GameObject.Find("Text").GetComponent<Text>();
-
+            
                tpRecord.text = topRecord;
 
 
@@ -107,6 +109,9 @@ public class TimeCounter : MonoBehaviour
               finalTime.text = minutes + dozens + units;
             
               
+             
+
+
 
            //  difference = hiddenTopRecord - timeSum;
 
@@ -148,6 +153,8 @@ public class TimeCounter : MonoBehaviour
 
 
     }
+
+   
 
     public void ItsFinish()
     {

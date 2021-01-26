@@ -7,11 +7,15 @@ public class EJ_Resp : MonoBehaviour
 {
     //Skrypt zzawietajcy metody wczytujące następną scenę w momencie kontaktu trigger z polem na końcu trasy. 
     TimeCounter catcher;
+    
+     public static string BeginLevelPoints;
+    
+   public int TakePoints;
     void Start()
     {
-
+         
           catcher = GameObject.Find("Manager").GetComponent<TimeCounter>();
-
+          
         if (catcher == null)
         {
 
@@ -20,12 +24,26 @@ public class EJ_Resp : MonoBehaviour
 
     }
 
+    void Update()
+    {
+
+        BeginLevelPoints = BeginLevelPoints;
+
+
+    }
+
+
     void OnTriggerEnter2D(Collider2D other)
     {
+        
+
         if(other.gameObject.tag == "Player")
         {
 
+            GameObject.Find("Manager").GetComponent<Counter>().pointsCatcher = TakePoints;
 
+            BeginLevelPoints = TakePoints.ToString();
+            
 
              Invoke("LoadSummary",1f);
              Invoke("LoadNewScene", 6f);

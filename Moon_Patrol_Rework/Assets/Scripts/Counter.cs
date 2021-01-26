@@ -15,6 +15,8 @@ public class Counter : MonoBehaviour
     int sum;
     string intercept; 
     string masterPointsStr;
+    public int pointsCatcher; 
+    
       
     
 
@@ -35,6 +37,7 @@ public class Counter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   
+        pointsCatcher = pointsCatcher; 
         try 
         {
            //Podział na dwa pola text. 
@@ -108,7 +111,7 @@ public class Counter : MonoBehaviour
     {
 
         pointsNumber += 500;
-
+         pointsCatcher += pointsNumber;
         counterViewPoints.text = pointsNumber.ToString();
          masterPoints.text = pointsNumber.ToString();
 
@@ -118,7 +121,7 @@ public class Counter : MonoBehaviour
     {
 
         pointsNumber += 100;
-
+        pointsCatcher += pointsNumber;
         counterViewPoints.text = pointsNumber.ToString();
         masterPoints.text = pointsNumber.ToString();
 
@@ -129,7 +132,7 @@ public class Counter : MonoBehaviour
     {
 
         pointsNumber += 200;
-
+        pointsCatcher += pointsNumber;
         counterViewPoints.text = pointsNumber.ToString();
          masterPoints.text = pointsNumber.ToString();
 
@@ -139,7 +142,7 @@ public class Counter : MonoBehaviour
     {
        
         pointsNumber += 500;
-
+        pointsCatcher += pointsNumber;
         counterViewPoints.text = pointsNumber.ToString();
          masterPoints.text = pointsNumber.ToString();
     }
