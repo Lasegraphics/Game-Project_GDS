@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Counter : MonoBehaviour
 {
     //Skrypt zawieta metody dodające punkty do zmiennej łańcuchowej klasy Text w Hudzie gry.   
-    int pointsNumber;
+    static int pointsNumber;
     int checkingPoints = 0;
     bool itsActive = true;
 
@@ -18,8 +18,8 @@ public class Counter : MonoBehaviour
       
     
 
-    private Text counterViewPoints;
-    private Text masterPoints;
+    static Text counterViewPoints;
+    static Text masterPoints;
     //private Text bonusTotext;
     // Start is called before the first frame update
     void Start()
