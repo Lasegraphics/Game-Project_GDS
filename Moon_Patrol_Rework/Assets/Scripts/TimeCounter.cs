@@ -7,7 +7,7 @@ using System;
 public class TimeCounter : MonoBehaviour
 {
     Counter Trymethod;
-    //Skrypt przekazuje informacje o czasie rozgrywki do zmiennej łańcuchowej typu Text w hudzie gry.  
+    //Skrypt wylicza i przekazuje informacje o czasie rozgrywki do zmiennej łańcuchowej typu Text w hudzie gry. Uwzględnione jest takze obliczanie oraz dodawanie puntkow bonusowych. 
     bool lvlFin = false;
     
     private Text timeCounter;
