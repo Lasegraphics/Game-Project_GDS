@@ -23,4 +23,7 @@ public class Follower : MonoBehaviour
         transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled);
     } 
    
+
+
+   
 }

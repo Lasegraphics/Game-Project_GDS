@@ -16,6 +16,7 @@ public class Counter : MonoBehaviour
     string masterPointsStr;
     public int pointsCatcher; 
     private bool itsTrigger = false;
+
     
       
     
@@ -23,6 +24,9 @@ public class Counter : MonoBehaviour
     static Text counterViewPoints;
     static Text masterPoints;
     public static int trytake; 
+
+    InstanciateBonus Bonus;
+    public GameObject Prefab;
     //private Text bonusTotext;
     // Start is called before the first frame update
     void Start()
@@ -49,6 +53,8 @@ public class Counter : MonoBehaviour
            //Podział na dwa pola text. 
             counterViewPoints = GameObject.Find("Text").GetComponent<Text>();
             masterPoints = GameObject.Find("MasterPoints").GetComponent<Text>();
+
+            Bonus = Prefab.GetComponent<InstanciateBonus>();
 
             /*if(itsTrigger == true)
             {
@@ -90,9 +96,11 @@ public class Counter : MonoBehaviour
         }
         
         //System aktywacji punktów bonusowych. instrukcja warunkowa sprawdza czy uzyskane są punkty prywatne za zestrzelenie przeciwnika, oraz warunek zabezpieczający przed wielokrotnym uzyciem metody.   
-        if(checkingPoints == 11 && itsActive == true)
+        if(checkingPoints ==  3 /*11 */ && itsActive == true)
         {
-
+            
+          Bonus.InstanciateIt();
+           
            BonusPoints500();
 
            itsActive = false;
