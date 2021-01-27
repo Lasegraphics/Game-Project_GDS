@@ -20,12 +20,14 @@ public class CarController : MonoBehaviour
     public Transform startPoint; 
     public float HP = 3.0f;
 
+
     void Start()
     {
         carRigidbody = GetComponent<Rigidbody2D>();
         frontTire = GetComponent<Rigidbody2D>();
         middleTire = GetComponent<Rigidbody2D>();
         backTire = GetComponent<Rigidbody2D>();
+        
     }
 
     void Update()
@@ -37,6 +39,7 @@ public class CarController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && onTheGround)
         {
+         SoundManagerScript.PlaySound("jump");
             carRigidbody.AddForce (new Vector2(0f, jumpPower));
         }
     }
