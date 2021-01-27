@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class JO_Resp : MonoBehaviour
 {
+
     void OnCollisionEnter2D()
     {
         SceneManager.LoadScene(3);

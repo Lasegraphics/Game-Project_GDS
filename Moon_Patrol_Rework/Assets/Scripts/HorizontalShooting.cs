@@ -28,7 +28,7 @@ public class HorizontalShooting : MonoBehaviour
     
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == "Points100")
+        if(other.gameObject.CompareTag("Points100"))
         {
             Destroy(gameObject);
         }

@@ -19,7 +19,7 @@ public class CarController : MonoBehaviour
     public LayerMask layersToTest;
     public Transform startPoint; 
     public float HP = 3.0f;
-
+    Animator anim;
 
     void Start()
     {
@@ -27,7 +27,7 @@ public class CarController : MonoBehaviour
         frontTire = GetComponent<Rigidbody2D>();
         middleTire = GetComponent<Rigidbody2D>();
         backTire = GetComponent<Rigidbody2D>();
-        
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -56,6 +56,14 @@ public class CarController : MonoBehaviour
     public float StrataHP()
     {
         return HP = HP - 1.0f;
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Points100"))
+        {
+            anim.SetTrigger("explosion");
+        }
     }
 
 }
