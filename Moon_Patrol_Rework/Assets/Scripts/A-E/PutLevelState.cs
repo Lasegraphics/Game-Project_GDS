@@ -24,6 +24,7 @@ public class PutLevelState : MonoBehaviour
     {
         if(other.gameObject.tag =="Player")
         {
+            SoundManagerScript.PlaySound("point");
             
             PutState.text = Letter; 
 

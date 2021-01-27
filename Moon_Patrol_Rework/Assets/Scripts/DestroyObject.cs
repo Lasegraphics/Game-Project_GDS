@@ -39,6 +39,7 @@ public class DestroyObject : MonoBehaviour
         
         if(other.gameObject.tag == "Bullet")
         {
+            SoundManagerScript.PlaySound("kill");
             this.gameObject.SetActive(false);
             //Destroy(this.gameObject);
             Animation.SetActive(true);

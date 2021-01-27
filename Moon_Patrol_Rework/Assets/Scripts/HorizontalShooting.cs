@@ -12,6 +12,7 @@ public class HorizontalShooting : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.C))
         {
+            SoundManagerScript.PlaySound("shoot");
             ShootHorizontalBullet();   
         }
     }

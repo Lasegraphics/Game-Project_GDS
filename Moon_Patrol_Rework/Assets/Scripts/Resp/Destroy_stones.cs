@@ -10,6 +10,7 @@ public class Destroy_stones : MonoBehaviour
     {
         if(other.gameObject.tag == "Bullet")
         {
+            SoundManagerScript.PlaySound("destroy");
             Destroy(gameObject);
             Anim.SetActive(true);
            
