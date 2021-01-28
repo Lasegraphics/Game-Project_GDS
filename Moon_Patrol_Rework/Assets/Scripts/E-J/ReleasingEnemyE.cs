@@ -30,7 +30,7 @@ public class ReleasingEnemyE : MonoBehaviour
 
             
             trigger.Invoke("EnablingEnemy1",2f);
-            trigger.Invoke("EnablingEnemy2", 2f);
+            trigger.Invoke("EnablingEnemy2", 3f);
             trigger.Invoke("EnablingEnemy3", 6f);
             trigger.Invoke("EnablingEnemy4", 7f);
             trigger.Invoke("EnablingEnemy5", 57f);
@@ -55,7 +55,7 @@ public class ReleasingEnemyE : MonoBehaviour
             bombTrigger.Invoke("EnablingBomb10", 53f);
             bombTrigger.Invoke("EnablingBomb11", 14f);
             bombTrigger.Invoke("EnablingBomb12", 12f);
-            bombTrigger.Invoke("EnablingBomb13", 13f);
+            bombTrigger.Invoke("EnablingBomb13", 6f);
             bombTrigger.Invoke("EnablingBomb14", 39f);
             bombTrigger.Invoke("EnablingBomb15", 33f);
             bombTrigger.Invoke("EnablingBomb16", 36f);
@@ -63,7 +63,8 @@ public class ReleasingEnemyE : MonoBehaviour
             bombTrigger.Invoke("EnablingBomb18", 33f);
             bombTrigger.Invoke("EnablingBomb19", 55f);
             bombTrigger.Invoke("EnablingBomb20", 10f);
-            bombTrigger.Invoke("EnablingBomb21", 12f);
+            bombTrigger.Invoke("EnablingBomb21", 9f);
+            bombTrigger.Invoke("EnablingGapBomb01", 2f);
 
 
 
