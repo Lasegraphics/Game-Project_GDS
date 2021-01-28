@@ -31,6 +31,7 @@ public class BombInvokeE : MonoBehaviour
     public GameObject bomb20;
     public GameObject bomb21;
     public GameObject GapBomb01;
+    public GameObject GapBomb02;
     void Start()
     {
 
@@ -57,6 +58,9 @@ public class BombInvokeE : MonoBehaviour
         bomb19.SetActive(false);
         bomb20.SetActive(false);
         bomb21.SetActive(false);
+        GapBomb01.SetActive(false);
+        GapBomb02.SetActive(false);
+        
 
     }
 
@@ -383,6 +387,20 @@ public class BombInvokeE : MonoBehaviour
         try
         {
           GapBomb01.SetActive(true);
+
+        }
+        catch 
+        {
+          Debug.Log("Proces zatrzymany");
+            
+        }
+
+    } 
+      public void EnablingGapBomb02() 
+    {
+        try
+        {
+          GapBomb02.SetActive(true);
 
         }
         catch 
