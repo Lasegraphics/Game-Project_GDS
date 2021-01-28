@@ -67,6 +67,7 @@ public class ReleaseEnemy : MonoBehaviour
             bombTrigger.Invoke("EnablingBomb20", 10f);
             bombTrigger.Invoke("EnablingBomb21", 11f);
             bombTrigger.Invoke("EnablingGapBomb01",36f);
+            bombTrigger.Invoke("EnablingGapBomb02",38f);
 
 
 

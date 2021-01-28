@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7381158952340200628}
   - component: {fileID: 1366287572281896192}
   - component: {fileID: -3890837704671488737}
-  - component: {fileID: 5982681442102219707}
+  - component: {fileID: 2540490074046934037}
   m_Layer: 0
   m_Name: NewVerticalBullet
   m_TagString: Bullet
@@ -137,7 +137,7 @@ PolygonCollider2D:
       - {x: 0.037888154, y: -0.0814566}
       - {x: 0.059792448, y: -0.059552304}
       - {x: 0.059792448, y: 0.082825616}
---- !u!114 &5982681442102219707
+--- !u!114 &2540490074046934037
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -146,8 +146,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 5099416500586357527}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 423cb265d6d4b4e4dace30d50b0b0b5b, type: 3}
+  m_Script: {fileID: 11500000, guid: a29167ce9d56848b8965a6700fe61464, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BonusPrefab: {fileID: 6431044795448510895, guid: e87c1ee22177a444992e962d170af589,
+  BonusPrefab: {fileID: 9106644014572902804, guid: ac1a19e4b75ee4549962118f5eb442b2,
     type: 3}

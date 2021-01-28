@@ -33,6 +33,7 @@ public class BombInvoke : MonoBehaviour
     public GameObject bomb20;
     public GameObject bomb21;
     public GameObject GapBomb01;
+    public GameObject GapBomb02;
     void Start()
     {
 
@@ -60,6 +61,8 @@ public class BombInvoke : MonoBehaviour
         bomb20.SetActive(false);
         bomb21.SetActive(false);
         GapBomb01.SetActive(false);
+        GapBomb02.SetActive(false);
+
 
     }
 
@@ -398,6 +401,22 @@ public class BombInvoke : MonoBehaviour
 
     }
 
+    public void EnablingGapBomb02()
+    {
+
+         try
+        {
+          GapBomb02.SetActive(true);
+
+        }
+        catch 
+        {
+          Debug.Log("Proces zatrzymany");
+            
+        }
+
+    }
+
     public void Update()
     {
         if(checker.Enemy1 == null)
@@ -584,6 +603,26 @@ public class BombInvoke : MonoBehaviour
                 bomb07.SetActive(false);
                 bomb17.SetActive(false);
                 GapBomb01.SetActive(false);
+
+            }
+            catch
+            {
+                 Debug.Log("Obiekt został zniszczony");
+
+            }
+            
+            
+        
+
+        }
+
+          if(checker.Enemy11 == null)
+        {
+
+            try 
+            {
+                
+                GapBomb02.SetActive(false);
 
             }
             catch
