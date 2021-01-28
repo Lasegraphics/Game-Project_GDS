@@ -18,16 +18,16 @@ public class Choosing : MonoBehaviour
     void Update()
     {
 
-        if(Input.GetKeyDown(KeyCode.A))
+        if(Input.GetKeyDown(KeyCode.P))
         {
 
-           Invoke("LoadLevel",2f);
+           Invoke("LoadLevel",1f);
 
         }
-        else if(Input.GetKeyDown(KeyCode.B))
+        else if(Input.GetKeyDown(KeyCode.Q))
         {
 
-             Invoke("QuitApp",2f);
+             Invoke("QuitApp",1f);
         }
         
     }
