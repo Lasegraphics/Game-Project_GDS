@@ -99,7 +99,7 @@ public class Counter : MonoBehaviour
         if(checkingPoints ==  3 /*11 */ && itsActive == true)
         {
             
-          Bonus.InstanciateIt();
+            Bonus.InstanciateIt();
            
            BonusPoints500();
 

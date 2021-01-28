@@ -17,7 +17,7 @@ public class InstanciateBonus : MonoBehaviour
         GameObject Bonus = Instantiate(BonusPrefab, gameObject.transform);
         Bonus.transform.position = new Vector3 (transform.position.x, transform.position.y, transform.position.z);
         Bonus.transform.SetParent(null);
-        Destroy(Bonus,2f);
+        //Destroy(Bonus,2f);
         //Destroy(this.gameObject); 
     
     }
