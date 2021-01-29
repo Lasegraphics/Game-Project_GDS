@@ -5416,6 +5416,8 @@ GameObject:
   m_Component:
   - component: {fileID: 198612597}
   - component: {fileID: 198612598}
+  - component: {fileID: 198612600}
+  - component: {fileID: 198612599}
   m_Layer: 0
   m_Name: L
   m_TagString: Untagged
@@ -5488,6 +5490,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &198612599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198612596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac54ca5296844913bcdbf1557b092af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Letter: L
+--- !u!58 &198612600
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198612596}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.5783412, y: -0.00000014438892}
+  serializedVersion: 2
+  m_Radius: 0.90338945
 --- !u!1 &202392945
 GameObject:
   m_ObjectHideFlags: 0
@@ -15165,6 +15196,8 @@ GameObject:
   m_Component:
   - component: {fileID: 625638025}
   - component: {fileID: 625638026}
+  - component: {fileID: 625638028}
+  - component: {fileID: 625638027}
   m_Layer: 0
   m_Name: K
   m_TagString: Untagged
@@ -15237,6 +15270,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &625638027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 625638024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac54ca5296844913bcdbf1557b092af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Letter: K
+--- !u!58 &625638028
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 625638024}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.45590794, y: -0.00000021658337}
+  serializedVersion: 2
+  m_Radius: 0.78095984
 --- !u!1 &633845941
 GameObject:
   m_ObjectHideFlags: 0
@@ -24500,6 +24562,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1053792871}
   - component: {fileID: 1053792872}
+  - component: {fileID: 1053792874}
+  - component: {fileID: 1053792873}
   m_Layer: 0
   m_Name: O
   m_TagString: Untagged
@@ -24572,6 +24636,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1053792873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053792870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac54ca5296844913bcdbf1557b092af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Letter: O
+--- !u!58 &1053792874
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053792870}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.37034523}
+  serializedVersion: 2
+  m_Radius: 0.7154043
 --- !u!1 &1055333892
 GameObject:
   m_ObjectHideFlags: 0
@@ -27490,6 +27583,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1184597433}
   - component: {fileID: 1184597434}
+  - component: {fileID: 1184597436}
+  - component: {fileID: 1184597435}
   m_Layer: 0
   m_Name: M
   m_TagString: Untagged
@@ -27562,6 +27657,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1184597435
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184597432}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.92510647, y: -0.00000009276988}
+  serializedVersion: 2
+  m_Radius: 1.2501557
+--- !u!114 &1184597436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184597432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac54ca5296844913bcdbf1557b092af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Letter: M
 --- !u!1 &1186719978
 GameObject:
   m_ObjectHideFlags: 0
@@ -41426,6 +41550,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1871756813}
   - component: {fileID: 1871756814}
+  - component: {fileID: 1871756816}
+  - component: {fileID: 1871756815}
   m_Layer: 0
   m_Name: N
   m_TagString: Untagged
@@ -41497,6 +41623,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1871756815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871756812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac54ca5296844913bcdbf1557b092af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Letter: N
+--- !u!58 &1871756816
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871756812}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.000015260646, y: -0.24328883}
+  serializedVersion: 2
+  m_Radius: 0.5683445
 --- !u!1 &1883624854
 GameObject:
   m_ObjectHideFlags: 0
