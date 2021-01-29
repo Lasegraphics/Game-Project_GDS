@@ -5,12 +5,12 @@ using UnityEngine;
 public class BulletColResp : MonoBehaviour
 {
     // Start is called before the first frame updatepublic string scenesName = "A-E";
-    public string scenesName = "A-E";
+    public int Scene;
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == "Body")
+        if(other.gameObject.tag == "Player")
         {
-            Application.LoadLevel (scenesName);
+            Application.LoadLevel (Scene);
         }
         
     }
@@ -18,7 +18,7 @@ public class BulletColResp : MonoBehaviour
 
     public void Respawn()
     {
-        Application.LoadLevel (scenesName);
+        Application.LoadLevel (Scene);
         GetComponent<CarController>().StrataHP();
     }
 }
