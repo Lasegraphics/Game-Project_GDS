@@ -8,7 +8,7 @@ public class EJ_Resp : MonoBehaviour
     //Skrypt zzawietajcy metody wczytujące następną scenę w momencie kontaktu trigger z polem na końcu trasy. 
     TimeCounter catcher;
     //Counter invokeTrig;
-    
+        public int x;
      public static string BeginLevelPoints;
     
    public int TakePoints;
@@ -66,7 +66,7 @@ public class EJ_Resp : MonoBehaviour
     void LoadNewScene()
     {
 
-         SceneManager.LoadScene(2);
+         SceneManager.LoadScene(x);
 
     }
 
