@@ -16,7 +16,7 @@ public class ActiveDaneger : MonoBehaviour
     {
          try 
          {
-              danger = GameObject.Find("iceshard").GetComponent<DangerScript>();
+              danger = GameObject.Find("HUD4").GetComponent<DangerScript>();
 
          }
          catch
@@ -30,9 +30,12 @@ public class ActiveDaneger : MonoBehaviour
     }
      void OnTriggerEnter2D (Collider2D other)
      {
+      if(other.gameObject.tag == "Player")
+      {
+           danger.InvokeDan();
 
-        danger.InvokeDan();
-
+      }
+        
 
      }
 }

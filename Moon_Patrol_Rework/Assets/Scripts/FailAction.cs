@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class FailAction : MonoBehaviour
-{
-    public CarController CarController; 
+{   public int Scene; 
+    //public CarController CarController; 
     void Start()
     {
 
@@ -18,7 +18,7 @@ public class FailAction : MonoBehaviour
         if(other.gameObject.tag == "Player")
         {
 
-            CarController.RestartPoint();
+            Application.LoadLevel (Scene);
         }
 
     }
