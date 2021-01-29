@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Body
+  - Bullet
+  - Points100
+  - Points200
+  - Points500
+  - BombType01
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Players bullet
+  - Ground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3634379747
+    locked: 0
+  - name: Second plan
+    uniqueID: 4092900511
+    locked: 0
+  - name: Player
+    uniqueID: 358657757
+    locked: 0
+  - name: Car
+    uniqueID: 31478967
+    locked: 0
+  - name: 'Enemies '
+    uniqueID: 148568123
+    locked: 0
+  - name: Ground
+    uniqueID: 536809239
+    locked: 0
