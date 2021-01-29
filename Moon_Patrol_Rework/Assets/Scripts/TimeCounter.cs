@@ -40,13 +40,13 @@ public class TimeCounter : MonoBehaviour
     private Text bonusTotext;
     static Text counterViewPoints;
    public static int actualValue;
-    bool enable = true;
+    bool enable = false;
     public static int Addpoints;
     
 
     void Start()
     {
-
+        //enable = true;
         
         startTime = Time.time;
     
@@ -58,11 +58,11 @@ public class TimeCounter : MonoBehaviour
         try
         {
             timeCounter = GameObject.Find("Timer").GetComponent<Text>();
-            finalTime = GameObject.Find("Text (1)").GetComponent<Text>();
+            finalTime = GameObject.Find("YourTime").GetComponent<Text>();
             tpRecord = GameObject.Find("TopRecord").GetComponent<Text>();
             avTime = GameObject.Find("Text (3)").GetComponent<Text>();
             bonusTotext = GameObject.Find("Text (4)").GetComponent<Text>();
-            counterViewPoints = GameObject.Find("Text").GetComponent<Text>();
+            counterViewPoints = GameObject.Find("MainPoints").GetComponent<Text>();
             
                tpRecord.text = topRecord;
 
@@ -121,6 +121,7 @@ public class TimeCounter : MonoBehaviour
                 intercept = 1000 + difference * 100;
                 if(enable == true)
                 {
+                    
 
                     Counter.pointsNumber += intercept;
 

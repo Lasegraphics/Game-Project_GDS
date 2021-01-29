@@ -43,7 +43,7 @@ public class DestroyObject : MonoBehaviour
     {
 
         
-        if(other.gameObject.tag == "Bullet" || other.gameObject.tag == "Ground")
+        if(other.gameObject.tag == "Bullet")
         {
             SoundManagerScript.PlaySound("kill");
             this.gameObject.SetActive(false);
@@ -54,6 +54,18 @@ public class DestroyObject : MonoBehaviour
            
 
         }
+        else if(other.gameObject.tag == "Ground")
+        {
+            SoundManagerScript.PlaySound("kill");
+            this.gameObject.SetActive(false);
+            //Destroy(this.gameObject);
+            Animation.SetActive(true);
+            
+           
+
+        }
+        
+        
     
         
 

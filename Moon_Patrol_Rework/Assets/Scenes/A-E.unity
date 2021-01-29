@@ -28824,7 +28824,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointsCatcher: 0
-  Prefab: {fileID: 9106644014572902804, guid: ac1a19e4b75ee4549962118f5eb442b2, type: 3}
 --- !u!4 &1214796741
 Transform:
   m_ObjectHideFlags: 0
@@ -33469,12 +33468,12 @@ PrefabInstance:
     - target: {fileID: 7141501607257007931, guid: 20e84f46b33994b268fa39cacac704f3,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7141501607257007931, guid: 20e84f46b33994b268fa39cacac704f3,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20e84f46b33994b268fa39cacac704f3, type: 3}
@@ -44018,7 +44017,7 @@ MonoBehaviour:
       points:
       - {x: -0.018231718, y: 1.0945008, z: 0}
       - {x: -0.6744031, y: 1.9203141, z: 0}
-      - {x: -1.4460633, y: -20.214964, z: 0}
+      - {x: -1.4461272, y: -20.214964, z: 0}
       - {x: -1.1523727, y: -20.415798, z: 0}
       isClosed: 0
       space: 1
@@ -46692,12 +46691,12 @@ PrefabInstance:
     - target: {fileID: 7141501607257007931, guid: 20e84f46b33994b268fa39cacac704f3,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7141501607257007931, guid: 20e84f46b33994b268fa39cacac704f3,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20e84f46b33994b268fa39cacac704f3, type: 3}
@@ -46843,6 +46842,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2706d63ee78143c78d5f07e17b03dd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EnemyT1: 1
+  EnemyT2: 2
+  EnemyT3: 7
+  EnemyT4: 8
+  EnemyT5: 14
+  EnemyT6: 16
+  EnemyT7: 28
+  EnemyT8: 29
+  EnemyT9: 30
+  EnemyT10: 36
+  EnemyT11: 38
+  EnemyT12: 40
+  EnemyT13: 41
+  BombT1: 1
+  BombT2: 4
+  BombT3: 2
+  BombT4: 18
+  BombT5: 18
+  BombT6: 29
+  BombT7: 50
+  BombT8: 42
+  BombT9: 5
+  BombT10: 16
+  BombT11: 8
+  BombT12: 10
+  BombT13: 12
+  BombT14: 31
+  BombT15: 32
+  BombT16: 34
+  BombT17: 47
+  BombT18: 31
+  BombT19: 20
+  BombT20: 10
+  BombT21: 11
+  GapBombT01: 36
+  GapBombT02: 38
 --- !u!1 &2013587964
 GameObject:
   m_ObjectHideFlags: 0
@@ -48189,7 +48224,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &2067975210
 AudioSource:
   m_ObjectHideFlags: 0
@@ -50609,7 +50644,7 @@ PrefabInstance:
     - target: {fileID: 4692539805163902069, guid: 3e4b2d2ecec8719418824393405adde5,
         type: 3}
       propertyPath: basicSpeed
-      value: 8
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 4692539805163902069, guid: 3e4b2d2ecec8719418824393405adde5,
         type: 3}

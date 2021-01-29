@@ -25,8 +25,8 @@ public class Counter : MonoBehaviour
     static Text masterPoints;
     public static int trytake; 
 
-    GetBonus Bonus;
-    public GameObject Prefab;
+    //GetBonus Bonus;
+    //public GameObject Prefab;
     //private Text bonusTotext;
     // Start is called before the first frame update
     void Start()
@@ -52,9 +52,9 @@ public class Counter : MonoBehaviour
         try 
         {
            //Podział na dwa pola text. 
-            counterViewPoints = GameObject.Find("Text").GetComponent<Text>();
+            counterViewPoints = GameObject.Find("MainPoints").GetComponent<Text>();
             masterPoints = GameObject.Find("MasterPoints").GetComponent<Text>();
-            Bonus = Prefab.GetComponent<GetBonus>();
+            //Bonus = Prefab.GetComponent<GetBonus>();
             
             
 
@@ -101,7 +101,7 @@ public class Counter : MonoBehaviour
         if(checkingPoints ==  3 /*11 */ && itsActive == true)
         {
             
-            Bonus.InstantiateBonus();
+            //Bonus.InstantiateBonus();
            Debug.Log("Metoda została Wywołana");
            BonusPoints500();
 
@@ -132,7 +132,7 @@ public class Counter : MonoBehaviour
 
         pointsNumber += 500;
          pointsCatcher += pointsNumber;
-        counterViewPoints.text = pointsNumber.ToString();
+         counterViewPoints.text = pointsNumber.ToString();
          masterPoints.text = pointsNumber.ToString();
 
     }
